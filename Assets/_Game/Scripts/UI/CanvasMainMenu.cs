@@ -3,9 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CanvasMainMenu : UICanvas{
-    public void PlayButton(){
+    [SerializeField] GameObject[] Buttons;
+
+    public void PlayButton(GameObject caller){
         Close(0);
-        UIManager.Instance.Open<CanvasGameplay>();
+        for (int i = 0; i < Buttons.Length; i++)
+        {
+            if (caller == Buttons[i]){
+                UIManager.Instance.Open<CanvasGameplay>().SetState(i);
+            }
+        }
     }
     public void SettingButton(){
         UIManager.Instance.Open<CanvasSetting>().SetState(this);

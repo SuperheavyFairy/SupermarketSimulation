@@ -5,16 +5,18 @@ using UnityEngine;
 
 public class CanvasGameplay : UICanvas{
     [SerializeField] TMPro.TextMeshProUGUI coinText;
-
+    public void SetState(int level){
+        UpdateCoin(level);
+    }
 
     public override void Setup(){
-        UpdateCoin(0);
+        //UpdateCoin(0);
     }
     public void UpdateCoin(int coin) {
         coinText.text = coin.ToString();
     }
 
     public void SettingButton(){
-        UIManager.Instance.Open<CanvasSetting>();
+        UIManager.Instance.Open<CanvasSetting>().SetState(this);
     }
 }
