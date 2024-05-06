@@ -10,11 +10,11 @@ public class CanvasMainMenu : UICanvas{
         for (int i = 0; i < Buttons.Length; i++)
         {
             if (caller == Buttons[i]){
-                UIManager.Instance.Open<CanvasGameplay>().SetState(i);
+                manager.Open<CanvasGameplay>().SetState(i);
             }
         }
     }
     public void SettingButton(){
-        UIManager.Instance.Open<CanvasSetting>().SetState(this);
+        manager.Open<CanvasSetting>().SetState(this);
     }
 }

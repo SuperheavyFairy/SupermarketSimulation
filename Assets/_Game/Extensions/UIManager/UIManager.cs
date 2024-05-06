@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIManager : Singleton<UIManager>
+public class UIManager : MonoBehaviour
 {
     Dictionary<System.Type, UICanvas> canvases = new Dictionary<System.Type, UICanvas>();
     Dictionary<System.Type, UICanvas> canvasPrefabs = new Dictionary<System.Type, UICanvas>();
     [SerializeField] Transform parent;
+    [SerializeField] string prefabPrefix;
 
 
     private void Awake(){
-        UICanvas[] prefabs = Resources.LoadAll<UICanvas>("UI/");
+        UICanvas[] prefabs = Resources.LoadAll<UICanvas>(prefabPrefix);
         for (int i = 0; i < prefabs.Length; i++)
         {
             canvasPrefabs.Add(prefabs[i].GetType(), prefabs[i]);
@@ -55,6 +56,7 @@ public class UIManager : Singleton<UIManager>
         if(!IsLoaded<T>()){
             T prefab = GetPrefab<T>();
             T canvas = Instantiate(prefab, parent);
+            canvas.SetManager(this);
             canvases[typeof(T)] = canvas;
         }
 

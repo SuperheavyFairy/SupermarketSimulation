@@ -5,7 +5,7 @@ using UnityEngine;
 public class UICanvas : MonoBehaviour
 {
     [SerializeField] bool isDestroyOnClose = false;
-
+    [SerializeField] public UIManager manager;
 
     private void Awake() {
         RectTransform rect = GetComponent<RectTransform>();
@@ -23,6 +23,10 @@ public class UICanvas : MonoBehaviour
     }
     public virtual void Setup(){
 
+    }
+
+    public virtual void SetManager(UIManager manager){
+        this.manager = manager;
     }
 
     public virtual void Open(){
