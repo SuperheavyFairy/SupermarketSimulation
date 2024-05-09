@@ -458,7 +458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parent: {fileID: 1384576294}
-  prefabPrefix: 
+  prefabPrefix: UI/Canvases/
 --- !u!114 &1384576296
 MonoBehaviour:
   m_ObjectHideFlags: 0

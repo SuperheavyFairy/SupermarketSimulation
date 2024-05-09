@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class UIManager : MonoBehaviour
 {
@@ -10,11 +11,20 @@ public class UIManager : MonoBehaviour
     [SerializeField] string prefabPrefix;
 
 
-    private void Awake(){
+    public void Awake(){
+        Debug.Log(prefabPrefix);
         UICanvas[] prefabs = Resources.LoadAll<UICanvas>(prefabPrefix);
         for (int i = 0; i < prefabs.Length; i++)
         {
+            Debug.Log(prefabs[i].GetType());
             canvasPrefabs.Add(prefabs[i].GetType(), prefabs[i]);
+        }
+    }
+
+    public void Print(){
+        Debug.Log("Print key");
+        foreach (System.Collections.Generic.KeyValuePair<System.Type, UICanvas> key in canvasPrefabs){
+            Debug.Log(key);
         }
     }
 

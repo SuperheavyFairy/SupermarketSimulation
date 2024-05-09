@@ -11,6 +11,7 @@ public class CanvasGameplay : UICanvas{
 
     public override void Setup(){
         //UpdateCoin(0);
+        childManager.Open<SubcanvasIntro>();
     }
     public void UpdateCoin(int coin) {
         coinText.text = coin.ToString();
