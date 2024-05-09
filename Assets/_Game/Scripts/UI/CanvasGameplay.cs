@@ -20,4 +20,21 @@ public class CanvasGameplay : UICanvas{
     public void SettingButton(){
         manager.Open<CanvasSetting>().SetState(this);
     }
+
+    public void OpenIntro(){
+        childManager.Open<SubcanvasIntro>();
+    }
+    
+    public void OpenManagement(){
+        childManager.Open<SubcanvasManagement>();
+    }
+    
+    public void OpenNews(){
+        childManager.Open<SubcanvasNews>();
+    }
+
+    public void OpenPurchase(){
+        childManager.Open<SubcanvasPurchase>();
+    }
+
 }
