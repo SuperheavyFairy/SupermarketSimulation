@@ -3,20 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Test : MonoBehaviour
-{   
-    [SerializeField] UIManager manager;
+{
+    [SerializeField] private InventoryManager inventory;
     // Start is called before the first frame update
-    int score=0;
-    void Start()
+    int cooldown = 20;
+    int currentCooldown = 20;
+    StackableItem prefab;
+    void Awake()
     {
-        manager.Open<CanvasMainMenu>();
+        prefab = Resources.LoadAll<StackableItem>("Goods")[0];
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.Q) && manager.IsOpened<CanvasGameplay>()){
-            manager.GetUI<CanvasGameplay>().UpdateCoin(++score);
+        currentCooldown--;
+        if(currentCooldown>0){
+            return;
         }
+        inventory.Add(prefab, 1);
+        currentCooldown = 20;
     }
 }

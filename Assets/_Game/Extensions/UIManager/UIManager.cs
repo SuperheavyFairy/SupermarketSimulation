@@ -9,15 +9,18 @@ public class UIManager : MonoBehaviour
     Dictionary<System.Type, UICanvas> canvasPrefabs = new Dictionary<System.Type, UICanvas>();
     [SerializeField] Transform parent;
     [SerializeField] string prefabPrefix;
-
+    [SerializeField] bool preLoaded;
 
     public void Awake(){
-        Debug.Log(prefabPrefix);
         UICanvas[] prefabs = Resources.LoadAll<UICanvas>(prefabPrefix);
         for (int i = 0; i < prefabs.Length; i++)
         {
-            Debug.Log(prefabs[i].GetType());
             canvasPrefabs.Add(prefabs[i].GetType(), prefabs[i]);
+            if (preLoaded){
+                UICanvas canvas = Instantiate(prefabs[i], parent);
+                canvas.SetManager(this);
+                canvases[prefabs[i].GetType()] = canvas;
+            }
         }
     }
 

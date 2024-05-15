@@ -10,7 +10,7 @@ public class CanvasMainMenu : UICanvas{
         for (int i = 0; i < Buttons.Length; i++)
         {
             if (caller == Buttons[i]){
-                manager.Open<CanvasGameplay>().SetState(i);
+                manager.Open<CanvasGameplay>().SetLevel(i);
             }
         }
     }
