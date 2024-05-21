@@ -9,23 +9,17 @@ public class UIManager : MonoBehaviour
     Dictionary<System.Type, UICanvas> canvasPrefabs = new Dictionary<System.Type, UICanvas>();
     [SerializeField] Transform parent;
     [SerializeField] string prefabPrefix;
-    [SerializeField] bool preLoaded;
 
     public void Awake(){
         UICanvas[] prefabs = Resources.LoadAll<UICanvas>(prefabPrefix);
         for (int i = 0; i < prefabs.Length; i++)
         {
             canvasPrefabs.Add(prefabs[i].GetType(), prefabs[i]);
-            if (preLoaded){
-                UICanvas canvas = Instantiate(prefabs[i], parent);
-                canvas.SetManager(this);
-                canvases[prefabs[i].GetType()] = canvas;
-            }
         }
     }
 
     public void Print(){
-        Debug.Log("Print key");
+        Debug.Log(this);
         foreach (System.Collections.Generic.KeyValuePair<System.Type, UICanvas> key in canvasPrefabs){
             Debug.Log(key);
         }
@@ -85,7 +79,7 @@ public class UIManager : MonoBehaviour
         foreach (var canvas in canvases)
         {
             if(canvas.Value != null && canvas.Value.gameObject.activeSelf){
-                canvas.Value.Close(0);
+                canvas.Value.CloseDirectly();
             }
         }
     }

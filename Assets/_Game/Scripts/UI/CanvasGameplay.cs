@@ -6,14 +6,17 @@ using UnityEngine;
 public class CanvasGameplay : UICanvas{
 
     [SerializeField] string levelPrefabPrefix;
+    [SerializeField] StorageManager storageManager;
     int Cash;
+
     public void SetLevel(int level){
         LevelData prefab = Resources.Load<LevelData>("Level/1}");
         childManager.GetUI<SubcanvasIntro>().SetLevel(level);
     }
 
     public override void Setup(){
-        Unpause();
+        storageManager.SetDisplay(childManager.Open<SubcanvasManagement>().getStorage().getContent());
+        childManager.CloseAll();
         childManager.Open<SubcanvasIntro>();
     }
 
@@ -22,7 +25,7 @@ public class CanvasGameplay : UICanvas{
     }
 
     public void Unpause(){
-        Time.timeScale = 1f/3;
+        Time.timeScale = 1;
     }
 
     public void OpenSetting(){
@@ -38,6 +41,7 @@ public class CanvasGameplay : UICanvas{
     public void OpenManagement(){
         Pause();
         childManager.Open<SubcanvasManagement>();
+        
     }
     
     public void OpenNews(){
