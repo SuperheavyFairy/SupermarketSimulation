@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public delegate void RemoveItem(int id);
 
@@ -13,15 +14,15 @@ public class BaseItemShelf : MonoBehaviour
     RemoveItem deleteFunc;
     int id;
 
-    public void SetState(Image img, string name, RemoveItem deleteFunc, id int){
+    public void SetState(Image img, string name, RemoveItem deleteFunc, int id){
         this.itemImage = img;
         this.itemName.text = name;
-        this.deleteFunc = RemoveItem;
+        this.deleteFunc = deleteFunc;
         this.id = id;
     }
 
     public void OnClick(){
-        RemoveItem(id);
+        deleteFunc(id);
         Destroy(gameObject);
     }
 }
