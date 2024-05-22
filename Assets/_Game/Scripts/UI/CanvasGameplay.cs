@@ -1,15 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class CanvasGameplay : UICanvas{
 
     [SerializeField] string levelPrefabPrefix;
     [SerializeField] StorageManager storageManager;
-    [SerializeField] 
-    int Cash;
+    public TMPro.TextMeshProUGUI cashText, gemText;
+    int cash, gem;
 
+
+    public void Update(){
+        cashText.text = cash.ToString();
+        gemText.text = gem.ToString();
+    }
     public void SetLevel(int level){
         LevelData prefab = Resources.Load<LevelData>("Level/1}");
         childManager.GetUI<SubcanvasIntro>().SetLevel(level);
