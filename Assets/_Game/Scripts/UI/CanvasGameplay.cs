@@ -7,6 +7,7 @@ public class CanvasGameplay : UICanvas{
 
     [SerializeField] string levelPrefabPrefix;
     [SerializeField] StorageManager storageManager;
+    [SerializeField] 
     int Cash;
 
     public void SetLevel(int level){
