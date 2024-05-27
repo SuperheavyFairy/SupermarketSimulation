@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
+public delegate void RemoveItem(int id);
 public class CanvasGameplay : UICanvas{
 
     [SerializeField] string levelPrefabPrefix;
