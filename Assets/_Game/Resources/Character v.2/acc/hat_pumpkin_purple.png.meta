@@ -3,7 +3,7 @@ guid: 08b778eeb872b4e5aab3046e3299c3f6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -93,9 +93,4768 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1548
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8c2964c86b940e59a6187160ee663a
+      internalID: 1194265146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1549
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6b2962d37de459299a319606c15bf9
+      internalID: 1535119312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1550
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6437d8bd73f040b582fa0bb9dbba1af
+      internalID: 209039934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1548
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3feccdda09447e2a5ab0a891f62540
+      internalID: 467775387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1548
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ddd20fed7964b1d92f64248f95c2ed
+      internalID: -1227114585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1549
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dc452ef57be4770a9bb5023f88cbe5
+      internalID: -1830457499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1550
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b138c0f04e0f46b0bfa7ddbcb8ae804
+      internalID: 1018370857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1548
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e368d61d4d824cc29986431c19d164c
+      internalID: 2064267530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1515
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3928d016b3dfb450bbeb0ddf11991560
+      internalID: 576067882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1516
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877ee1821926a4f7083bc2589f344ba7
+      internalID: -303098872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1517
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d71721d8e2f4a64a345f1b390b0b92
+      internalID: 1676101482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1515
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cbc698805cc4de288a4c2586d38eb8
+      internalID: 99186289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_12
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1515
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb63bc9cba1f4299b2ec6098e9d4aef
+      internalID: -1556525306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_13
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1516
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7807cd7fc4fb4ed095955abe47906dd
+      internalID: 461456760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_14
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1517
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9860375449bf04e84803766dc6e0dd79
+      internalID: -1865109063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_15
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1515
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960aa87659af0494babd5f3ac395e9fc
+      internalID: -1829333677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1484
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09faced7690f4424c926f920d7b105e4
+      internalID: 723398167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1485
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e753d3f7f52747acbf785a1924f8a5f
+      internalID: 269044822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1486
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdee33ff732e46d7b8c3961cb6fe706
+      internalID: -1858713972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_19
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1484
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064207544a20c4b7ea372deddf54d74a
+      internalID: -1153568785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1484
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0305550b3209b4bafb43a0d4cde762fc
+      internalID: -486476620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_21
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1485
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1b46ddc9e134c939615a03f99f0ad7
+      internalID: 254727644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_22
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1486
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600425f376487420eab107db095b5444
+      internalID: 1530578927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_23
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1484
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9312dba321bf74f1387835fb034550f2
+      internalID: -93846184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1452
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4e0e0a3eee44209b2f0c15a611d2f3
+      internalID: -1028794086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1453
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c9a08f6d4634e5d9616d8372d3c180
+      internalID: 339437726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1454
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b1c46766cd344a9ad22f7c3a00ce4e
+      internalID: -1281866092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_27
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1452
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911aff1b7c6d04f85813f4671e9e2c20
+      internalID: 718933618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1452
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff48e97c89f504aef8b528c21e1365ae
+      internalID: 1703622529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_29
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1453
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21373be381a4d4edcad0b221b8021331
+      internalID: 2119409189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_30
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1454
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088e65b664b324711a8f57ce03b23017
+      internalID: -1115205549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_31
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1452
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4c3aad71f4e49049568c5f4a04a1fb
+      internalID: 841454579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_32
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1420
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeecaf7033a2349dba7723d703c52950
+      internalID: -983017870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_33
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1419
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e29ea007592f41118c0287bf991673e
+      internalID: 2052156381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_34
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1422
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134f72152b3f14942be0a341665c1d15
+      internalID: 2002949787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1424
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f540d3fb0ee472f85d594d3d02cf62
+      internalID: 1566539317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_36
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1421
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba308178547af426db51fa2bf342a058
+      internalID: -1739337748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_37
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1387
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92292296b8df64d9e8e567c62a87a3ac
+      internalID: 1904488650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_38
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1386
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf227e8203494dde8a7f4bfeca92bae
+      internalID: 661231368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_39
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1389
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffc13faa5b754d7e837c940d7c97b06
+      internalID: 2096944286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_40
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1391
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b149f48dad31479faadd254903aeccf
+      internalID: 1065135408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_41
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1388
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea017cd2c3324cf29ecab142ba8a836
+      internalID: -1204230099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_42
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1356
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc038aa6e9184e72815614c33daa17d
+      internalID: 1739688059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_43
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1354
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8789a6f86e8d2404f91d5c9d6b98ad83
+      internalID: 1220469779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_44
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1358
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa27e200cde714042a5fe13f9afa9239
+      internalID: 652331357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_45
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1360
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e64fb71bb304a92b52e2cc86c25e15
+      internalID: -1883441717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_46
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1357
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2dddd3c51554310b1c5bd5ae51cf87
+      internalID: -1721416011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_47
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1324
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ae26a156ea042f2932ec1cbaa4643a
+      internalID: -1638301014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_48
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1322
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6c9300cd9b04a2db6e5a85181bc100
+      internalID: -2117822299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_49
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1326
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ab4a85b7672408f83bc2926162a33e
+      internalID: -1602159391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_50
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1328
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05b63331857e41fbb66475b7fd15391
+      internalID: 293157470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_51
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1325
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b52da6f60e6145009ac176822799ee9
+      internalID: 626431028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_52
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1293
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b466ceac2a59141079fa18aae80f257a
+      internalID: 1096175368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_53
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1292
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fe10159ab234bee84d98cb3dc7614c
+      internalID: -1279147070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_54
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1293
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47c3dc42ecb14eaabc3145afe3b7edc
+      internalID: -1290160072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_55
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1293
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17700062b92a44dfb984bf244225b49
+      internalID: 121593441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_56
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1293
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321cc5d7fc1874a2ba680898d2647efc
+      internalID: -130248758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_57
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1260
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33be10430287041928236b5a3df170a5
+      internalID: -564933786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_58
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1261
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea3cb64974814fe7b3ec239bbb01471
+      internalID: -1613411591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_59
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1261
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf22704415894c7fbf99ea66d640982
+      internalID: 1952404915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_60
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1260
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978e4bf2d42ec4f068b16562d3a8c3b3
+      internalID: -1309478453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_61
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1260
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23334a9e787fe4020881657f7e689b9d
+      internalID: 304413682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_62
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1229
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f489a9b43ce64a248ee2fd29ab0f030
+      internalID: -448917912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_63
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1228
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500427abe81d74df886c83a7fb179eba
+      internalID: 994453168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_64
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1228
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62d303c411c54546b812c887eddf9c5
+      internalID: -1318631790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_65
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1229
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b19c5a9a1204d36a1667f3181d29d1
+      internalID: -1206900150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_66
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1229
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc73385dcc0048e0ac001da83d9a635
+      internalID: -352439133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_67
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1197
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf5128a4afad4a7b9eb0f3737457f20
+      internalID: -1412202610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_68
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1196
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f70281c3398459d9b42184782f9375
+      internalID: 1942296871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_69
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1196
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba89f0922bf8402bb5d2c5f1c6dc536
+      internalID: -874174122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_70
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1197
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5542d12e08944eeb593761fd96007f
+      internalID: -1286759566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_71
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1197
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b122044b1a443958c8fdf52804469d
+      internalID: -663940769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_72
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1164
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010fbc93dd3af4b1a82192998a10777c
+      internalID: -2139498385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_73
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1165
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c5c2cdcd8db4286b7444e2706a3e7d
+      internalID: -1839988246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_74
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1166
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bac7fcec6d840979e589772d687ad7
+      internalID: -1568960660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_75
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1164
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48eed82e88844c6b8c3b8666e4f473c
+      internalID: 1971431900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_76
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1164
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bb95966ce71402babe8cbf1164bb66
+      internalID: -2074274417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_77
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1165
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e25efe111a94c31aea04476daf0a0e
+      internalID: -1210813525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_78
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1166
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286cc2adf57f247eba7ab5de98acb052
+      internalID: -706939477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_79
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1164
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502d9f884b5384903884398394da68cc
+      internalID: 113117443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_80
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1131
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7adb8dc729f4efbbb2583625fcf0c5
+      internalID: -177865132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_81
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1132
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdbbe671bdef470fb4719fe6364c263
+      internalID: -312107395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_82
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1133
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f8359afd3864be1ace7e0beac7a883
+      internalID: 794078044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_83
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1131
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5179d8fe621e34d59b1cb0860693cf02
+      internalID: 2118895018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_84
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1131
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7e63bd8a1434285921b82f677f8429
+      internalID: -573164949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_85
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1132
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd48eb23159444ca94f6f4132ef7dde
+      internalID: 2060672759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_86
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1133
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2395365fa19d47ddbb353b2a0977b16
+      internalID: 1685021128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_87
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1131
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9daf3317f57564e6881ae09c2f5d7c71
+      internalID: 700996896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_88
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1100
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819476f13cdf14234be9d843d851ce71
+      internalID: -96253950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_89
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1101
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c4e3a5b717e48eda329345a9f1308d
+      internalID: -553508018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_90
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1102
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d86418d30584ea8aa8273024545900
+      internalID: 1416424943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_91
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1100
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fac00e3dfb0b4d598a5ab7ca2180bff
+      internalID: 910022768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_92
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1100
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c19f56f3a76497e9235a7150e3b8da
+      internalID: 525666320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_93
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1101
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586cdf9fb2a6c45eeb8757a6b2c546c0
+      internalID: -1959298297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_94
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1102
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094e9dc90c0cf4fee808730a4ea46c6f
+      internalID: -1135240030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_95
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1100
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1f9f6253dfa4d3184124c1bd8697f9
+      internalID: 715338423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_96
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1068
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c72505e8d7e648ea8dec2fc5d87dde1
+      internalID: 2138155943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_97
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1069
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcced7748ba324b24bc8e317b2da3af6
+      internalID: 685634712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_98
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1070
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61137494b6e544aeebab36871444c376
+      internalID: -546874046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_99
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1068
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8c48bdeb89f4992bf707cf1b4089b9
+      internalID: -419116957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_100
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1068
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51883515e68e4ac385c2ca62e7cc50a
+      internalID: 865970719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_101
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1069
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a936ff64de64f44a7b93ca88d45468
+      internalID: -708434909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_102
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1070
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b29423789ed4ad794837b593f98436
+      internalID: -163004527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_103
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1068
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536a9990a3957470795e855ad68fb37a
+      internalID: -336889131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_104
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1036
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378cd67c068f94c288dbb412284fe7f7
+      internalID: 2069089509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_105
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1035
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6760cf5c0436e4b25a001ef40f667034
+      internalID: -1740204201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_106
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1035
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c02c01873e04095b5a01beb119a2be
+      internalID: 696289811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_107
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1036
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e9eb5b81b284415a9c57bdb49ef613
+      internalID: 1795296880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_108
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1003
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f87d38af038424a91b9aed14512313
+      internalID: 2040333209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_109
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1004
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e33cf99ad16840579946f8fe7115961
+      internalID: -1740595415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_110
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1004
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806d4f91802a347c282abe2b2753454a
+      internalID: 889497736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_111
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1002
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0f5024c93ab470a89f34f3ddf03349
+      internalID: -2002420501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_112
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 972
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9d96a515ab34ca1bee6eff0a605668
+      internalID: -410868771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_113
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 971
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ba9e262f4dd4a40983f1c78415c5ab
+      internalID: 1051714457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_114
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 971
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc327889800b47c3b2fc99d500eb8fa
+      internalID: -1178682121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_115
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 971
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8697ff544138c41709b3c1dd6df71053
+      internalID: -902594854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_116
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 940
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33b200c26f9a439685dd6ea1175b008
+      internalID: -1300937394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_117
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 939
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba5e1b9d8c5d4e6ba688d37afe2b385
+      internalID: 935648421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_118
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 939
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064201b965d454761931a3dfdecb262f
+      internalID: -1970934898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_119
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 939
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1517709892c634558b359b991fe9693e
+      internalID: 1993130269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_120
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 907
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9073d2c3dc746e78a194ae6fe8f344
+      internalID: 220078766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_121
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 876
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7bc9ef8906d4ebda15f4da458d1f4a
+      internalID: 596120932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_122
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 843
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fac19a630304c9a8e57cab18a8b7f0
+      internalID: -56268276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_123
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 811
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6578bc39fbc6463192c35aecac190d3
+      internalID: -143016337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_124
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 782
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09255076f42a6433dbfa7fd6df69cd49
+      internalID: -399463637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_125
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 748
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a88b46a680646229340717c336d364
+      internalID: 1707436067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_126
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 718
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bc117bff5b24eeb9fafa1f22eb5160
+      internalID: -579997034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_127
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 686
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f10a299e7a144426aade06bf9e26720
+      internalID: -33637570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_128
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 640
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1c5ae0d1cd94fa2b24549a513bfdbc
+      internalID: -452966393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_129
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 640
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd23000c69e9f401ea8eb450fd1ed2d5
+      internalID: 1863461564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_130
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 620
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfa458f890d344ad870fc08a54542be
+      internalID: -1090265942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_131
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 621
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7572969bb62c14181a64e689c0126516
+      internalID: -1999109343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_132
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 621
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800f8bd1d8a664414b8a435f7c62d8ff
+      internalID: -207447338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_133
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 622
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafcc6302ec9a49bcbf2b076e0e90f15
+      internalID: 711242099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_134
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 622
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab3370e3dca94e71a7b07169de863e8
+      internalID: 1943893646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_135
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 621
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226584dc0bdd24f67ac9cf714bf3c91a
+      internalID: -836841259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_136
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 621
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a70498e8aa8c413b996713d0d0aed81
+      internalID: 586014657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_137
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 620
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9cf7f285bca4d6c804f802c86e58d0
+      internalID: -177845130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_138
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 587
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22b02fc88aa644c38bbce408f3d49bd
+      internalID: -1202860448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_139
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 587
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20407e24ce6d24775acf23f6db4f7066
+      internalID: -1707932382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_140
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 588
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1df94a2ea2040daa260db3a169be64
+      internalID: -744063005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_141
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 588
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62736677ddb34b9998f2d471391645d
+      internalID: -418608625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_142
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 589
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4b9ef79264947f1a5306f54f758554
+      internalID: -143420810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_143
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 556
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bff599cc84f94798b07f19564c40270
+      internalID: 1734983809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_144
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 556
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8e96e771947496babb13d493c6935f
+      internalID: 1133089983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_145
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 557
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7619516df6e35404cb6014fadcaa64ae
+      internalID: 512795861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_146
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 557
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60167aa4dac9474782da2af38b5c19e
+      internalID: -365211334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_147
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 558
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2890a4b00f9154a31bdfbfc66741cf9e
+      internalID: -339716799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_148
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 524
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b31510182e345eb90b415733cf32c7
+      internalID: 1375322025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_149
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 524
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b8d67eb85664966ba962edc7b76f1f
+      internalID: -2117638000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_150
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 525
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fed0f0dc7f33411ca13589a71fae130
+      internalID: -1632343082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_151
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 525
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f512e08c8f4411e94b7a9cc8d0ba8c
+      internalID: -1890869897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_152
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 527
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29901fd133a254dcb8167bc6ced2e140
+      internalID: 849435610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_153
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 492
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12af850d28da949fe94feb0fab1e7539
+      internalID: 1997180643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_154
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 493
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aba2627d30ed49af89e101319d96571
+      internalID: 354112439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_155
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 493
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095244cdc2b51497f8d9e8c2c343e5b0
+      internalID: -894075813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_156
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 494
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3560c28e52fc541c188517858c7e32a2
+      internalID: 93212839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_157
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 494
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f67f4c7455ec49f8996f2fd65da8f7d
+      internalID: 1532662090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_158
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 494
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19886557f460d48dd80be454c36577fe
+      internalID: -197887993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_159
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 494
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51f377fda2f54ac5bf0a7cca93b75a9
+      internalID: 272975207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_160
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 493
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e8e0f52cb2d4c14ba681585ff21ec4
+      internalID: 732566153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_161
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 459
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beab810991e034997a70cdebbe499752
+      internalID: 518243310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_162
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 459
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a35b239bf6446e3a3a450718e561b5
+      internalID: -1414960380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_163
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 460
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fbd1ba31f6a429c98dd569460cc089
+      internalID: 474431573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_164
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 460
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7435c78cfad04303b7f1f9adb22106d
+      internalID: -200183667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_165
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 460
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0577333333855408aa368fbdae1c08d9
+      internalID: 462983267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_166
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 428
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb4b018e30c641c6924c8de1050944a
+      internalID: 62121475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_167
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 428
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3fae377a5b94ebca695bad430734c5
+      internalID: 424170085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_168
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 429
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb906e109a2b84570889272fe7b0c06c
+      internalID: 198389304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_169
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 429
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edc8b24b993a4807a9a56776a95ba63
+      internalID: -478857116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_170
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 430
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f14da4e0268a4f84b545bd50c69f6e6
+      internalID: -1141860864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_171
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 396
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947d5309487604e6aa32beadd471a358
+      internalID: -827146202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_172
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 396
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44251c2197e81454a81781f572677782
+      internalID: -650101024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_173
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 397
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfea40a777eb74c13a0228ff9c35edbd
+      internalID: -1753460026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_174
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 397
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0139f5e761fef42dcad7e48568752952
+      internalID: -1611249988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_175
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 399
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27dd4e9c28c8428aabd00e1b60a7891
+      internalID: 1875477849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_176
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 369
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dba6e3468f2e40b985f1c3c800fd838
+      internalID: 925766435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_177
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 370
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b32c9269331a40db8ae4b55be325926
+      internalID: -1664581125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_178
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 336
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeedbe61b0e5d41ea8e8c52cf6592492
+      internalID: 2111266872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_179
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 337
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6642d3b0c2533414caf28bbef08e220a
+      internalID: 638582577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_180
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 305
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f425d1ccc9d442a199e13a43697003b
+      internalID: -1509008078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_181
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 306
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb1c3d39d65740ddbc6fee03de3daa2
+      internalID: 109808036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_182
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 273
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5282920e7ceb44238bd77c379276105c
+      internalID: 230565879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_183
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 274
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fed7a1783b44595aeaf4f372cbcc93
+      internalID: 913719340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_184
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 244
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e36c321f1f34f7abce091ad41f938b
+      internalID: 2072847723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_185
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 243
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637adb0bdb115410ab895c800e29c651
+      internalID: 1058454809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_186
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 242
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a3977bb3f4140ed840d07711810034
+      internalID: 1673702736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_187
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 243
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3550043ca3e349d8bebeabec6347308
+      internalID: 1552541465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_188
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 242
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effbd9ea7f1464d3aa017a1cd9f5a95f
+      internalID: 1879071126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_189
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 203
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907c732eecef64174be581c70ce87258
+      internalID: -1734935793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_190
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 204
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e598ea051064e4315b4fd09822ea4789
+      internalID: 215640436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_191
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 205
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbb91d5d4f67481789aa59fb4ce4c40
+      internalID: 399633634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_192
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 204
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3b282a65923432c9c7cd0e21f32f44
+      internalID: 519669137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_193
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 205
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a7292bc88584e339bd3eb0b5cee98e
+      internalID: -1428547595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_194
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 173
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da45e27ac6f4e48818b7986a7d01e64f
+      internalID: -1133594953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_195
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 173
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f8a28782fcf40f2a740229d58dd979
+      internalID: -513182018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_196
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 173
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7357572997144f878b7c4fa1837d99c
+      internalID: -753008631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_197
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 173
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca69640f953e04aa8bd3613e31a4ec50
+      internalID: 913504854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_198
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 173
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119fd05428e084ed38abd8d351e538a6
+      internalID: 1752180229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_199
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 141
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12955757d748a491b941b8c9993d0d5b
+      internalID: 1721667606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_200
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 141
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b86e6a221cc447dd99237e2275f8963
+      internalID: 345988755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_201
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 141
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cd411aea64347e0adb97d6c73fb368
+      internalID: -1099500501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_202
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 141
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee53514c44e7485892c8a0b02b34855
+      internalID: 561921119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_203
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 141
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faeb3ef8bf5b34fe8b93ad9521d358be
+      internalID: -1627810030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_204
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 112
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7f0b7585a9e475496a0bfbff47b609
+      internalID: 132098561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_205
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 114
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e58b37a52ef477e942fb70300add4a
+      internalID: 1179241338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_206
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 114
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8e0807641ba48adb23e37edf19fe14
+      internalID: -2124526209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_207
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 113
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86743767ddb2408da3f13229c5431f9
+      internalID: 1907433478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_208
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 114
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d93d0590d59e46d681d61952b32a997
+      internalID: -234088828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_209
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 113
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7e0270c5ab04c5cbb6e8a523287054
+      internalID: -371020293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_210
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 79
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400a69d2e910d48a6b791e599ec985d2
+      internalID: -471782163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_211
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 79
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9c734d99fac458da9dc165103f8ff4
+      internalID: -461165993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_212
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 80
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e1760d5fda644868ca82802dc0eb3a
+      internalID: 623676476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_213
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 81
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bcf2d260b95416e96fff659b02a517
+      internalID: -413977713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_214
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 80
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d1d05713fb645fb89516f17ae63219
+      internalID: -1869184649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_215
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 48
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4dd37f910a64c88aaf65abd2ef5c4a
+      internalID: 1937289890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_216
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 49
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4184f7bc28cb41518b0af58814180cf
+      internalID: 1296938648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_217
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 49
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1d05a37ace64e58a5168bd7f465d62
+      internalID: -986229284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_218
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 50
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f0c34348b4f4d1b9a587bbbd48cba1
+      internalID: 736146657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_219
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 56
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab3e3c88b0a74c86a29d95cb5d8f056
+      internalID: -331335694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_220
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 49
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccc724ed78d84088875b6d7ea1dd219
+      internalID: 1614330296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_221
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 16
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae566c275e7164c13bcb7639b785b63e
+      internalID: -1745831117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_222
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 17
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d527e1f37a9b243e3962d3bca28e28fb
+      internalID: -389279429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_223
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 17
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e724aaaa62db499692c93a588094b28
+      internalID: 569218616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_224
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 18
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3e9988ca6114acbab77ada055f4b33
+      internalID: 188454459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_pumpkin_purple_225
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 17
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94210ae61d91c466ba2fca05fe4bc4e2
+      internalID: 1044128348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +4865,233 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hat_pumpkin_purple_0: 1194265146
+      hat_pumpkin_purple_1: 1535119312
+      hat_pumpkin_purple_10: 1676101482
+      hat_pumpkin_purple_100: 865970719
+      hat_pumpkin_purple_101: -708434909
+      hat_pumpkin_purple_102: -163004527
+      hat_pumpkin_purple_103: -336889131
+      hat_pumpkin_purple_104: 2069089509
+      hat_pumpkin_purple_105: -1740204201
+      hat_pumpkin_purple_106: 696289811
+      hat_pumpkin_purple_107: 1795296880
+      hat_pumpkin_purple_108: 2040333209
+      hat_pumpkin_purple_109: -1740595415
+      hat_pumpkin_purple_11: 99186289
+      hat_pumpkin_purple_110: 889497736
+      hat_pumpkin_purple_111: -2002420501
+      hat_pumpkin_purple_112: -410868771
+      hat_pumpkin_purple_113: 1051714457
+      hat_pumpkin_purple_114: -1178682121
+      hat_pumpkin_purple_115: -902594854
+      hat_pumpkin_purple_116: -1300937394
+      hat_pumpkin_purple_117: 935648421
+      hat_pumpkin_purple_118: -1970934898
+      hat_pumpkin_purple_119: 1993130269
+      hat_pumpkin_purple_12: -1556525306
+      hat_pumpkin_purple_120: 220078766
+      hat_pumpkin_purple_121: 596120932
+      hat_pumpkin_purple_122: -56268276
+      hat_pumpkin_purple_123: -143016337
+      hat_pumpkin_purple_124: -399463637
+      hat_pumpkin_purple_125: 1707436067
+      hat_pumpkin_purple_126: -579997034
+      hat_pumpkin_purple_127: -33637570
+      hat_pumpkin_purple_128: -452966393
+      hat_pumpkin_purple_129: 1863461564
+      hat_pumpkin_purple_13: 461456760
+      hat_pumpkin_purple_130: -1090265942
+      hat_pumpkin_purple_131: -1999109343
+      hat_pumpkin_purple_132: -207447338
+      hat_pumpkin_purple_133: 711242099
+      hat_pumpkin_purple_134: 1943893646
+      hat_pumpkin_purple_135: -836841259
+      hat_pumpkin_purple_136: 586014657
+      hat_pumpkin_purple_137: -177845130
+      hat_pumpkin_purple_138: -1202860448
+      hat_pumpkin_purple_139: -1707932382
+      hat_pumpkin_purple_14: -1865109063
+      hat_pumpkin_purple_140: -744063005
+      hat_pumpkin_purple_141: -418608625
+      hat_pumpkin_purple_142: -143420810
+      hat_pumpkin_purple_143: 1734983809
+      hat_pumpkin_purple_144: 1133089983
+      hat_pumpkin_purple_145: 512795861
+      hat_pumpkin_purple_146: -365211334
+      hat_pumpkin_purple_147: -339716799
+      hat_pumpkin_purple_148: 1375322025
+      hat_pumpkin_purple_149: -2117638000
+      hat_pumpkin_purple_15: -1829333677
+      hat_pumpkin_purple_150: -1632343082
+      hat_pumpkin_purple_151: -1890869897
+      hat_pumpkin_purple_152: 849435610
+      hat_pumpkin_purple_153: 1997180643
+      hat_pumpkin_purple_154: 354112439
+      hat_pumpkin_purple_155: -894075813
+      hat_pumpkin_purple_156: 93212839
+      hat_pumpkin_purple_157: 1532662090
+      hat_pumpkin_purple_158: -197887993
+      hat_pumpkin_purple_159: 272975207
+      hat_pumpkin_purple_16: 723398167
+      hat_pumpkin_purple_160: 732566153
+      hat_pumpkin_purple_161: 518243310
+      hat_pumpkin_purple_162: -1414960380
+      hat_pumpkin_purple_163: 474431573
+      hat_pumpkin_purple_164: -200183667
+      hat_pumpkin_purple_165: 462983267
+      hat_pumpkin_purple_166: 62121475
+      hat_pumpkin_purple_167: 424170085
+      hat_pumpkin_purple_168: 198389304
+      hat_pumpkin_purple_169: -478857116
+      hat_pumpkin_purple_17: 269044822
+      hat_pumpkin_purple_170: -1141860864
+      hat_pumpkin_purple_171: -827146202
+      hat_pumpkin_purple_172: -650101024
+      hat_pumpkin_purple_173: -1753460026
+      hat_pumpkin_purple_174: -1611249988
+      hat_pumpkin_purple_175: 1875477849
+      hat_pumpkin_purple_176: 925766435
+      hat_pumpkin_purple_177: -1664581125
+      hat_pumpkin_purple_178: 2111266872
+      hat_pumpkin_purple_179: 638582577
+      hat_pumpkin_purple_18: -1858713972
+      hat_pumpkin_purple_180: -1509008078
+      hat_pumpkin_purple_181: 109808036
+      hat_pumpkin_purple_182: 230565879
+      hat_pumpkin_purple_183: 913719340
+      hat_pumpkin_purple_184: 2072847723
+      hat_pumpkin_purple_185: 1058454809
+      hat_pumpkin_purple_186: 1673702736
+      hat_pumpkin_purple_187: 1552541465
+      hat_pumpkin_purple_188: 1879071126
+      hat_pumpkin_purple_189: -1734935793
+      hat_pumpkin_purple_19: -1153568785
+      hat_pumpkin_purple_190: 215640436
+      hat_pumpkin_purple_191: 399633634
+      hat_pumpkin_purple_192: 519669137
+      hat_pumpkin_purple_193: -1428547595
+      hat_pumpkin_purple_194: -1133594953
+      hat_pumpkin_purple_195: -513182018
+      hat_pumpkin_purple_196: -753008631
+      hat_pumpkin_purple_197: 913504854
+      hat_pumpkin_purple_198: 1752180229
+      hat_pumpkin_purple_199: 1721667606
+      hat_pumpkin_purple_2: 209039934
+      hat_pumpkin_purple_20: -486476620
+      hat_pumpkin_purple_200: 345988755
+      hat_pumpkin_purple_201: -1099500501
+      hat_pumpkin_purple_202: 561921119
+      hat_pumpkin_purple_203: -1627810030
+      hat_pumpkin_purple_204: 132098561
+      hat_pumpkin_purple_205: 1179241338
+      hat_pumpkin_purple_206: -2124526209
+      hat_pumpkin_purple_207: 1907433478
+      hat_pumpkin_purple_208: -234088828
+      hat_pumpkin_purple_209: -371020293
+      hat_pumpkin_purple_21: 254727644
+      hat_pumpkin_purple_210: -471782163
+      hat_pumpkin_purple_211: -461165993
+      hat_pumpkin_purple_212: 623676476
+      hat_pumpkin_purple_213: -413977713
+      hat_pumpkin_purple_214: -1869184649
+      hat_pumpkin_purple_215: 1937289890
+      hat_pumpkin_purple_216: 1296938648
+      hat_pumpkin_purple_217: -986229284
+      hat_pumpkin_purple_218: 736146657
+      hat_pumpkin_purple_219: -331335694
+      hat_pumpkin_purple_22: 1530578927
+      hat_pumpkin_purple_220: 1614330296
+      hat_pumpkin_purple_221: -1745831117
+      hat_pumpkin_purple_222: -389279429
+      hat_pumpkin_purple_223: 569218616
+      hat_pumpkin_purple_224: 188454459
+      hat_pumpkin_purple_225: 1044128348
+      hat_pumpkin_purple_23: -93846184
+      hat_pumpkin_purple_24: -1028794086
+      hat_pumpkin_purple_25: 339437726
+      hat_pumpkin_purple_26: -1281866092
+      hat_pumpkin_purple_27: 718933618
+      hat_pumpkin_purple_28: 1703622529
+      hat_pumpkin_purple_29: 2119409189
+      hat_pumpkin_purple_3: 467775387
+      hat_pumpkin_purple_30: -1115205549
+      hat_pumpkin_purple_31: 841454579
+      hat_pumpkin_purple_32: -983017870
+      hat_pumpkin_purple_33: 2052156381
+      hat_pumpkin_purple_34: 2002949787
+      hat_pumpkin_purple_35: 1566539317
+      hat_pumpkin_purple_36: -1739337748
+      hat_pumpkin_purple_37: 1904488650
+      hat_pumpkin_purple_38: 661231368
+      hat_pumpkin_purple_39: 2096944286
+      hat_pumpkin_purple_4: -1227114585
+      hat_pumpkin_purple_40: 1065135408
+      hat_pumpkin_purple_41: -1204230099
+      hat_pumpkin_purple_42: 1739688059
+      hat_pumpkin_purple_43: 1220469779
+      hat_pumpkin_purple_44: 652331357
+      hat_pumpkin_purple_45: -1883441717
+      hat_pumpkin_purple_46: -1721416011
+      hat_pumpkin_purple_47: -1638301014
+      hat_pumpkin_purple_48: -2117822299
+      hat_pumpkin_purple_49: -1602159391
+      hat_pumpkin_purple_5: -1830457499
+      hat_pumpkin_purple_50: 293157470
+      hat_pumpkin_purple_51: 626431028
+      hat_pumpkin_purple_52: 1096175368
+      hat_pumpkin_purple_53: -1279147070
+      hat_pumpkin_purple_54: -1290160072
+      hat_pumpkin_purple_55: 121593441
+      hat_pumpkin_purple_56: -130248758
+      hat_pumpkin_purple_57: -564933786
+      hat_pumpkin_purple_58: -1613411591
+      hat_pumpkin_purple_59: 1952404915
+      hat_pumpkin_purple_6: 1018370857
+      hat_pumpkin_purple_60: -1309478453
+      hat_pumpkin_purple_61: 304413682
+      hat_pumpkin_purple_62: -448917912
+      hat_pumpkin_purple_63: 994453168
+      hat_pumpkin_purple_64: -1318631790
+      hat_pumpkin_purple_65: -1206900150
+      hat_pumpkin_purple_66: -352439133
+      hat_pumpkin_purple_67: -1412202610
+      hat_pumpkin_purple_68: 1942296871
+      hat_pumpkin_purple_69: -874174122
+      hat_pumpkin_purple_7: 2064267530
+      hat_pumpkin_purple_70: -1286759566
+      hat_pumpkin_purple_71: -663940769
+      hat_pumpkin_purple_72: -2139498385
+      hat_pumpkin_purple_73: -1839988246
+      hat_pumpkin_purple_74: -1568960660
+      hat_pumpkin_purple_75: 1971431900
+      hat_pumpkin_purple_76: -2074274417
+      hat_pumpkin_purple_77: -1210813525
+      hat_pumpkin_purple_78: -706939477
+      hat_pumpkin_purple_79: 113117443
+      hat_pumpkin_purple_8: 576067882
+      hat_pumpkin_purple_80: -177865132
+      hat_pumpkin_purple_81: -312107395
+      hat_pumpkin_purple_82: 794078044
+      hat_pumpkin_purple_83: 2118895018
+      hat_pumpkin_purple_84: -573164949
+      hat_pumpkin_purple_85: 2060672759
+      hat_pumpkin_purple_86: 1685021128
+      hat_pumpkin_purple_87: 700996896
+      hat_pumpkin_purple_88: -96253950
+      hat_pumpkin_purple_89: -553508018
+      hat_pumpkin_purple_9: -303098872
+      hat_pumpkin_purple_90: 1416424943
+      hat_pumpkin_purple_91: 910022768
+      hat_pumpkin_purple_92: 525666320
+      hat_pumpkin_purple_93: -1959298297
+      hat_pumpkin_purple_94: -1135240030
+      hat_pumpkin_purple_95: 715338423
+      hat_pumpkin_purple_96: 2138155943
+      hat_pumpkin_purple_97: 685634712
+      hat_pumpkin_purple_98: -546874046
+      hat_pumpkin_purple_99: -419116957
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

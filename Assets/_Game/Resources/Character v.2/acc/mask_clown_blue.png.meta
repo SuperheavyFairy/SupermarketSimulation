@@ -3,7 +3,7 @@ guid: cc6096dfce804475ab7ead4863241cae
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -93,9 +93,5041 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mask_clown_blue_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1542
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9fd15786eda42fda2be15429a291c0
+      internalID: -1664909572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1543
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc788c683f5e54314b3e9e44e71b8792
+      internalID: 385650197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1544
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25ad596ccc0049a9ae6f0a998ee0d18
+      internalID: -1736252597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1542
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b3c129144e44ef497cfc3cb94667eb
+      internalID: -1755954987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1542
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89c021a804d049948fa87dea6536453
+      internalID: -1276610070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1543
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5d3674c8d494df1aa9b361583fdc3c
+      internalID: -623223306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1544
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abef9dc0c99414a0ebe0539770ee6ac5
+      internalID: 1793808527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1542
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff74dfdf5c4e745f4bb15930c4046e50
+      internalID: 272218446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1512
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d118c2326f8846bcba79609545330f2
+      internalID: -468064406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1513
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb28f372587b4910977a2764879d6d0
+      internalID: -79598501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1514
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6799b59a978a744d4a2dfca87a74ca4f
+      internalID: 1426873044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_11
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1512
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7913980a02d3455a807365faa651598
+      internalID: -234343757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1512
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d687a3428717a421aa60428039b71469
+      internalID: 808120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_13
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1513
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec998173bf9a4d46b32949d19dae854
+      internalID: -33680520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_14
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1514
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d98054be06f448b2afaf137fe439d51
+      internalID: -1347082714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1512
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e822cdf5dc0b4fd7800767eea59a9ef
+      internalID: 1923222330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1478
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109772d6221b8483fb9daa5e58b2fcbf
+      internalID: 1979053993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1479
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7d8d6dbccba4824b0bef4890ed28d7
+      internalID: 760628477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1480
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa51063487524e65982565e4110f756
+      internalID: -1425506356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1478
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b50642590c24ab3a755fa8fc0a3388
+      internalID: -442536860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1478
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0998451a46054bb2afc58723f00cb01
+      internalID: 2077623141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1479
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269adb9f0eb534345a4d738c5c1abf4a
+      internalID: 942152654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1480
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a3c114d8dd8477eab85dea0b787764
+      internalID: 1938996565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1478
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5180df438cdef4585b4e5d2ed1351cfe
+      internalID: 644169965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1446
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db35892034de641d98da0547da59a27d
+      internalID: -143253646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_25
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1447
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba688c3a3311e487fa5239ac08155dc4
+      internalID: -1334588441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1448
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d7bb98326244864b0b5ec6475c52d9
+      internalID: -623698880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_27
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1446
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58e4c56d07b94a66b30217e14396227
+      internalID: -66463330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_28
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1446
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6e1362628104b798b224ec2a3e5979
+      internalID: -1923032240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_29
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1447
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dfcc34ee070460da24088d2f9a22d6
+      internalID: -494541433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_30
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1448
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5dc30f2accd48d4aa79be34c6df8d9
+      internalID: -1826313270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_31
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1446
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940e1b30137164ce08c5c57876bc9fb6
+      internalID: -1075284925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1414
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2efa52bebbd47fe8f29e7df449f2bd
+      internalID: 2067705910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_33
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1413
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e7e6365a83c41e182f00eee51301c3
+      internalID: 352266990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_34
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1416
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61529e2f7003407a9df3ddc9cc55d38
+      internalID: 2103584119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_35
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1418
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869efd513d200463881440c7d954949e
+      internalID: 2025954294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_36
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1414
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ec66f719dd647009ebf90d888045b0
+      internalID: 207956526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_37
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1384
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654707f7dcc4649e48a9169ad4a55763
+      internalID: 1864147482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_38
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1383
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659d6bfb080ba4274b00c7149760c767
+      internalID: 989642547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_39
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1386
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265a88718f40643b29e562239ad5ef70
+      internalID: -1779076543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_40
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1388
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919c019785ea84bb6a1f7deb909489f7
+      internalID: -1318706214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_41
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1384
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edffdb51e289d4431a79e8ef6fd92496
+      internalID: 463466915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1350
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad2e245b3173471ebdcb3294ca234e6
+      internalID: 1866502481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_43
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1349
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7171c922db344463d8e2e59b382fc15f
+      internalID: 1794373236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_44
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1352
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3629120409c934f4882a3f6d1dfd97bf
+      internalID: -1801656938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_45
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1355
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e07d7f62b57497793b9dda089ce1a2
+      internalID: 1434990991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_46
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1350
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7861c128609b84de085991fbd24412d1
+      internalID: -1746888248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_47
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1318
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a16301002614739a9356d129c33b2e
+      internalID: -1148014585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_48
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1317
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06159dfc4ba734d33803d9df3442f8d7
+      internalID: -1132722728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_49
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1320
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5459dd64288c43ee8afd687edb79eca
+      internalID: -1505575137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_50
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1323
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168edd92d6b104ba1938da22b3b97332
+      internalID: 655155686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_51
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1318
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d0e89cde1af403f9c065c95caa8b5a
+      internalID: 143689777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_52
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1287
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf9452f3e8a44a29b4d60cdbeba1325
+      internalID: -1714303765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_53
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1287
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c453fbf70fe64ce5ba0101a0c5280e9
+      internalID: 1033323392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_54
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1288
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcc5ae9236e14e1ebcf96dee0c285da
+      internalID: -1560938663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_55
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1288
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c05f44cadf3d4c9f8be57e55eb2098a
+      internalID: 1502104746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_56
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1287
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c901a8aad824771a7e63d9e1c54964
+      internalID: 582883813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_57
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1257
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7148f982d88cb4933a370afa05b86f78
+      internalID: -133032391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_58
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1258
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3419bfbca36ac48d8b28f23d8dac647a
+      internalID: -1280974507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_59
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1258
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58d2bf10c82e49f3b6aeaf1aea04c2f
+      internalID: 450937354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_60
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1257
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05cc9a07dba241d8903056a88876f21
+      internalID: 1467023332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_61
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1257
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e450d798a4c3d4ddbbf39d1915b5bdd4
+      internalID: -1147687142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_62
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1223
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7544026f397aa47ad82977ef3fa2080f
+      internalID: 2031582946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_63
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1222
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5af1ffbb9dad42f8a8d3eecbf22e88e
+      internalID: 693931260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_64
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1222
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31db3c1f57def469f8c046336af41f86
+      internalID: -341445961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_65
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1223
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77065073574ff4fcaa5fb16859565e70
+      internalID: -1073692599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_66
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1223
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95e9540781b2418a8cfced61fcbe558
+      internalID: 1131821226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_67
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1191
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2560dc64e53fb408dae5ded075e2df87
+      internalID: -190520734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_68
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1190
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f43eafc9be7c44889c73f70cb32c56e
+      internalID: 1072392024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_69
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1190
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb80e2f9540e54cd79a302fca835b8b3
+      internalID: -1987044001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_70
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1191
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971c52d9c20a7426bb0e4ab3269ab63c
+      internalID: 507535892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_71
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1191
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f7ca412086f46ffa5adf270d21d4e4
+      internalID: 838641733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_72
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1158
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e5321230d5d4aa3b66318e835e35c5
+      internalID: -1128897042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_73
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1159
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe042f484f474299bcdc5366cb05ae3
+      internalID: -1857603419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_74
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1160
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df87765f27c04cfe89e711dcd7f0195
+      internalID: 236601803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_75
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1158
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0addb155685443129cb4c276fd69531
+      internalID: -573560122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_76
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1158
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d921f1644b5a34754ad29327a829e342
+      internalID: -45212189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_77
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1159
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b165356646849329ba0e0fa28c63b7
+      internalID: 1801568663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_78
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1160
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280f6523e9d1041d0b389dab23ba52e8
+      internalID: -1875625338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_79
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1158
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c7e4168174c4a4c9c35d741491785d
+      internalID: -1466329619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_80
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1128
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81ea7e4e5e9f45d5bc8d300fb010288
+      internalID: 1739140067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_81
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1129
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9adcaf5c60674d8c9af8f5a36d972dd
+      internalID: -1713965179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_82
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1130
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604f26cfa26ee483c9ae277210b8b8c8
+      internalID: -838264343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_83
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1128
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e706b5e98e634f4d8c80f1fd51ee845
+      internalID: 791130018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_84
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1128
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697ffc877ae354df69fcb2e6aa71c926
+      internalID: 1555806589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_85
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1129
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841d0adfbb3204960badbfbcfda8401b
+      internalID: -1061139388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_86
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1130
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be17f0a6dc29427b9b29b6160c72058
+      internalID: -275748069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_87
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1128
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebb7814afd74401d8d9b42ee9635927
+      internalID: -2015938210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_88
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1094
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b4919c8dc944f33b7fc952b7cb2c1d
+      internalID: 1549001525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_89
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1095
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3295cb846d54e55b9d09afc785d5b7
+      internalID: -358339605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_90
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1096
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d630a9058894334a753802a39f24ba
+      internalID: 793329500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_91
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1094
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8646cc5192edf455284dc38f38348b49
+      internalID: 1658932256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_92
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1094
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ce3961b1615449e846c69f6b44422f
+      internalID: -1364559384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_93
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1095
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8365ec090aea84d6aa6f8d4acec6bcb5
+      internalID: -1904760090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_94
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1096
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1194011ccb1ca4dc0b31fe807b7d8718
+      internalID: 739723918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_95
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1094
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086cb93d8f6dd47b9bfe20cb4132802c
+      internalID: -1691853895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_96
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1062
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4888d32f145f44df29f33811e2490d6f
+      internalID: -1852657495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_97
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1063
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f35e7fe339043c1bedc24a51bc5c15
+      internalID: 1575346612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_98
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1064
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fdea783e9c24fcd9d240220fc29193
+      internalID: 1056108778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_99
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1062
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff4a91d841d348959adad09eec386e1
+      internalID: 638097479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_100
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1062
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9f54b3746264a4e9ac1f688e864980
+      internalID: 1098878139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_101
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1063
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79bb73f8133b454b8e73467457eba14
+      internalID: 695364186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_102
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1064
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea69af3f4c4f46f7a59c6eb86ceffbd
+      internalID: 1098387282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_103
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1062
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956665ff980e241899650a352b5dfdd4
+      internalID: 1024556275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_104
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1030
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95149f0e703a24b00bb042fa7d60bfcf
+      internalID: -343046795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_105
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1029
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621ad73d8c79c4f739fd49a411c5751a
+      internalID: 278572744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_106
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1029
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7da701272adf4004b78ac58a441ca31
+      internalID: -482193962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_107
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1030
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0110cde6286a34d9c926c0efbcf99067
+      internalID: 1050415605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_108
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1000
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2d4893770534417b91719ef20cd886
+      internalID: 1683562773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_109
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1001
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c9e28c1c67e419e89e462d5bac96ff
+      internalID: 700820585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_110
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1001
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4820fbbdf3a8499da38ca6a7c7e7c81
+      internalID: -1560809156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_111
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 999
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1b3b77e4e4c4be89cf915b40d4d912
+      internalID: -117219200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_112
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 966
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265214de867594e5092d9902ef40e28a
+      internalID: -146560436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_113
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 965
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f544db918bc92455e90ba1c35307c07e
+      internalID: 1486374024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_114
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 966
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c342da6aaf069458bbdc590b9f2c5548
+      internalID: -1752342920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_115
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 965
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53aa6f0d7302341d5b14339ccde529b4
+      internalID: 1491730403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_116
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 934
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d0837a083044dc4b0ec91ac4648d0e
+      internalID: 2142981504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_117
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 933
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aa5b60054ce4b04aed869cd4888bb8
+      internalID: 643572763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_118
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 934
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf14a9ca39704ca7b0c76e85821fbb8
+      internalID: -775869173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_119
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 933
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915d1c97fac4745c3ba9a2d0b5749e15
+      internalID: -758682042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_120
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 901
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524c025c8fc2b4d6b8578f2c4e4e93c3
+      internalID: 1835296402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_121
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 873
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f321c7f2b27d4bff86edf14d71d197e
+      internalID: 269272278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_122
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 837
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0630b2f4ca2433f9b757ab8bff7bc7
+      internalID: 853063440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_123
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 805
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7f70985bc184352aa644561cfd560b
+      internalID: 566042140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_124
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 775
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025d0d96c98344dd59593bff2680e855
+      internalID: -1710000345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_125
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 745
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b93ddb936374960993da5e39eff724
+      internalID: 121083901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_126
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 711
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f76d010b4c9148bdab6fb1a6fb725cf
+      internalID: -1207563583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_127
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 679
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fcf920e6bc2458a83136bd8ccbc84a
+      internalID: -866009381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_128
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 640
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71199dc23bb0b495bb9b0256465960a4
+      internalID: 1250681155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_129
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 640
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da9919c8e0da43a5a5fe5182af7a45d
+      internalID: -2001257497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_130
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 615
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09c48ed8236c44a6855df521cbcb476
+      internalID: 163267790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_131
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 618
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f2d79acce7e41ec950c0b215bf49c9
+      internalID: -1388263904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_132
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 618
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0549cf5f1f9824f5ba0016e28d622752
+      internalID: -953503914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_133
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 620
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0931f400ebd46cfa333936a83874e1
+      internalID: 1394630489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_134
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 618
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a022a1f6b8b45c391a547c8eb0367d
+      internalID: 1879884787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_135
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 620
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e288086d0e9f94c659902375eadb2f6e
+      internalID: 1740667777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_136
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 620
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856104ba68b1c4e129223eb2b3a7b6a8
+      internalID: -265205281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_137
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 616
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b83da66c3eba4f5fb148cfe025003d2
+      internalID: 1041629418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_138
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 614
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbc7665b83204fe59efa730534e6795
+      internalID: -1610961262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_139
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 615
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3064784374ca54919b51f4aa71ea1775
+      internalID: -327452014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_140
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 584
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669f76425db1b45d6bfd2be064766ea8
+      internalID: -282171085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_141
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 584
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca115b4ca39c4baba5cdf55e6f24daf
+      internalID: -935700687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_142
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 585
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70b45317c5164262952eb43beb841b4
+      internalID: -180773780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_143
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 585
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b9eeeab1f624415b16e4963e178994
+      internalID: -2057828557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_144
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 586
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5426f12ddc1f4ae4825231671dbe27b
+      internalID: 1487707340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_145
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 551
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd5c2dba5c5e4906b38808b67e0d1b0
+      internalID: 319421495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_146
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 550
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872848746e10c49e29934e6d83ad946d
+      internalID: 1077993692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_147
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 551
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dfc8b2a8b104a1ca6b268dcc16cbb4
+      internalID: -1294912093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_148
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 554
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de626d9559c34f0fa5578a3f252169d
+      internalID: -752303239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_149
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 552
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7098b05df8f1942708e6754c7a72c2fc
+      internalID: -807408557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_150
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 554
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300d2d50024d141908f503d7457af3fd
+      internalID: -2117275957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_151
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 518
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9056c477e2c4ac6a5094afecfad326
+      internalID: 1046505111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_152
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 518
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e2274fb9427499fb462b2014f0651d
+      internalID: 2066475670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_153
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 519
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf12f1e42b0a64ff19795ce9fca29bb6
+      internalID: -1270601961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_154
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 521
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcc72e4a29d64f17b153f1337b420c3
+      internalID: -1462687973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_155
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 520
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af22ba31809544bfafdfea5bf40676d
+      internalID: -1937525630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_156
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 521
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18cbc81715b54b4dac5e1de55d65744
+      internalID: -1845493484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_157
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 487
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb9adf8160834e518e84a62641d80f7
+      internalID: 1255611487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_158
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 490
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21396ddb82494624b60738ce95f092b
+      internalID: 370779272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_159
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 490
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a2b23b4ebfc420a95d13d24ea39ff1
+      internalID: -837919096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_160
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 492
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46894f3f07114431968e6d39ecfa081
+      internalID: 817476340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_161
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 492
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14195b66a887f45b6bb9af2c5df6545f
+      internalID: 110812060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_162
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 492
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd361a34b214b424fb1262c5e131cc56
+      internalID: -2059154587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_163
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 492
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a7c674ea0004b0aa578858a2b9f9fc
+      internalID: 1392483391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_164
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 487
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5764bfadc2ab48ca83c3ce919df4f6c
+      internalID: -999514483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_165
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 486
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf02071eac9774a56b87794a28308ae2
+      internalID: 709018265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_166
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 487
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58aba3b260e748598fa0cc1308fc4c4
+      internalID: 1140017894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_167
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 456
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b294b00e146194399ba7e24fd89a0e9c
+      internalID: -283522322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_168
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 456
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f582d68a0bd4458c89de7272b0ce462
+      internalID: 2030334353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_169
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 457
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eebcffdd6cb1473f86f741a5d1192e5
+      internalID: -1323404226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_170
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 457
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54b2e1a35fb24886a777ff68f5910e3
+      internalID: -1424083917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_171
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 457
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0678017576e674bbcb7ad0e6e76edcea
+      internalID: -1817055931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_172
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 423
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd871fc58d904bb4b4cab11d8cd14e3
+      internalID: -162485342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_173
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 424
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544607dc5708b44798afae926948cc6a
+      internalID: 1783583135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_174
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 425
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97bbb1bf4b074c8986934f2b14f34d0
+      internalID: 328754206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_175
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 423
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db75cb21031e74e17a867287ce673fa2
+      internalID: 419932006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_176
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 424
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224f214bae0014898b730cda507cd519
+      internalID: 1442016397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_177
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 426
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9437a0c2d00f44f88879e105faeb4b88
+      internalID: -1605312577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_178
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 391
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9718c0c71e4b94a059cfb4383cc7cb4a
+      internalID: 368110894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_179
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 390
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49358b07d7efb46c99896baf57386af1
+      internalID: -1649068807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_180
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 391
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f411356866e34e92ad30bbe605fc1de
+      internalID: -806711589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_181
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 393
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91737f1268836444b9e9c60150950d6a
+      internalID: 1623884617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_182
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 392
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa8d71bf80984711aa8368d248cda4d
+      internalID: 1154585837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_183
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 393
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6e08eb761314db0bc5dfd68915f7da
+      internalID: -1671855031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_184
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 363
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c2335be940e4254bf5f17f105d7f5f
+      internalID: -1816205247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_185
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 366
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb7b1d711eb74254940de3005c7935c
+      internalID: -680516452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_186
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 333
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72da45922dda4433825ced337dcd228
+      internalID: -733985928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_187
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 334
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f327df122c54ae59f22f84a240aaa6
+      internalID: 897181707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_188
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 300
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ded3a6711d2a451f9db40fb913c1ec9
+      internalID: 1424747974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_189
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 301
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6cf3ab5a07f41388a19c4fc1db21c1
+      internalID: 1812464620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_190
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 268
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca9868b6467843d99d016cd85930dcc
+      internalID: 1720010148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_191
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 269
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaf819a83d9f4ab4a582c43d233ec1b
+      internalID: -1018035022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_192
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 240
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07935ea2f1c546109f032a1c07178f4
+      internalID: -870360391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_193
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 237
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7347ea3c3d0db416cb892cd10265f77d
+      internalID: -1463769068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_194
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 236
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049e3f0668d5d4a06b120e3c5845d78c
+      internalID: -1614619939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_195
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 237
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fcc447ae60b45aeb8f7d154cb2c0a0
+      internalID: 1385486105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_196
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 236
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e019b2dd5154b50a7b3d229e034206
+      internalID: -463953772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_197
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 200
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5494fd5d9bd6e4ec7947cb8526025ea9
+      internalID: -1922159775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_198
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 201
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073951c0a782944e8846818db27b86da
+      internalID: 1364951401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_199
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 202
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de9c168c8e8a4aabb3a969a1d976c3a
+      internalID: -1914935622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_200
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 201
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f446aa6b1f9e54965ac49ede4d758c6f
+      internalID: -619548425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_201
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 202
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fdb9fb89b5f4918ad1203cb5b5d855
+      internalID: 998308102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_202
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 168
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c415f54879f94d29840fc4d952a4a7d
+      internalID: -55748536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_203
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 169
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a921dda6c14044131a070328059aa64e
+      internalID: -1313307333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_204
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 169
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e69236b4ab644da893776502216870
+      internalID: -377380718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_205
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 169
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07249350e4b2a43b994b431b3e9f19ce
+      internalID: 1220212752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_206
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 169
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844039c4b3d5d46c6813a10dbbd47f51
+      internalID: 1150683782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_207
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 136
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a5367bc618c4dc7a11b99600871f01
+      internalID: 1923826280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_208
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 137
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4714597764284a6cb95d77632364e7f
+      internalID: 1442472609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_209
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 137
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2ba3a4ab2934813a82f62cc05a6fa3
+      internalID: 2052248971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_210
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 137
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c465cbc361d5483a8e4cad2a4e1b74a
+      internalID: 865318091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_211
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 137
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142f3de877c16498f8abe3f919ba22d6
+      internalID: 835023816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_212
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 108
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc0a5fc5e4c24748ab9835df1a30a6b
+      internalID: -1205218967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_213
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 111
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ecd386c1d7d4dda8a80600e2138bc0
+      internalID: -517705884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_214
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 111
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c4ac62323bd43ba9eebb96c52209b1
+      internalID: 1464858632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_215
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 107
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0aef49a7c8884161986cd9b27074a62
+      internalID: -1923361261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_216
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 110
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e2a41caa151463b8100b5133a35a82
+      internalID: 2117886863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_217
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 108
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9a12d1f60584a2e86b0e3ee4cf14f2
+      internalID: 399383610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_218
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 109
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fdd3d35a78f44f0b93fa68c36d884a
+      internalID: -532932365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_219
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 107
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce103b1b356b4176b7ffd9779a05972
+      internalID: 470157079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_220
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 76
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5149d709a6643939bbaecc782a0857
+      internalID: -1560819351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_221
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 76
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c141e9565e2d478cb75dee9d0e8a6f1
+      internalID: 1221000434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_222
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 77
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7af3586ee5e474a848b70d068c912c
+      internalID: 696625676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_223
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 78
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab79bf5debd8b437591a46aa8a0898d2
+      internalID: -764991971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_224
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 77
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bb2220f26074a22a1a1d0e7f6d94fb
+      internalID: 1251162498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_225
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 44
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c5ee3ac302e4cb0aff7fa6db8b4690
+      internalID: -943711134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_226
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 45
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db93c7a4078a44dcb929af8a6cf6b16f
+      internalID: 237797680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_227
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 43
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978d5f3b144bb4604a99ca295d1dcc28
+      internalID: 1929902757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_228
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 43
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de07cefd60de943b68b04a5b6630e57d
+      internalID: 654091367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_229
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 46
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbadb69d34f44c0cad0b70299069f21
+      internalID: 662770768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_230
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 44
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df0ce226041846c5b8eafbcdb672764
+      internalID: 144932114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_231
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 45
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1831fef04944fb3ae8f14cf6cdab14
+      internalID: 201913966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_232
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 10
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dacd357e4b5f4159a7a651942730925
+      internalID: -718281983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_233
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 11
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9b5d67370ec4aafb1714a050c717d8
+      internalID: -627890874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_234
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 13
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9ee777b291b4b0caa5b94997c0cc24
+      internalID: 1520350510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_235
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 11
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98626ccb85cb543df808d74070593a3d
+      internalID: 274632329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_236
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 12
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b559dfb9223f841868552777762c9185
+      internalID: -221415308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_237
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 14
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e2a6236153f4da9b4bb62181f47d53
+      internalID: 1103804451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mask_clown_blue_238
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 13
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6197e14c819174a90ba51c9d6fe62ae2
+      internalID: 1937732624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +5138,246 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mask_clown_blue_0: -1664909572
+      mask_clown_blue_1: 385650197
+      mask_clown_blue_10: 1426873044
+      mask_clown_blue_100: 1098878139
+      mask_clown_blue_101: 695364186
+      mask_clown_blue_102: 1098387282
+      mask_clown_blue_103: 1024556275
+      mask_clown_blue_104: -343046795
+      mask_clown_blue_105: 278572744
+      mask_clown_blue_106: -482193962
+      mask_clown_blue_107: 1050415605
+      mask_clown_blue_108: 1683562773
+      mask_clown_blue_109: 700820585
+      mask_clown_blue_11: -234343757
+      mask_clown_blue_110: -1560809156
+      mask_clown_blue_111: -117219200
+      mask_clown_blue_112: -146560436
+      mask_clown_blue_113: 1486374024
+      mask_clown_blue_114: -1752342920
+      mask_clown_blue_115: 1491730403
+      mask_clown_blue_116: 2142981504
+      mask_clown_blue_117: 643572763
+      mask_clown_blue_118: -775869173
+      mask_clown_blue_119: -758682042
+      mask_clown_blue_12: 808120
+      mask_clown_blue_120: 1835296402
+      mask_clown_blue_121: 269272278
+      mask_clown_blue_122: 853063440
+      mask_clown_blue_123: 566042140
+      mask_clown_blue_124: -1710000345
+      mask_clown_blue_125: 121083901
+      mask_clown_blue_126: -1207563583
+      mask_clown_blue_127: -866009381
+      mask_clown_blue_128: 1250681155
+      mask_clown_blue_129: -2001257497
+      mask_clown_blue_13: -33680520
+      mask_clown_blue_130: 163267790
+      mask_clown_blue_131: -1388263904
+      mask_clown_blue_132: -953503914
+      mask_clown_blue_133: 1394630489
+      mask_clown_blue_134: 1879884787
+      mask_clown_blue_135: 1740667777
+      mask_clown_blue_136: -265205281
+      mask_clown_blue_137: 1041629418
+      mask_clown_blue_138: -1610961262
+      mask_clown_blue_139: -327452014
+      mask_clown_blue_14: -1347082714
+      mask_clown_blue_140: -282171085
+      mask_clown_blue_141: -935700687
+      mask_clown_blue_142: -180773780
+      mask_clown_blue_143: -2057828557
+      mask_clown_blue_144: 1487707340
+      mask_clown_blue_145: 319421495
+      mask_clown_blue_146: 1077993692
+      mask_clown_blue_147: -1294912093
+      mask_clown_blue_148: -752303239
+      mask_clown_blue_149: -807408557
+      mask_clown_blue_15: 1923222330
+      mask_clown_blue_150: -2117275957
+      mask_clown_blue_151: 1046505111
+      mask_clown_blue_152: 2066475670
+      mask_clown_blue_153: -1270601961
+      mask_clown_blue_154: -1462687973
+      mask_clown_blue_155: -1937525630
+      mask_clown_blue_156: -1845493484
+      mask_clown_blue_157: 1255611487
+      mask_clown_blue_158: 370779272
+      mask_clown_blue_159: -837919096
+      mask_clown_blue_16: 1979053993
+      mask_clown_blue_160: 817476340
+      mask_clown_blue_161: 110812060
+      mask_clown_blue_162: -2059154587
+      mask_clown_blue_163: 1392483391
+      mask_clown_blue_164: -999514483
+      mask_clown_blue_165: 709018265
+      mask_clown_blue_166: 1140017894
+      mask_clown_blue_167: -283522322
+      mask_clown_blue_168: 2030334353
+      mask_clown_blue_169: -1323404226
+      mask_clown_blue_17: 760628477
+      mask_clown_blue_170: -1424083917
+      mask_clown_blue_171: -1817055931
+      mask_clown_blue_172: -162485342
+      mask_clown_blue_173: 1783583135
+      mask_clown_blue_174: 328754206
+      mask_clown_blue_175: 419932006
+      mask_clown_blue_176: 1442016397
+      mask_clown_blue_177: -1605312577
+      mask_clown_blue_178: 368110894
+      mask_clown_blue_179: -1649068807
+      mask_clown_blue_18: -1425506356
+      mask_clown_blue_180: -806711589
+      mask_clown_blue_181: 1623884617
+      mask_clown_blue_182: 1154585837
+      mask_clown_blue_183: -1671855031
+      mask_clown_blue_184: -1816205247
+      mask_clown_blue_185: -680516452
+      mask_clown_blue_186: -733985928
+      mask_clown_blue_187: 897181707
+      mask_clown_blue_188: 1424747974
+      mask_clown_blue_189: 1812464620
+      mask_clown_blue_19: -442536860
+      mask_clown_blue_190: 1720010148
+      mask_clown_blue_191: -1018035022
+      mask_clown_blue_192: -870360391
+      mask_clown_blue_193: -1463769068
+      mask_clown_blue_194: -1614619939
+      mask_clown_blue_195: 1385486105
+      mask_clown_blue_196: -463953772
+      mask_clown_blue_197: -1922159775
+      mask_clown_blue_198: 1364951401
+      mask_clown_blue_199: -1914935622
+      mask_clown_blue_2: -1736252597
+      mask_clown_blue_20: 2077623141
+      mask_clown_blue_200: -619548425
+      mask_clown_blue_201: 998308102
+      mask_clown_blue_202: -55748536
+      mask_clown_blue_203: -1313307333
+      mask_clown_blue_204: -377380718
+      mask_clown_blue_205: 1220212752
+      mask_clown_blue_206: 1150683782
+      mask_clown_blue_207: 1923826280
+      mask_clown_blue_208: 1442472609
+      mask_clown_blue_209: 2052248971
+      mask_clown_blue_21: 942152654
+      mask_clown_blue_210: 865318091
+      mask_clown_blue_211: 835023816
+      mask_clown_blue_212: -1205218967
+      mask_clown_blue_213: -517705884
+      mask_clown_blue_214: 1464858632
+      mask_clown_blue_215: -1923361261
+      mask_clown_blue_216: 2117886863
+      mask_clown_blue_217: 399383610
+      mask_clown_blue_218: -532932365
+      mask_clown_blue_219: 470157079
+      mask_clown_blue_22: 1938996565
+      mask_clown_blue_220: -1560819351
+      mask_clown_blue_221: 1221000434
+      mask_clown_blue_222: 696625676
+      mask_clown_blue_223: -764991971
+      mask_clown_blue_224: 1251162498
+      mask_clown_blue_225: -943711134
+      mask_clown_blue_226: 237797680
+      mask_clown_blue_227: 1929902757
+      mask_clown_blue_228: 654091367
+      mask_clown_blue_229: 662770768
+      mask_clown_blue_23: 644169965
+      mask_clown_blue_230: 144932114
+      mask_clown_blue_231: 201913966
+      mask_clown_blue_232: -718281983
+      mask_clown_blue_233: -627890874
+      mask_clown_blue_234: 1520350510
+      mask_clown_blue_235: 274632329
+      mask_clown_blue_236: -221415308
+      mask_clown_blue_237: 1103804451
+      mask_clown_blue_238: 1937732624
+      mask_clown_blue_24: -143253646
+      mask_clown_blue_25: -1334588441
+      mask_clown_blue_26: -623698880
+      mask_clown_blue_27: -66463330
+      mask_clown_blue_28: -1923032240
+      mask_clown_blue_29: -494541433
+      mask_clown_blue_3: -1755954987
+      mask_clown_blue_30: -1826313270
+      mask_clown_blue_31: -1075284925
+      mask_clown_blue_32: 2067705910
+      mask_clown_blue_33: 352266990
+      mask_clown_blue_34: 2103584119
+      mask_clown_blue_35: 2025954294
+      mask_clown_blue_36: 207956526
+      mask_clown_blue_37: 1864147482
+      mask_clown_blue_38: 989642547
+      mask_clown_blue_39: -1779076543
+      mask_clown_blue_4: -1276610070
+      mask_clown_blue_40: -1318706214
+      mask_clown_blue_41: 463466915
+      mask_clown_blue_42: 1866502481
+      mask_clown_blue_43: 1794373236
+      mask_clown_blue_44: -1801656938
+      mask_clown_blue_45: 1434990991
+      mask_clown_blue_46: -1746888248
+      mask_clown_blue_47: -1148014585
+      mask_clown_blue_48: -1132722728
+      mask_clown_blue_49: -1505575137
+      mask_clown_blue_5: -623223306
+      mask_clown_blue_50: 655155686
+      mask_clown_blue_51: 143689777
+      mask_clown_blue_52: -1714303765
+      mask_clown_blue_53: 1033323392
+      mask_clown_blue_54: -1560938663
+      mask_clown_blue_55: 1502104746
+      mask_clown_blue_56: 582883813
+      mask_clown_blue_57: -133032391
+      mask_clown_blue_58: -1280974507
+      mask_clown_blue_59: 450937354
+      mask_clown_blue_6: 1793808527
+      mask_clown_blue_60: 1467023332
+      mask_clown_blue_61: -1147687142
+      mask_clown_blue_62: 2031582946
+      mask_clown_blue_63: 693931260
+      mask_clown_blue_64: -341445961
+      mask_clown_blue_65: -1073692599
+      mask_clown_blue_66: 1131821226
+      mask_clown_blue_67: -190520734
+      mask_clown_blue_68: 1072392024
+      mask_clown_blue_69: -1987044001
+      mask_clown_blue_7: 272218446
+      mask_clown_blue_70: 507535892
+      mask_clown_blue_71: 838641733
+      mask_clown_blue_72: -1128897042
+      mask_clown_blue_73: -1857603419
+      mask_clown_blue_74: 236601803
+      mask_clown_blue_75: -573560122
+      mask_clown_blue_76: -45212189
+      mask_clown_blue_77: 1801568663
+      mask_clown_blue_78: -1875625338
+      mask_clown_blue_79: -1466329619
+      mask_clown_blue_8: -468064406
+      mask_clown_blue_80: 1739140067
+      mask_clown_blue_81: -1713965179
+      mask_clown_blue_82: -838264343
+      mask_clown_blue_83: 791130018
+      mask_clown_blue_84: 1555806589
+      mask_clown_blue_85: -1061139388
+      mask_clown_blue_86: -275748069
+      mask_clown_blue_87: -2015938210
+      mask_clown_blue_88: 1549001525
+      mask_clown_blue_89: -358339605
+      mask_clown_blue_9: -79598501
+      mask_clown_blue_90: 793329500
+      mask_clown_blue_91: 1658932256
+      mask_clown_blue_92: -1364559384
+      mask_clown_blue_93: -1904760090
+      mask_clown_blue_94: 739723918
+      mask_clown_blue_95: -1691853895
+      mask_clown_blue_96: -1852657495
+      mask_clown_blue_97: 1575346612
+      mask_clown_blue_98: 1056108778
+      mask_clown_blue_99: 638097479
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

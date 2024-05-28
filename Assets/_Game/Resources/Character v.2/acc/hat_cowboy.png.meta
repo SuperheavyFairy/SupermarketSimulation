@@ -3,7 +3,7 @@ guid: a2b08612e848046d192708f1ace8872e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -93,9 +93,4852 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: hat_cowboy_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1548
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff805d53210d64a20bf27f16a99a83db
+      internalID: 142936355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1549
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082dfa4b924bd4037b4eec30a5680127
+      internalID: 1386284896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1550
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d270218489c2433291b1f0f40ea93d6
+      internalID: 1804955120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1548
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e929316ad3ff544409f656ce73ef6924
+      internalID: 421562516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1548
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94561ff10a61f4e54b3d384075cdfe95
+      internalID: -1208353866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1549
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c56dbd3abb845c289bbdef2bce88a7
+      internalID: 539624411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1550
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986751214d87b489390d84d09182a3e9
+      internalID: -1114273985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1548
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881d91eec35494e54876b69f6c494782
+      internalID: 2018941062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1516
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2733b75ba5c43a8928309efcd533de
+      internalID: -1602834980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1517
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f500f0afdbb814fec9ff2e0d9610673e
+      internalID: -877251221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1518
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1bcc32e0dc14accbca3a50b906f7b4
+      internalID: 1008765679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1516
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee19454ee625248feb152f7a20259a56
+      internalID: 1013636716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1516
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e3dd82e758f44b39a9c371cd3db75a
+      internalID: -932843720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1517
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bc60953151741ddacbece159faf35f
+      internalID: 1949132897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1518
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9cbe54e30724ba394b75effc28e263
+      internalID: 1506033903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1516
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c901f601fce044e8bb464b2480c76d0e
+      internalID: 1808581572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1484
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88278bf143ca046358c771f88afbcb7f
+      internalID: -1510583107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1485
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6ed769f5415434cb50eea81e6256c1
+      internalID: 1955813370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1486
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1995d0d3ca9841bb8350f34f93b9d1b
+      internalID: 1759977892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1484
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88ab77e358e346e19da175f8cd36a79
+      internalID: -1426869883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1484
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7b4ac5b0c98431698cca0543d99acb
+      internalID: -1670440889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1485
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10633ba435892459bb162d3302e7f7a1
+      internalID: 935324793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1486
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48523043462e44bb9383ae4e164c82c
+      internalID: -1535456773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1484
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0952278d96924f0eba16db1fdea2f3f
+      internalID: -1261867449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1452
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fe1009548b44ec09abbf7e8e6b81bf
+      internalID: 1528615951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1453
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f5ce3564f3f415a970a8ac49365957
+      internalID: -290572740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1454
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85637f430efa448c9cd9382bff87ec8
+      internalID: 474036792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1452
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00656475a56b427eb12a01e291d40d0
+      internalID: -1487865944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_28
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1452
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebd4287c0cf6443baca836711f1d11a
+      internalID: 2146727220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_29
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1453
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d6453c82b7648f9a7aed77ce0a9521
+      internalID: -1401947071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1454
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512a1bfe0b2de4dac9365ac351419ce0
+      internalID: -1701429656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_31
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1452
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385b9e25f08d7449a8f3998e2d3c7c4c
+      internalID: 1548276040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1420
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be915a2862d884e55b2eb8c942d298d2
+      internalID: 308737188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_33
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1419
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdd11c89cc44447fb4fd01b7b0c7154
+      internalID: -532617907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1422
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d4dd3c6ae984902aeb16372f8d2823
+      internalID: -1927348986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_35
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1424
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab79f0bd52134f0096856ad829a9a7e
+      internalID: -1833395900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1420
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e9cdf46a0ec43fb834c486ddec6924
+      internalID: 1343356974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_37
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1388
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246f3e41498a84d1fb481df3b69d5e4e
+      internalID: 401871838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_38
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1387
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4c5403a1d304e8da9c41f2b56f51e5
+      internalID: 1056944548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_39
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1390
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139626881d6164e43883909bb062793f
+      internalID: -946193352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_40
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1392
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2a5619cbfd141aaada4f547147eb28
+      internalID: -2062098085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_41
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1388
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a365039782f654ecfba5e1c5b3dad994
+      internalID: 1363308914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1356
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a3a65223e334176bcfbfb9422e4efd
+      internalID: -172548285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_43
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1355
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca127b07f57d24144b7cf68ada0a8416
+      internalID: -921350086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_44
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1358
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc6c642f1af94079b2a620af29758c8
+      internalID: 203106824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_45
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1360
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e567d17d74d7444eac7588044a73129
+      internalID: 120620894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_46
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1356
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa017ce69e6d48fc9fe4100d3ce5785
+      internalID: 1376256367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_47
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1324
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b3d1269f03f4ecabe00960edbfeb77
+      internalID: -1806511130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_48
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1323
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a2b700583d3419c824a019705e9511
+      internalID: -294627750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_49
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1326
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6797a5a8ea1d84be2bd2ce4671494e58
+      internalID: -1135794643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1328
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41bdbd4d581d4c41a9bf2af18792a2a
+      internalID: 171923386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_51
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1324
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246edb0d3829f4f8e894da99ed5692ca
+      internalID: 237279697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1293
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc3c313d45f7425bb54c32844f99532
+      internalID: 1067050241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_53
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1292
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ad6598526fc4e179124cd368ef962f
+      internalID: -1547183804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_54
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1293
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53de949fdad7492b89aa0b0bc226fa5
+      internalID: -1348104527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_55
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1293
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c207be1bcc024b22b2e1b609d3eb729
+      internalID: 156754543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_56
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1293
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06ee1b8e8ece47fe83344bdad0f44d4
+      internalID: 1114432974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_57
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1261
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e002a449334426c804f284fdf4f186
+      internalID: 1801220516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_58
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1262
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df7b4627b5b44282b2056d0663e5338
+      internalID: -1323090762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_59
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1262
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c3d97b4cc574d80b7118a7a54d1b49
+      internalID: -1332537844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_60
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1261
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37477cccfa01547c2a901879567e37e7
+      internalID: 359371671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_61
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1261
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e818b361fd4964daa8d736835ba7d11a
+      internalID: -2123925914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_62
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1229
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0507c0845c4415aa9e815a5ef9f2a7
+      internalID: -40385931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_63
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1228
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666c94842bdbc48b7a23bcc9777ee96d
+      internalID: 386541368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_64
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1228
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd85d6ea80c74cdbbcc2f1c34f9ff04
+      internalID: 449081524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_65
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1229
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110373e85bd8c47108147f98020c3f77
+      internalID: 952161928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_66
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1229
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aec316795a9a47828d0bcf12c88103e
+      internalID: -271905555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_67
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1197
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd0e46d9782a4ebe95bc684569a6105
+      internalID: 674654555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_68
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1196
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585710bec63414423bb299f3f3839f80
+      internalID: -789506291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_69
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1196
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1edbf59076c24b79ac0acafb70987b7
+      internalID: 1858939223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_70
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1197
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be8397b163dc4a4bb32fd60515278ca
+      internalID: -1498107309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_71
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1197
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100adf999f61e41cc8e6019e8ccd8a70
+      internalID: -1956696704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_72
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1164
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08bd7a21a42c4dec8ec7487a4c4dafc
+      internalID: -946760143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_73
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1165
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39afd38ea56d34e8ca509bd116ea45d8
+      internalID: 1778208576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_74
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1166
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ef2a87a487243c8a3b4db25bd35ea0
+      internalID: 376066400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_75
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1164
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6660c65b61746099753f4ce80fa801
+      internalID: 78891174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_76
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1164
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0af7534de24f4c30b92bb184ce48210
+      internalID: -2003369494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_77
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1165
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623fd9034d24e417cbe70961dfdfdb75
+      internalID: -325455093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_78
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1166
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97840be25152c49e48b87c9206cfb6d8
+      internalID: -321079164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_79
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1164
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021a7aa882e1a41d2819c97fc87157f1
+      internalID: -23831314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_80
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1132
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054d5b34fd5b74208ac18daa8965a0a6
+      internalID: 825493943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_81
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1133
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c154ea530dd5e4e1ab82792066f9981c
+      internalID: -401972008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_82
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1134
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e43de8a5ef84906976560dd84e49b6
+      internalID: -1206594659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_83
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1132
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abde314cb5604ec686d91b26b11edfb
+      internalID: 323552975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_84
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1132
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d745aae852b24469da07f7710dee3e65
+      internalID: 2041494717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_85
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1133
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9085bc4939840a0a64ffd98800809b
+      internalID: 2067360751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_86
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1134
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dad0df3c62643a3956d6810b274605
+      internalID: 358980058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_87
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1132
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0e6d3a629d8431f9c7b824b040143b
+      internalID: 1020422207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_88
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1100
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54d2cd19d94c4aa0a26083a154373ba
+      internalID: 374404684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_89
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1101
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d791510d97c4883afd7dc05e1b3ece
+      internalID: -1166706892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_90
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1102
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615f2bcdf026641b6bd400d95a03e3fb
+      internalID: -126710070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_91
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1100
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670be4190050446aa8fdff2443b53d17
+      internalID: -1780272824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_92
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1100
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e1f05504b654f67bc10f4b1144dbb9
+      internalID: -1668912315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_93
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1101
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9002fbde68e34fbfab097f9eb02cc1f
+      internalID: 407324921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_94
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1102
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b5ef5d3f941402d9061c255c2addfa
+      internalID: 1190874197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_95
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1100
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e07c0985774e4f728c1d550bd802d49
+      internalID: -663076318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_96
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1068
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306f70a6301f64d009fa6d628c8959cd
+      internalID: 414349628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_97
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1069
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f2ebabd557645eaa12592854f592d2
+      internalID: 2056210534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_98
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1070
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcb0bee1e8b5423baff048bc42ba4b9
+      internalID: -1967426336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_99
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1068
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7a65a888f694aa696310776addb47c
+      internalID: -206604991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_100
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1068
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727a4e8382ce14bb6b8cbcd74622b66b
+      internalID: 1209618153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_101
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1069
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83aa774e4fb3a426285ba1bfec28de5f
+      internalID: 1893084776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_102
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1070
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3750adc68bd475b979254f28999cd1
+      internalID: 2141730804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_103
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1068
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58929333df759458ba4f7ecaeb03646d
+      internalID: 95904709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_104
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1036
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b444d28b13110402a8e3d03b06ba285a
+      internalID: 1889067164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_105
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1035
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7527bf6416c4d3988950e5a8ec2b3a
+      internalID: 1709764695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_106
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1035
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87926f81025ab42a19c82b274c074b07
+      internalID: 1956242929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_107
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1036
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d1c0ca1661b4f45bf923eb3c2f7227
+      internalID: -1384966869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_108
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1004
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4572461820e4047a56ec3cbb8dfbdd
+      internalID: 1033293908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_109
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1005
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a04abfa3f484421bdcc2e5b8767273
+      internalID: -1986976879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_110
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1005
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46312415c0c74206a5d236e53349428
+      internalID: -1002305208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_111
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1003
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58060080db77c46fa9b1e637fda0041d
+      internalID: 599678849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_112
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 972
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf09adf99d3f5477199e4259c613f124
+      internalID: -346130068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_113
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 971
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcd1d341936f497884f49f02eec16ff
+      internalID: -1791012219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_114
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 971
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f863096d2dadd46bca41d643203cb234
+      internalID: 1695911871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_115
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 971
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95c1267cf81a48c8b16256776fa6267
+      internalID: 2110826353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_116
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 940
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13daad9e4b81f4aa5a3d389ae81a856f
+      internalID: -1881471778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_117
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 939
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ca194b973f74c1e88e77382a6ce585
+      internalID: 1067123709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_118
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 939
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37954a63e15154660a26365928950a4c
+      internalID: 859686291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_119
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 939
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2058fdc47e4994442bd466ecdd9415a5
+      internalID: -1481214798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_120
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 907
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d168c557e701b4deba084f39bd7d453d
+      internalID: -1217962773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_121
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 877
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee04368a280c4a1192239f4d082aa01
+      internalID: -889808999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_122
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 843
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87192382606724bffb433f482cd7b4da
+      internalID: -2019735897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_123
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 811
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00974fd2f03a84c15bfb39e5cf063235
+      internalID: -1842483326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_124
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 781
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153f876b5c4884cbe910914f8137e660
+      internalID: -1272227146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_125
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 749
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6494bfc0fb0314d059b7f6270082acda
+      internalID: -1678479288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_126
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 717
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c668ef241074aaeb68d125523252da
+      internalID: -107994511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_127
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 685
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b1296c4f14a4623beaa5bc15931496
+      internalID: 537601465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_128
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 640
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cab9176ed584d0e9e808818009fa5f
+      internalID: 2063023507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_129
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 640
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6eddf5dc8f4b42149c11ab047764d49
+      internalID: 572736639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_130
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 620
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5c9c75c96424e8daa673f9247f9c25
+      internalID: 1835996180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_131
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 620
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5315f2cd8b8ee40f0831fbfee8da8bac
+      internalID: -556553601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_132
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 620
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97b9a2f3c28a4b28b40943e0b59aaed
+      internalID: -1258206831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_133
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 622
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19e7cd87543940e3ac9b10f641a5438
+      internalID: -1210327507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_134
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 622
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb0153ed265941dbb2547f85e984f5e
+      internalID: -1436664927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_135
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 621
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c98f3127d9ec4a84ae1eb067583fa83
+      internalID: 351827881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_136
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 621
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597a10c84c12843329c890910f979ce0
+      internalID: 1232912023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_137
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 621
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfd0c956b7254e8a8bf7c2ab2c1dce6
+      internalID: 1123559121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_138
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 588
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c25b1efe7114cb49cfd2f342b0019e
+      internalID: 1152868422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_139
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 588
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc99ef017f59e4eeda9c804822627a7b
+      internalID: -1790600264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_140
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 589
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d27229712e74196ad3f267aa072e0e
+      internalID: -1242617871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_141
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 589
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a595a1eb6515426c96afcda5d6c7b48
+      internalID: -476443255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_142
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 590
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c9b7fe93c0745ea8121a9c4c6cac7c
+      internalID: 1974832284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_143
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 556
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4f9d8ad214b477ca324f4670f0df66
+      internalID: -237737469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_144
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 556
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448ca91fb91bb4615915d2ce85ac2571
+      internalID: -203296538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_145
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 557
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0634da04e679343e390b76db5c433bbb
+      internalID: 868643620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_146
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 557
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0fb7fa2269046afa6492bd6000a059
+      internalID: 458886539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_147
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 559
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c22ff514cca418d8a2e5637a7122ca
+      internalID: 1242403372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_148
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 524
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714913ada6cb64d9bb2ea56fc54ad66e
+      internalID: -676863710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_149
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 524
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad659513aff214bed982e8b7c685c553
+      internalID: 860714429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_150
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 525
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34b44ed247664a439ed9202a0f83581
+      internalID: -1502626901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_151
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 525
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86166f96dfe94d579049c36adeec305
+      internalID: 785748174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_152
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 526
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c40b8acc1b3c4f46b8b6a3b6470dc26
+      internalID: -2056333951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_153
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 492
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673a7aec071854d77a119d50c2e736cd
+      internalID: -743982095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_154
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 493
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3def953b45f43c6a2272aa00216f31
+      internalID: 1654774457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_155
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 493
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d4d4278116e41bf87e689694d0670a
+      internalID: -863605989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_156
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 494
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cd33b9068844862a9960afac26c062
+      internalID: -382748536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_157
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 494
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd054f29c44374c4fa7d43d7ed0eeff7
+      internalID: -918701288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_158
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 492
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031ab38751d964519bb5e8778caebbd2
+      internalID: -238031632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_159
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 492
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a71280bb3f314d8783310d081e9d91e
+      internalID: -707598240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_160
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 492
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1409c61a138f14ed4ad04ecea16232ad
+      internalID: -1084825006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_161
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 460
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a4603cfbf924b0c8c817c7aba87b93
+      internalID: 1118153095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_162
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 460
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c6ed5c33b554910a60e5ce334516cc
+      internalID: 575444183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_163
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 461
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92897225a00d14fff9810744ddaaf2f9
+      internalID: -1176154815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_164
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 461
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e745094f2638473e801a82cacbe8894
+      internalID: -1296206830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_165
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 461
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad44451e74f74e2fac23c466b760786
+      internalID: -2002713815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_166
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 428
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de63b740735f3461cbac46c3f5385cb1
+      internalID: -1101107443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_167
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 428
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f76a929b1f24628af948f822368fe0
+      internalID: -1860631506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_168
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 429
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b458f6249c6420aa9df7733104ff60
+      internalID: -487892601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_169
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 429
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5bbe916861c454da65057760294da7
+      internalID: 2075138787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_170
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 431
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca4f376314ed45d7ba11da658b26038
+      internalID: 551175283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_171
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 396
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77f2247cfdac47dab7b471f2eb28957
+      internalID: 1148242976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_172
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 396
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54afb6dada9d3490a847f1838d8a565c
+      internalID: 342687078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_173
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 397
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7240388e48d874438b3891fce4fd7b1d
+      internalID: 1264396929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_174
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 397
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c7ca0568411485185dda6459cfd6c1
+      internalID: 2005377753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_175
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 398
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9cd142f08b64ef4ad4238d87eeebb4
+      internalID: -1786360425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_176
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 369
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b96875de9584409a1232b8f84af1de
+      internalID: -1964901644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_177
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 370
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29176afc748fe4ec6b8bac20af25a7b8
+      internalID: -1835414007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_178
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 337
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efd271883604403990a6e7b68445dac
+      internalID: 1787269028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_179
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 338
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143a0a60a807a47ab8681c656420be3b
+      internalID: 673049622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_180
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 305
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056174ca074094682b7646e761caa73d
+      internalID: 266040380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_181
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 306
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57122a85215442cc88d8bf93172daa7
+      internalID: -139824228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_182
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 273
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88198c339487498893c5d9e6618d3ce
+      internalID: -375142140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_183
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 274
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ab581b28a8946cc92a0a0a00500386
+      internalID: 872328514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_184
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 244
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680d070c832a14771bd7906a50836be1
+      internalID: 627722246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_185
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 243
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e069b28f88544b394613fd8d22bf52
+      internalID: -858094692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_186
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 242
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbfff0b13155406fbbea900d0780817
+      internalID: -2092255152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_187
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 243
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67666e5c2e2d4ec9979b2775d83df83
+      internalID: -495755530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_188
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 242
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20851f476c4147119ebfdb04fbc483f
+      internalID: -1592434494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_189
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 204
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf8bff4e94a7480381deb1232028970
+      internalID: 1262418148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_190
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 205
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6c4c283da364e0aaff2e008a48d0b2
+      internalID: -997286435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_191
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 206
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b1ed3a71d8347d9b1c9bf95ed5a507
+      internalID: 1182720510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_192
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 205
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d7cc7d7e7f340b2b03128e7018175b
+      internalID: -1834084807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_193
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 206
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fdb11d20750409087c9e74ba9bd7a4
+      internalID: -825008976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_194
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 173
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d4d1821a585413e89132d823d8343a
+      internalID: 1093240476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_195
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 173
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d317e76ad2bdc43ad9c01e8433e0212c
+      internalID: 1952723926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_196
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 173
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b09a5f512eb465ea968ecd9c00aa0b
+      internalID: -459121259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_197
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 173
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f51a85908ea4a7c874873a77631702
+      internalID: 673241014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_198
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 173
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6622171ff5beb4a078dc05b4c8cadbd0
+      internalID: -1841691650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_199
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 141
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d264865bdc344fb0a0982c58c7eb21c
+      internalID: -1993046286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_200
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 141
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f99435f64e747db9938f6407a6a7f7
+      internalID: 684197030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_201
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 141
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602ca496b60ef4271940d1c673f23ed8
+      internalID: -352573689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_202
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 141
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6888ac660ca402bbe6b0e9fbe978aa
+      internalID: -445940755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_203
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 141
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc240351d40a440c81bd78f9f80a390
+      internalID: 1139516258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_204
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 112
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca55dcba38ff04378b7a54074c773bce
+      internalID: 451218635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_205
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 114
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0e88cbdef2445c9b5b4173b365ce2e
+      internalID: 689001586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_206
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 114
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba2bfa137cc8426892645fc79844675
+      internalID: 1452656333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_207
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 114
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c0a66434c2847d9a0c6552a48816e2
+      internalID: -66336048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_208
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 114
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af200033f8e3404aa9582f816539267
+      internalID: 944727804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_209
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 114
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8fed8c347a74583a8cc45e76ff34e0
+      internalID: 1031045307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_210
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 113
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e07f05d2dd084201a81e0d9a1e2956f
+      internalID: 138856083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_211
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 80
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4402749d18e9744669a1c606446057f9
+      internalID: -1094439425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_212
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cca9ca7bd5254abcb2ee2cfa3c1ce89
+      internalID: -1298282368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_213
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 81
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8849e54751234ff88774631501b946f
+      internalID: -1477783004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_214
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 82
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6702a82d8380459e88788fa3f8d25e8
+      internalID: 1966184727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_215
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 81
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed13d87f686649d08dfb66de6a46a00
+      internalID: -319144439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_216
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 48
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25feeb224808b4e128ced32a29830f3a
+      internalID: -484931114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_217
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 49
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bd8a6920c5a4604a5f85845e762471
+      internalID: 825091035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_218
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 49
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f562a9c063c7140d78e3a54d40d5e4fa
+      internalID: 338646250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_219
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 49
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba02024ad350479ea636fd10d2bc98b
+      internalID: 1963631018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_220
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 50
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338414b2d473348f295c4821ac6fc4e6
+      internalID: 275628234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_221
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 51
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f159e6b5ecd0b4e17966ed71b3ffa10d
+      internalID: 2146137197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_222
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 49
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d7c9f7265e949938fe2490e2fe5d1c
+      internalID: 1026740666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_223
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91257d53a05414ee88c1f2cdec748d81
+      internalID: 535497281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_224
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 17
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241f3efdfcaa8407ab0c0faf80124b8c
+      internalID: -540748761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_225
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 17
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d21425dc4bb449c086239c4bd1f8ebf
+      internalID: 1385909389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_226
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 17
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953f988073c8b438e99bdde8bb0c1d75
+      internalID: 662995647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_227
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 19
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b1c34963c2f48558f423ad527de887
+      internalID: -2127831461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_228
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 18
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496d24b6e45a44240bd524eeca57b72c
+      internalID: -201253658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_229
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 17
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1ad607f3f114ef18b8b1bd28c9fd84
+      internalID: -1097318370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +4949,237 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hat_cowboy_0: 142936355
+      hat_cowboy_1: 1386284896
+      hat_cowboy_10: 1008765679
+      hat_cowboy_100: 1209618153
+      hat_cowboy_101: 1893084776
+      hat_cowboy_102: 2141730804
+      hat_cowboy_103: 95904709
+      hat_cowboy_104: 1889067164
+      hat_cowboy_105: 1709764695
+      hat_cowboy_106: 1956242929
+      hat_cowboy_107: -1384966869
+      hat_cowboy_108: 1033293908
+      hat_cowboy_109: -1986976879
+      hat_cowboy_11: 1013636716
+      hat_cowboy_110: -1002305208
+      hat_cowboy_111: 599678849
+      hat_cowboy_112: -346130068
+      hat_cowboy_113: -1791012219
+      hat_cowboy_114: 1695911871
+      hat_cowboy_115: 2110826353
+      hat_cowboy_116: -1881471778
+      hat_cowboy_117: 1067123709
+      hat_cowboy_118: 859686291
+      hat_cowboy_119: -1481214798
+      hat_cowboy_12: -932843720
+      hat_cowboy_120: -1217962773
+      hat_cowboy_121: -889808999
+      hat_cowboy_122: -2019735897
+      hat_cowboy_123: -1842483326
+      hat_cowboy_124: -1272227146
+      hat_cowboy_125: -1678479288
+      hat_cowboy_126: -107994511
+      hat_cowboy_127: 537601465
+      hat_cowboy_128: 2063023507
+      hat_cowboy_129: 572736639
+      hat_cowboy_13: 1949132897
+      hat_cowboy_130: 1835996180
+      hat_cowboy_131: -556553601
+      hat_cowboy_132: -1258206831
+      hat_cowboy_133: -1210327507
+      hat_cowboy_134: -1436664927
+      hat_cowboy_135: 351827881
+      hat_cowboy_136: 1232912023
+      hat_cowboy_137: 1123559121
+      hat_cowboy_138: 1152868422
+      hat_cowboy_139: -1790600264
+      hat_cowboy_14: 1506033903
+      hat_cowboy_140: -1242617871
+      hat_cowboy_141: -476443255
+      hat_cowboy_142: 1974832284
+      hat_cowboy_143: -237737469
+      hat_cowboy_144: -203296538
+      hat_cowboy_145: 868643620
+      hat_cowboy_146: 458886539
+      hat_cowboy_147: 1242403372
+      hat_cowboy_148: -676863710
+      hat_cowboy_149: 860714429
+      hat_cowboy_15: 1808581572
+      hat_cowboy_150: -1502626901
+      hat_cowboy_151: 785748174
+      hat_cowboy_152: -2056333951
+      hat_cowboy_153: -743982095
+      hat_cowboy_154: 1654774457
+      hat_cowboy_155: -863605989
+      hat_cowboy_156: -382748536
+      hat_cowboy_157: -918701288
+      hat_cowboy_158: -238031632
+      hat_cowboy_159: -707598240
+      hat_cowboy_16: -1510583107
+      hat_cowboy_160: -1084825006
+      hat_cowboy_161: 1118153095
+      hat_cowboy_162: 575444183
+      hat_cowboy_163: -1176154815
+      hat_cowboy_164: -1296206830
+      hat_cowboy_165: -2002713815
+      hat_cowboy_166: -1101107443
+      hat_cowboy_167: -1860631506
+      hat_cowboy_168: -487892601
+      hat_cowboy_169: 2075138787
+      hat_cowboy_17: 1955813370
+      hat_cowboy_170: 551175283
+      hat_cowboy_171: 1148242976
+      hat_cowboy_172: 342687078
+      hat_cowboy_173: 1264396929
+      hat_cowboy_174: 2005377753
+      hat_cowboy_175: -1786360425
+      hat_cowboy_176: -1964901644
+      hat_cowboy_177: -1835414007
+      hat_cowboy_178: 1787269028
+      hat_cowboy_179: 673049622
+      hat_cowboy_18: 1759977892
+      hat_cowboy_180: 266040380
+      hat_cowboy_181: -139824228
+      hat_cowboy_182: -375142140
+      hat_cowboy_183: 872328514
+      hat_cowboy_184: 627722246
+      hat_cowboy_185: -858094692
+      hat_cowboy_186: -2092255152
+      hat_cowboy_187: -495755530
+      hat_cowboy_188: -1592434494
+      hat_cowboy_189: 1262418148
+      hat_cowboy_19: -1426869883
+      hat_cowboy_190: -997286435
+      hat_cowboy_191: 1182720510
+      hat_cowboy_192: -1834084807
+      hat_cowboy_193: -825008976
+      hat_cowboy_194: 1093240476
+      hat_cowboy_195: 1952723926
+      hat_cowboy_196: -459121259
+      hat_cowboy_197: 673241014
+      hat_cowboy_198: -1841691650
+      hat_cowboy_199: -1993046286
+      hat_cowboy_2: 1804955120
+      hat_cowboy_20: -1670440889
+      hat_cowboy_200: 684197030
+      hat_cowboy_201: -352573689
+      hat_cowboy_202: -445940755
+      hat_cowboy_203: 1139516258
+      hat_cowboy_204: 451218635
+      hat_cowboy_205: 689001586
+      hat_cowboy_206: 1452656333
+      hat_cowboy_207: -66336048
+      hat_cowboy_208: 944727804
+      hat_cowboy_209: 1031045307
+      hat_cowboy_21: 935324793
+      hat_cowboy_210: 138856083
+      hat_cowboy_211: -1094439425
+      hat_cowboy_212: -1298282368
+      hat_cowboy_213: -1477783004
+      hat_cowboy_214: 1966184727
+      hat_cowboy_215: -319144439
+      hat_cowboy_216: -484931114
+      hat_cowboy_217: 825091035
+      hat_cowboy_218: 338646250
+      hat_cowboy_219: 1963631018
+      hat_cowboy_22: -1535456773
+      hat_cowboy_220: 275628234
+      hat_cowboy_221: 2146137197
+      hat_cowboy_222: 1026740666
+      hat_cowboy_223: 535497281
+      hat_cowboy_224: -540748761
+      hat_cowboy_225: 1385909389
+      hat_cowboy_226: 662995647
+      hat_cowboy_227: -2127831461
+      hat_cowboy_228: -201253658
+      hat_cowboy_229: -1097318370
+      hat_cowboy_23: -1261867449
+      hat_cowboy_24: 1528615951
+      hat_cowboy_25: -290572740
+      hat_cowboy_26: 474036792
+      hat_cowboy_27: -1487865944
+      hat_cowboy_28: 2146727220
+      hat_cowboy_29: -1401947071
+      hat_cowboy_3: 421562516
+      hat_cowboy_30: -1701429656
+      hat_cowboy_31: 1548276040
+      hat_cowboy_32: 308737188
+      hat_cowboy_33: -532617907
+      hat_cowboy_34: -1927348986
+      hat_cowboy_35: -1833395900
+      hat_cowboy_36: 1343356974
+      hat_cowboy_37: 401871838
+      hat_cowboy_38: 1056944548
+      hat_cowboy_39: -946193352
+      hat_cowboy_4: -1208353866
+      hat_cowboy_40: -2062098085
+      hat_cowboy_41: 1363308914
+      hat_cowboy_42: -172548285
+      hat_cowboy_43: -921350086
+      hat_cowboy_44: 203106824
+      hat_cowboy_45: 120620894
+      hat_cowboy_46: 1376256367
+      hat_cowboy_47: -1806511130
+      hat_cowboy_48: -294627750
+      hat_cowboy_49: -1135794643
+      hat_cowboy_5: 539624411
+      hat_cowboy_50: 171923386
+      hat_cowboy_51: 237279697
+      hat_cowboy_52: 1067050241
+      hat_cowboy_53: -1547183804
+      hat_cowboy_54: -1348104527
+      hat_cowboy_55: 156754543
+      hat_cowboy_56: 1114432974
+      hat_cowboy_57: 1801220516
+      hat_cowboy_58: -1323090762
+      hat_cowboy_59: -1332537844
+      hat_cowboy_6: -1114273985
+      hat_cowboy_60: 359371671
+      hat_cowboy_61: -2123925914
+      hat_cowboy_62: -40385931
+      hat_cowboy_63: 386541368
+      hat_cowboy_64: 449081524
+      hat_cowboy_65: 952161928
+      hat_cowboy_66: -271905555
+      hat_cowboy_67: 674654555
+      hat_cowboy_68: -789506291
+      hat_cowboy_69: 1858939223
+      hat_cowboy_7: 2018941062
+      hat_cowboy_70: -1498107309
+      hat_cowboy_71: -1956696704
+      hat_cowboy_72: -946760143
+      hat_cowboy_73: 1778208576
+      hat_cowboy_74: 376066400
+      hat_cowboy_75: 78891174
+      hat_cowboy_76: -2003369494
+      hat_cowboy_77: -325455093
+      hat_cowboy_78: -321079164
+      hat_cowboy_79: -23831314
+      hat_cowboy_8: -1602834980
+      hat_cowboy_80: 825493943
+      hat_cowboy_81: -401972008
+      hat_cowboy_82: -1206594659
+      hat_cowboy_83: 323552975
+      hat_cowboy_84: 2041494717
+      hat_cowboy_85: 2067360751
+      hat_cowboy_86: 358980058
+      hat_cowboy_87: 1020422207
+      hat_cowboy_88: 374404684
+      hat_cowboy_89: -1166706892
+      hat_cowboy_9: -877251221
+      hat_cowboy_90: -126710070
+      hat_cowboy_91: -1780272824
+      hat_cowboy_92: -1668912315
+      hat_cowboy_93: 407324921
+      hat_cowboy_94: 1190874197
+      hat_cowboy_95: -663076318
+      hat_cowboy_96: 414349628
+      hat_cowboy_97: 2056210534
+      hat_cowboy_98: -1967426336
+      hat_cowboy_99: -206604991
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

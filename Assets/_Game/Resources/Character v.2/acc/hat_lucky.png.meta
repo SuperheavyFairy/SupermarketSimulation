@@ -3,7 +3,7 @@ guid: cd861dcd4230a4fd091707c94ecec33f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -93,9 +93,4768 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: hat_lucky_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1548
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b8c46edcaa94afb858708eaf664bd9
+      internalID: 2016839577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1549
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcc23d96a82c4ab697d495365469d45
+      internalID: 2130170467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1550
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c77ddfbd3a7420bbeef41cdacbdb30
+      internalID: -1272119679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1548
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23327a24288314e6c849465b3a2c63c5
+      internalID: 1424019255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1548
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf500e320306c48d08b90dc37f0ecc8b
+      internalID: -557930709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1549
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956cf8dd792ea47eb820600a131677da
+      internalID: -192406564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1550
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a43497097f3444897fe9f6e3d42ffc
+      internalID: -1375014984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1548
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3950451eacc44ad7ad1cdbf5062a6c3
+      internalID: -1168183613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1516
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cb048ee2d424e0cb6142d85d75bf8c
+      internalID: -1817630653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1517
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c8906f5f8a648d2bb05e016e8e24c4
+      internalID: 860981971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1518
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a5793c7a1e44aa9b6e9693bd591f16
+      internalID: 1473779880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1516
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb16476ffb9c4ae8844186758cdd7c0
+      internalID: -494855865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1516
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ac5a58f579444379a93dec7972b4d1
+      internalID: 208869267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1517
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfaa5f36434e440d87d11c2612f1193
+      internalID: 1587492872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1518
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a1463fc05af4a2394ac46df6e123e4
+      internalID: -1202539175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1516
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708c27cbcf42641f8bab2fe344abcccb
+      internalID: -1199950813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1484
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce3c6e27eafa4d21baf8de4c4be0be4
+      internalID: -1069837647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1485
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e909d6f53da45228683ddec8827954
+      internalID: -2122659886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1486
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081bede736471487fbc377b6fc0100cb
+      internalID: 235952279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1484
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7dd434de3a94977a99a3736fad0cec
+      internalID: -73967321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1484
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92a2fa4a2e0f47bc9b5c9989ce80526
+      internalID: 1597412585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1485
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d4deea5a7fb4224b295f6ba2e75315
+      internalID: 922781855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1486
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e7e2d2beccc4b9494f9c16884fe189
+      internalID: 845918192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1484
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6860f5d7067004868a4215ba015ae1af
+      internalID: 252192630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1452
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37487cd62b9b541d4a28dfdd5e28c5cd
+      internalID: 1086353572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1453
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9957f878550bf4d16801e6dc882e6065
+      internalID: -1356117546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1454
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb2f4e7cc16c4829acc708891c4daca
+      internalID: -222134299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1452
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc47db627b7ad412cb073644c6781f44
+      internalID: 104605534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_28
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1452
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bddf8c742294b00ad98147421eda5f
+      internalID: 951624264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_29
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1453
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b948de556d24b789e1618c80f06ba7
+      internalID: -278779445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1454
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ca78d594640417dadd965c35b1017a
+      internalID: 74350764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_31
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1452
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b01254314f294b4a8f51abbac20aa51
+      internalID: -2009164284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1420
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e54bdaae745c4ce39a216a7878cd1df
+      internalID: 2030674450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_33
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1419
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d224eae171b9947ea85a15ad7da92b6b
+      internalID: -1419293813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1422
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f77895ecfeea48b088942db4d5ff3bc
+      internalID: 1889912076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_35
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1424
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1c1a2c1a5d0401ab134322af4e6df8
+      internalID: 1808328967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1420
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7398f4ef32bc340d58051b9cbb689a53
+      internalID: -668588718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_37
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1388
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30487f56ec22341019bad4b9dcf20577
+      internalID: 1053823929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_38
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1387
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd4d50a446b540239de014891186745
+      internalID: -892819502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_39
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1390
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6bc3a1fc3ea4b3098bf609ff67c35a
+      internalID: -738035480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_40
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1392
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6517eea81683e4674aa1d986c664c3bc
+      internalID: -310878521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_41
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1388
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d4e69271fe64b8db4d62294f24c534
+      internalID: 1481297015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1356
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45dc8b549af24f26892a01564ce8bb9
+      internalID: -947333489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_43
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1355
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974d13a4e7581470fa6c2c4222f40e38
+      internalID: -1886847406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_44
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1358
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e5dc25fb2904877a36e6252279482b
+      internalID: -577130078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_45
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1360
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636d76253b8e34f079e5c9ad3b4deebe
+      internalID: -700246763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_46
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1356
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de8032e1f45344b3bf1583b0ec1dc8a
+      internalID: -1262027765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_47
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1324
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a02fbff3b77145faa57629a1772928e
+      internalID: 1714004512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_48
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1323
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0798e59b9df4a42958a46de461dd9a17
+      internalID: -1199262714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_49
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1326
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f451f1c61de4980bb619d55fb7f4f1
+      internalID: 756865813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1328
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e037b14c67841e7bac6278b1729bae
+      internalID: 1812154896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_51
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1324
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32a19837833f4533b423d9e33b9e79d
+      internalID: 2019631004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1293
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39b8d93d6a6c446aa21644020ec47b3
+      internalID: 709068866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_53
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1292
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c6ff28b1d78404b9e3f29cf7208417
+      internalID: -1108127009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_54
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1293
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5524b1f8ab445cea85119c8d87af50
+      internalID: -1563900143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_55
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1293
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923a6a5c05f8b4d568e35286dbc49845
+      internalID: 410160742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_56
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1293
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdcaacd13bd5449f8f9494c28b3174e
+      internalID: -184702199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_57
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1261
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb77419771eec41de89d3244502a31bf
+      internalID: 1677502162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_58
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1262
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04aa7847fe014767bcde88f9c92fc1b
+      internalID: -1003942405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_59
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1262
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bc51357d4574dfa942de936eead82b
+      internalID: 1942266697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_60
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1261
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1d85f3d13b84df8a67766e0b44bac6
+      internalID: 1448646423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_61
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1261
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90de77e63956a4a8fa1a8aa1c3ee4a49
+      internalID: 892494385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_62
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1229
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5a766a4288c4ad6908c4e4208b55dd
+      internalID: -658325488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_63
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1228
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8087aadeaae1a462e9b2767deda5f89a
+      internalID: -1990737750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_64
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1228
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70489227ca04944eb815343a4ccfd5f7
+      internalID: -1140588604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_65
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1229
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747e09e83619f418c81d7832fb4cd227
+      internalID: -913700805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_66
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1229
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680498c1d4df24287bea9fc9a6b81337
+      internalID: 1078547770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_67
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1197
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbd06b725b7d44848e989b3f7f83a80
+      internalID: -820054142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_68
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1196
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad34c32d2c3974afba3fead5ca50f7ca
+      internalID: -1555102765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_69
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1196
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c273724c3d4649c49571bbfe4c14f5f
+      internalID: -839959871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_70
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1197
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143b7a58ecc2d41609d80db90379268b
+      internalID: -723625861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_71
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1197
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5046f05c9a96b4eb98d80c944064b790
+      internalID: -117137591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_72
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1164
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f7c20a24b484fd4b77479dffacad2d
+      internalID: 455681264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_73
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1165
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5e86476e8784bf2891ba08c5f4e92b
+      internalID: -1328603002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_74
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1166
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ca40b7978e2485e9c02b904bc03c63
+      internalID: -1558518065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_75
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1164
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65626ea6e4a6f44aebbefad604666459
+      internalID: 1821707990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_76
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1164
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5883a6db65ed24ac0851783619b6fc74
+      internalID: 1566765886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_77
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1165
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f28a909847464b78869f4753b1f9a50
+      internalID: 1556832139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_78
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1166
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e1592dd9637430197917bdc7c26767
+      internalID: 738303205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_79
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1164
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd28ac6f5d714605866d73ed2aefd85
+      internalID: 1565888353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_80
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1132
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ceb958faeb41431d966a8ef75885a9b
+      internalID: -742991885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_81
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1133
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3821d10bb81904769afb3f123a934605
+      internalID: -13847502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_82
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1134
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea9bcc4560054c98a75a4ed620b9a8d
+      internalID: -1357407015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_83
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1132
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b9a26ac096a49a08bdf8b768e78681
+      internalID: 1675012589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_84
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1132
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ebf1e62966141208e345e1fb31f9b4
+      internalID: 54539135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_85
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1133
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089557ff8f3be440e853849a6ed4cc0a
+      internalID: -1553830280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_86
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1134
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39287f7f76e644a62859bec25d86b92a
+      internalID: 929350783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_87
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1132
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf704a48606e74787b3b4749e8ee0d71
+      internalID: 494016639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_88
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1100
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807ff3207eb744151a765d72ec1b478a
+      internalID: -557642700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_89
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1101
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f272c8fb48f4c6eb0ff2c5b1a32e96
+      internalID: -1903937692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_90
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1102
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1103cf800498c4045a18dc0e9b32a618
+      internalID: -1024156907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_91
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1100
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c936cb05683724a88a1e61335c86ade2
+      internalID: 927796103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_92
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1100
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21758fb3948b54282a16f9aa6fca7cd6
+      internalID: 903524183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_93
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1101
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd9bd525da9f499db556cab89cb5c91
+      internalID: -742468891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_94
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1102
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b58aa0122b045ebbae800fc7d60be8
+      internalID: -364609126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_95
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1100
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a9e3b1e0cc642b8b92b2548d76ba45
+      internalID: 181302788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_96
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1068
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbcdad502dc74bbfb05552e4da7c506
+      internalID: 342509815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_97
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1069
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87017f279eea341f6b72f93f7577ec20
+      internalID: -665333672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_98
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1070
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fcee03e2101486bb8c881886d46bff
+      internalID: 1699774950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_99
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1068
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e43d000c0484963bae4ab8ad7f9bdd
+      internalID: 273850916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_100
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1068
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca09c8a54a1524d2caba561622af7090
+      internalID: -1633254746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_101
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1069
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ac01845c8264ba5af7b921a9a921c5
+      internalID: -1998852010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_102
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1070
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0829fbc34ac5c4118bef5834c8ac5e0b
+      internalID: -605955344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_103
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1068
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f24babed3c04de2bc13d100692daa9
+      internalID: 286952730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_104
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1036
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acf133ded0a04195aae5a24f63df559
+      internalID: 380078526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_105
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1035
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f442ecb9ef2814aaf93d10427ae37c17
+      internalID: 82566185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_106
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1035
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55dcdb0280e8441fc912c0dd516ffa38
+      internalID: -187604016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_107
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1036
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b7d331d319a47bab892b9669c0432b
+      internalID: -1819611206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_108
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1004
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8656c426f52714372a2c73f5afcbd847
+      internalID: -1165814257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_109
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1005
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b549144f245e04716b601e5691f2c042
+      internalID: -681309990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_110
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1005
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92922c51201784d93b618c020ba34e03
+      internalID: -1764975096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_111
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1003
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9610b7710c440e28baaa662e0c6c92
+      internalID: 1336657561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_112
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 972
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9394ca98d49b4ebebd64e11990c1f18
+      internalID: 1968281892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_113
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 971
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e945687b5c1fb4398ae26d405279b80f
+      internalID: 1434832422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_114
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 971
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281436c9ec7f14cb5b76eceb51f43c3f
+      internalID: -302902616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_115
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 971
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16d4edf27a9245df8cf4594399eb318
+      internalID: -713955863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_116
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 940
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef79f15a7bde440a39d41d05f9c2dac0
+      internalID: 1017590825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_117
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 939
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23da9b2073bd647c89ee8b0c0e010182
+      internalID: 2009381101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_118
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 939
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa0e43b36e47486f9eca2fff41f44ae
+      internalID: -1100107212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_119
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 939
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d98baa765ac469db2cdb7fc3552e88
+      internalID: 1345182926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_120
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 907
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6665199e0f16c4ee49536b8cededa521
+      internalID: 1651771252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_121
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 877
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df2051814cfa4cb5a6d584a85f7179c
+      internalID: 1280099113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_122
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 843
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e1629b3345c4b66ab94948d19e0fd7
+      internalID: -800477566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_123
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 811
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7733e0abf6de14b80a166dbed2e47d4e
+      internalID: -455160695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_124
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 781
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675f166d9bda6400c92f0df716dab740
+      internalID: 1782990394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_125
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 749
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c03597cacc1c4e789234f65d8eba79b
+      internalID: -1988579547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_126
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 717
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccc92d0728b5470dadfd81a609106a0
+      internalID: 2062351340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_127
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 685
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01ee80185e364bbc87246f385cdd328
+      internalID: -1159016667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_128
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 640
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd38397221d145febafb7ee52d17d95
+      internalID: -569768159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_129
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 640
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22c4e5a451c9408a99519b6c1e670d3
+      internalID: 1773851901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_130
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 620
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6074240347f47d0bba7fff6a4e2c31
+      internalID: 1614601039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_131
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 621
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f2fb1470df54ce6b9a9d8f1410404f
+      internalID: 1390511974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_132
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 621
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0faf17c70fb24853ac4bfd74f5ae8c2
+      internalID: 878100539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_133
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 622
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8ceec81db2a4bfb8535b0bf491986d
+      internalID: 1347660435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_134
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 622
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02637a9c04d6d47fd8b31ea6f0d6ba2f
+      internalID: -1472493434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_135
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 621
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dca5be46357846aa8f9677dfc64d5a3
+      internalID: -1215831461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_136
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 621
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f42e0fd5ce94a958e7819f67e0f300
+      internalID: -825818530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_137
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 621
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b49d1f4507141e9aae17677ea0e791
+      internalID: -609562026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_138
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 588
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50e2600568a74b01a1538f1157f1ab2
+      internalID: -379889281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_139
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 588
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b11c937390e849f69c71250ab101759
+      internalID: -1895467022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_140
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 589
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74e319f82cfe4bf69b4d26a11d0ac99
+      internalID: -652822264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_141
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 589
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa2b5d01ff2f44cda710955e91d2529
+      internalID: 152005896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_142
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 590
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6c76cc0266743518255e158f57b43b
+      internalID: -718145627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_143
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 556
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06679856350548b2a547f71d74a7276
+      internalID: -23341645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_144
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 556
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbc02f7d44f14ec199a59c874e17914
+      internalID: -138173100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_145
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 557
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6187a26387f4964af11c8da5275bf7
+      internalID: 1528915655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_146
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 557
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3666769ebfb74556aa6d3d887a6c612
+      internalID: -1490093801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_147
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 559
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1524c04d68e44054a786d1dbb1992f2
+      internalID: 1199320859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_148
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 524
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b060d91bd732b430992b7dabba967cfc
+      internalID: -478929124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_149
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 525
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32999d10e27a4422c813f2039cf39030
+      internalID: -1197554996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_150
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 525
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cd8bcfe8b2a4c1584039f10b0c8b42
+      internalID: 681720671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_151
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 525
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd31aa3da583a40b4abc7eeab13c1e89
+      internalID: 804744073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_152
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 527
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fd736af41d44ceca8faedbb5b3cb01
+      internalID: -680307502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_153
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 492
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7249f68c7f6d34022b11b0f1f9e5f3e5
+      internalID: -1364662967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_154
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 493
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6568be58ebe42436c99d0460bbe5103e
+      internalID: 1425437047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_155
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 493
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f705b0e71a3480b8b77585784368f5
+      internalID: 1939564236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_156
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 494
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79319a3d691eb43b5b268e16b4428f71
+      internalID: 611877367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_157
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 493
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1e84b7e64f24c4595369681d0cd02e
+      internalID: 1305016954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_158
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 493
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd0259ce1ab544308c1a917fd2f098a
+      internalID: -327990211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_159
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 493
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb2d508133c3469f864b839a2cd29d9
+      internalID: -1755428531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_160
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 460
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1142aae50368b46139f8d13fb0a9c607
+      internalID: 797888217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_161
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 460
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab579dfa717745bca5d790853173931
+      internalID: 65458311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_162
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 461
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d449f8472594c3980b43c776eab2d5
+      internalID: -182468363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_163
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 461
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bcd00f9efb74158ba00b2f74440e2b
+      internalID: 919291045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_164
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 461
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5773c3e94e2402ea68f784947ac082
+      internalID: -1549244308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_165
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 428
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2b8b2df2b7c477283d1dcfcbd8ab0d
+      internalID: 887939356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_166
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 428
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e232686d350847679b5cfbd11a4a6f6
+      internalID: 812611271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_167
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 429
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faed8984cde2b4718bdc8528e05daaee
+      internalID: -1935922047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_168
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 429
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e27f957fa6f14684a3ca8a856a66804
+      internalID: -224800637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_169
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 431
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d0ff3ab63654226a47725a6ffc65a2
+      internalID: 926382552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_170
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 396
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535045ae3e3bb4eaa9df3dbf3e277599
+      internalID: -795840365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_171
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 396
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6344a75dd272c4d27bdf4186a78dbffc
+      internalID: 1856360762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_172
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 397
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264a5219c26e2421aafe68201f6e4322
+      internalID: -303172587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_173
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 397
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da55364cf4c444da2b8c593b07c1c8ea
+      internalID: 340443324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_174
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 399
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88dcb7a3ea1048dbae6e0ddb261f0aa
+      internalID: -723300455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_175
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 369
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1538c1cff0e544741b7cdef0be7863a1
+      internalID: -1284076172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_176
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 370
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b99f93bd1ba48969b413099b0963b6
+      internalID: 585972406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_177
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 337
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01d09ea74e3d4da58f143b657c9980b
+      internalID: -578641656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_178
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 338
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ac7d0b719524588a97510cf13bd1bc
+      internalID: -1688920138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_179
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 305
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9de883973ae449fba533a3a04c525bc
+      internalID: -974746759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_180
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 306
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d8fddf94e2d496b9a5cb680b8ab844
+      internalID: -1918443084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_181
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 273
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077a47440257744bdad34d664792b3b3
+      internalID: 536035373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_182
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 274
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb3d844c9077481b92378f17af6d6ef
+      internalID: -1788383518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_183
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 244
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0ed15633dd04786aa3f2ac60be6997
+      internalID: 964491265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_184
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 243
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e70723ad66f4e99babce0048dbd93e
+      internalID: 1038598436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_185
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 242
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffe05abbe4174caea51604cb443a96f
+      internalID: 877583030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_186
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 243
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c2fcb00248747989cf69c42bbc6ecc
+      internalID: 1527865026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_187
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 242
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f631337932e4152bba285931328338
+      internalID: -1999189878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_188
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 204
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbed91693872c48de8cad5ae64d93055
+      internalID: 2028173231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_189
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 205
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24570b3affef2460193f01e1507037d3
+      internalID: -1912836171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_190
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 206
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85c5817863f344bbb3aaa75bcf27fab
+      internalID: 471051083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_191
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 205
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef6ee8b6278f478185265935cd536df
+      internalID: -819447431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_192
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 206
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772d6d8b0a11749afa6b4f5532ef18cf
+      internalID: 967843107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_193
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 173
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f14ce370be14efe99e27daf4eefe7f
+      internalID: -1927379291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_194
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 173
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7b91c81843840ee9a721f0e0a8f99b
+      internalID: 1926898388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_195
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 173
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668eccf3ba05a4455ae11398d7198525
+      internalID: 1438276329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_196
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 173
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b96d070e524425988e1951b9bd4ecb
+      internalID: -805722889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_197
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 173
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a610d6576da9481fa48b440b37897ed
+      internalID: 356356694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_198
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 141
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2064f4be2bf464abdd469467081a70
+      internalID: -932031297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_199
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 141
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6da6c0264ebf4a268b847d8f021b41d
+      internalID: 1293792747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_200
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 141
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6133d9152fbb94863949aebc1155625e
+      internalID: -1740048846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_201
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 141
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4608fd6a21c7444fbb430f4c4893ba70
+      internalID: 1169003125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_202
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 141
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce2bc2b09efd424ca23f87912fdcfd5
+      internalID: 432649554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_203
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 112
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168c8d257741f4602b5e94c90d412013
+      internalID: 1625369264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_204
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 114
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1d33f6775654d64957397ce59d4552
+      internalID: -1239901256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_205
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 114
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4bb53a1d2be40739e82fede5ad153a
+      internalID: -487026642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_206
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 114
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835d5adaac4104f58a7f68c1b66354d8
+      internalID: 322982193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_207
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 114
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdbb956929bf4f94b3959abbc2ab751
+      internalID: -545704222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_208
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 113
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9368a7d2bccbd40f2a2e4a0837a1d58a
+      internalID: -1302309225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_209
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 80
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a7c0b3be3464ab0bd0b5f697dcabbc
+      internalID: -803168521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_210
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578e0679fb8564ded800d7e208e65ee3
+      internalID: -263730241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_211
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 81
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa4e561ae64044309d4441ff7ce275b
+      internalID: -18425315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_212
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 82
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b667de79a515b4fb2adcdeb0e796ed68
+      internalID: -1464866551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_213
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 81
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fe170d8ccbc49ba8937ac46acf057c
+      internalID: -1572464782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_214
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 48
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3208cc244e1714d7589599f35c583c45
+      internalID: 1969445279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_215
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 49
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faff14b875b814de1b869fdcdc4868b0
+      internalID: 1946053980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_216
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 49
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6675ad7ad185466a99cbd509025ca40
+      internalID: 1808783398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_217
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 50
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888205255239f4591a7c9305bc123e26
+      internalID: -1094450845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_218
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fc686450a5744b0b60a35881444425
+      internalID: -995023846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_219
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 49
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc00d130fe4684ff6bd5b10ca71c26fc
+      internalID: -517474590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_220
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d182de9042a4f35ab329cdbd0b93b5
+      internalID: -1727569521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_221
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 17
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8849f624340d348d88b2663b61dfb6ca
+      internalID: -1065339923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_222
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 17
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29631edd5c9b4b08898d01bd323f323
+      internalID: 1560156956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_223
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1dfbd22695641f4959ba80f136ec3e
+      internalID: 2125691272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_224
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 18
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f2b56bca93d462998fc9e71c4dac84
+      internalID: 1024083539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_225
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 17
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442a48445f6414c7dbb4b18ee37909a2
+      internalID: -1251549746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +4865,233 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hat_lucky_0: 2016839577
+      hat_lucky_1: 2130170467
+      hat_lucky_10: 1473779880
+      hat_lucky_100: -1633254746
+      hat_lucky_101: -1998852010
+      hat_lucky_102: -605955344
+      hat_lucky_103: 286952730
+      hat_lucky_104: 380078526
+      hat_lucky_105: 82566185
+      hat_lucky_106: -187604016
+      hat_lucky_107: -1819611206
+      hat_lucky_108: -1165814257
+      hat_lucky_109: -681309990
+      hat_lucky_11: -494855865
+      hat_lucky_110: -1764975096
+      hat_lucky_111: 1336657561
+      hat_lucky_112: 1968281892
+      hat_lucky_113: 1434832422
+      hat_lucky_114: -302902616
+      hat_lucky_115: -713955863
+      hat_lucky_116: 1017590825
+      hat_lucky_117: 2009381101
+      hat_lucky_118: -1100107212
+      hat_lucky_119: 1345182926
+      hat_lucky_12: 208869267
+      hat_lucky_120: 1651771252
+      hat_lucky_121: 1280099113
+      hat_lucky_122: -800477566
+      hat_lucky_123: -455160695
+      hat_lucky_124: 1782990394
+      hat_lucky_125: -1988579547
+      hat_lucky_126: 2062351340
+      hat_lucky_127: -1159016667
+      hat_lucky_128: -569768159
+      hat_lucky_129: 1773851901
+      hat_lucky_13: 1587492872
+      hat_lucky_130: 1614601039
+      hat_lucky_131: 1390511974
+      hat_lucky_132: 878100539
+      hat_lucky_133: 1347660435
+      hat_lucky_134: -1472493434
+      hat_lucky_135: -1215831461
+      hat_lucky_136: -825818530
+      hat_lucky_137: -609562026
+      hat_lucky_138: -379889281
+      hat_lucky_139: -1895467022
+      hat_lucky_14: -1202539175
+      hat_lucky_140: -652822264
+      hat_lucky_141: 152005896
+      hat_lucky_142: -718145627
+      hat_lucky_143: -23341645
+      hat_lucky_144: -138173100
+      hat_lucky_145: 1528915655
+      hat_lucky_146: -1490093801
+      hat_lucky_147: 1199320859
+      hat_lucky_148: -478929124
+      hat_lucky_149: -1197554996
+      hat_lucky_15: -1199950813
+      hat_lucky_150: 681720671
+      hat_lucky_151: 804744073
+      hat_lucky_152: -680307502
+      hat_lucky_153: -1364662967
+      hat_lucky_154: 1425437047
+      hat_lucky_155: 1939564236
+      hat_lucky_156: 611877367
+      hat_lucky_157: 1305016954
+      hat_lucky_158: -327990211
+      hat_lucky_159: -1755428531
+      hat_lucky_16: -1069837647
+      hat_lucky_160: 797888217
+      hat_lucky_161: 65458311
+      hat_lucky_162: -182468363
+      hat_lucky_163: 919291045
+      hat_lucky_164: -1549244308
+      hat_lucky_165: 887939356
+      hat_lucky_166: 812611271
+      hat_lucky_167: -1935922047
+      hat_lucky_168: -224800637
+      hat_lucky_169: 926382552
+      hat_lucky_17: -2122659886
+      hat_lucky_170: -795840365
+      hat_lucky_171: 1856360762
+      hat_lucky_172: -303172587
+      hat_lucky_173: 340443324
+      hat_lucky_174: -723300455
+      hat_lucky_175: -1284076172
+      hat_lucky_176: 585972406
+      hat_lucky_177: -578641656
+      hat_lucky_178: -1688920138
+      hat_lucky_179: -974746759
+      hat_lucky_18: 235952279
+      hat_lucky_180: -1918443084
+      hat_lucky_181: 536035373
+      hat_lucky_182: -1788383518
+      hat_lucky_183: 964491265
+      hat_lucky_184: 1038598436
+      hat_lucky_185: 877583030
+      hat_lucky_186: 1527865026
+      hat_lucky_187: -1999189878
+      hat_lucky_188: 2028173231
+      hat_lucky_189: -1912836171
+      hat_lucky_19: -73967321
+      hat_lucky_190: 471051083
+      hat_lucky_191: -819447431
+      hat_lucky_192: 967843107
+      hat_lucky_193: -1927379291
+      hat_lucky_194: 1926898388
+      hat_lucky_195: 1438276329
+      hat_lucky_196: -805722889
+      hat_lucky_197: 356356694
+      hat_lucky_198: -932031297
+      hat_lucky_199: 1293792747
+      hat_lucky_2: -1272119679
+      hat_lucky_20: 1597412585
+      hat_lucky_200: -1740048846
+      hat_lucky_201: 1169003125
+      hat_lucky_202: 432649554
+      hat_lucky_203: 1625369264
+      hat_lucky_204: -1239901256
+      hat_lucky_205: -487026642
+      hat_lucky_206: 322982193
+      hat_lucky_207: -545704222
+      hat_lucky_208: -1302309225
+      hat_lucky_209: -803168521
+      hat_lucky_21: 922781855
+      hat_lucky_210: -263730241
+      hat_lucky_211: -18425315
+      hat_lucky_212: -1464866551
+      hat_lucky_213: -1572464782
+      hat_lucky_214: 1969445279
+      hat_lucky_215: 1946053980
+      hat_lucky_216: 1808783398
+      hat_lucky_217: -1094450845
+      hat_lucky_218: -995023846
+      hat_lucky_219: -517474590
+      hat_lucky_22: 845918192
+      hat_lucky_220: -1727569521
+      hat_lucky_221: -1065339923
+      hat_lucky_222: 1560156956
+      hat_lucky_223: 2125691272
+      hat_lucky_224: 1024083539
+      hat_lucky_225: -1251549746
+      hat_lucky_23: 252192630
+      hat_lucky_24: 1086353572
+      hat_lucky_25: -1356117546
+      hat_lucky_26: -222134299
+      hat_lucky_27: 104605534
+      hat_lucky_28: 951624264
+      hat_lucky_29: -278779445
+      hat_lucky_3: 1424019255
+      hat_lucky_30: 74350764
+      hat_lucky_31: -2009164284
+      hat_lucky_32: 2030674450
+      hat_lucky_33: -1419293813
+      hat_lucky_34: 1889912076
+      hat_lucky_35: 1808328967
+      hat_lucky_36: -668588718
+      hat_lucky_37: 1053823929
+      hat_lucky_38: -892819502
+      hat_lucky_39: -738035480
+      hat_lucky_4: -557930709
+      hat_lucky_40: -310878521
+      hat_lucky_41: 1481297015
+      hat_lucky_42: -947333489
+      hat_lucky_43: -1886847406
+      hat_lucky_44: -577130078
+      hat_lucky_45: -700246763
+      hat_lucky_46: -1262027765
+      hat_lucky_47: 1714004512
+      hat_lucky_48: -1199262714
+      hat_lucky_49: 756865813
+      hat_lucky_5: -192406564
+      hat_lucky_50: 1812154896
+      hat_lucky_51: 2019631004
+      hat_lucky_52: 709068866
+      hat_lucky_53: -1108127009
+      hat_lucky_54: -1563900143
+      hat_lucky_55: 410160742
+      hat_lucky_56: -184702199
+      hat_lucky_57: 1677502162
+      hat_lucky_58: -1003942405
+      hat_lucky_59: 1942266697
+      hat_lucky_6: -1375014984
+      hat_lucky_60: 1448646423
+      hat_lucky_61: 892494385
+      hat_lucky_62: -658325488
+      hat_lucky_63: -1990737750
+      hat_lucky_64: -1140588604
+      hat_lucky_65: -913700805
+      hat_lucky_66: 1078547770
+      hat_lucky_67: -820054142
+      hat_lucky_68: -1555102765
+      hat_lucky_69: -839959871
+      hat_lucky_7: -1168183613
+      hat_lucky_70: -723625861
+      hat_lucky_71: -117137591
+      hat_lucky_72: 455681264
+      hat_lucky_73: -1328603002
+      hat_lucky_74: -1558518065
+      hat_lucky_75: 1821707990
+      hat_lucky_76: 1566765886
+      hat_lucky_77: 1556832139
+      hat_lucky_78: 738303205
+      hat_lucky_79: 1565888353
+      hat_lucky_8: -1817630653
+      hat_lucky_80: -742991885
+      hat_lucky_81: -13847502
+      hat_lucky_82: -1357407015
+      hat_lucky_83: 1675012589
+      hat_lucky_84: 54539135
+      hat_lucky_85: -1553830280
+      hat_lucky_86: 929350783
+      hat_lucky_87: 494016639
+      hat_lucky_88: -557642700
+      hat_lucky_89: -1903937692
+      hat_lucky_9: 860981971
+      hat_lucky_90: -1024156907
+      hat_lucky_91: 927796103
+      hat_lucky_92: 903524183
+      hat_lucky_93: -742468891
+      hat_lucky_94: -364609126
+      hat_lucky_95: 181302788
+      hat_lucky_96: 342509815
+      hat_lucky_97: -665333672
+      hat_lucky_98: 1699774950
+      hat_lucky_99: 273850916
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
