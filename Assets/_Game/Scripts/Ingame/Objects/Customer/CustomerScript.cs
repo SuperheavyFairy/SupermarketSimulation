@@ -4,14 +4,57 @@ using UnityEngine;
 
 public class CustomerScript : MonoBehaviour
 {   
-    public CustomerRouteScript routes;
+    // Animation and movement variables
+
+    [SerializeField] public CustomerRouteScript routes;
     private List<GameObject> myRoute;
     private List<Vector2> velocities;
     private int nextPointIndex = 1;
     private Animator anim;
     private Rigidbody2D rb;
     private Transform nextPoint;
-    public float speed = 2;
+    [SerializeField] public float speed = 2;
+
+    // List of stuff customers can buy
+
+    // Event
+    // [SerializeField] public EventScript event;
+
+    // Customer stuff demand parameters
+    [SerializeField] private static int foodDemandParam = 1;
+    [SerializeField] private static int drinkDemandParam = 1;
+    [SerializeField] private static int clothesDemandParam = 2;
+
+    // Customer maximum price acceptance 
+    [SerializeField] private static int deltaPrice = 10;
+    private int maxPriceFood = 30 + deltaPrice * foodDemandParam;
+    private int maxPriceDrink = 20 + deltaPrice * drinkDemandParam;
+    private int maxPriceClothes = 50 + deltaPrice * clothesDemandParam;
+
+    // Customer maximum products buying
+    [SerializeField] private static int deltaProducts = 1;
+    private int maxNumberFood = 1 + deltaProducts * foodDemandParam;
+    private int maxNumberDrink = 1 + deltaProducts * drinkDemandParam;
+    private int maxNumberClothes = 1 + deltaProducts * clothesDemandParam;
+
+    // public CustomerScript(EventScript eventScript)
+    // {
+    //     // Customer demand
+    //     foodDemandParam = eventScript.GetFoodDemand();
+    //     drinkDemandParam = eventScript.GetDrinkDemand();
+    //     clothesDemandParam = eventScript.GetClothesDemand();
+
+    //     // Customer maximum price acceptance
+    //     maxPriceFood = 30 + deltaPrice * foodDemandParam;
+    //     maxPriceDrink = 20 + deltaPrice * drinkDemandParam;
+    //     maxPriceClothes = 50 + deltaPrice * clothesDemandParam;
+
+    //     // Customer maximum products buying
+    //     maxNumberFood = 1 + deltaProducts * foodDemandParam;
+    //     maxNumberDrink = 1 + deltaProducts * drinkDemandParam;
+    //     maxNumberClothes = 1 + deltaProducts * clothesDemandParam;
+    // }
+
 
     void Start()
     {
