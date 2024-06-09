@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-public delegate void RemoveItem(int id);
 public class CanvasGameplay : UICanvas{
 
     [SerializeField] string levelPrefabPrefix;
+    [SerializeField] ShelfManager shelfManager;
     [SerializeField] StorageManager storageManager;
+    [SerializeField] StoreManager storeManager;
     public TMPro.TextMeshProUGUI cashText, gemText;
     int cash, gem;
 
@@ -62,4 +62,10 @@ public class CanvasGameplay : UICanvas{
         childManager.Open<SubcanvasPurchase>();
     }
 
+    public void ToShelf(ItemData data, int count){
+        shelfManager.Add(data, count);
+    }
+    public void ToStorage(ItemData data, int count){
+        storageManager.Add(data, count);
+    }
 }

@@ -8,11 +8,9 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     int cooldown = 20;
     int currentCooldown = 20;
-    NonExpirableItem prefab;
     void Awake()
     {
         Time.fixedDeltaTime = 1f/20;
-        prefab = Resources.LoadAll<NonExpirableItem>("Goods")[0];
     }
 
     // Update is called once per frame
@@ -22,7 +20,7 @@ public class Test : MonoBehaviour
         if(currentCooldown>0){
             return;
         }
-        inventory.Add(prefab, 1);
+        
         currentCooldown = 20;
     }
 }

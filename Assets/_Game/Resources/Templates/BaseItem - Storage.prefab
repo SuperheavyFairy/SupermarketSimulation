@@ -1596,10 +1596,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemImage: {fileID: 8630368493448758819}
   itemName: {fileID: 1493781934795375081}
-  count: {fileID: 116666326553411038}
+  countText: {fileID: 116666326553411038}
   price: {fileID: 1758510280550280486}
-  addButton: {fileID: 7965716472501847746}
-  removeButton: {fileID: 4685814325679630616}
   content: {fileID: 4600188884808493384}
 --- !u!1 &8592046862978954530
 GameObject:
