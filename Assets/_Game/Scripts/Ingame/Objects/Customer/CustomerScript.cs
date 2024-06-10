@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using EventNamespace;
 
 public class CustomerScript : MonoBehaviour
 {   
@@ -15,45 +16,50 @@ public class CustomerScript : MonoBehaviour
     private Transform nextPoint;
     [SerializeField] public float speed = 2;
 
-    // List of stuff customers can buy
-
     // Event
-    // [SerializeField] public EventScript event;
+    public EventScript event;
 
     // Customer stuff demand parameters
-    [SerializeField] private static int foodDemandParam = 1;
-    [SerializeField] private static int drinkDemandParam = 1;
-    [SerializeField] private static int clothesDemandParam = 2;
+    [SerializeField] private int foodDemandParam = 1;
+    [SerializeField] private int drinkDemandParam = 1;
+    [SerializeField] private int clothesDemandParam = 2;
 
     // Customer maximum price acceptance 
-    [SerializeField] private static int deltaPrice = 10;
-    private int maxPriceFood = 30 + deltaPrice * foodDemandParam;
-    private int maxPriceDrink = 20 + deltaPrice * drinkDemandParam;
-    private int maxPriceClothes = 50 + deltaPrice * clothesDemandParam;
+    [SerializeField] private int deltaPrice = 10;
+    private int maxPriceFood;
+    private int maxPriceDrink;
+    private int maxPriceClothes;
 
     // Customer maximum products buying
-    [SerializeField] private static int deltaProducts = 1;
-    private int maxNumberFood = 1 + deltaProducts * foodDemandParam;
-    private int maxNumberDrink = 1 + deltaProducts * drinkDemandParam;
-    private int maxNumberClothes = 1 + deltaProducts * clothesDemandParam;
+    [SerializeField] private int deltaProducts = 1;
+    private int maxNumberFood;
+    private int maxNumberDrink;
+    private int maxNumberClothes;
 
-    // public CustomerScript(EventScript eventScript)
-    // {
-    //     // Customer demand
-    //     foodDemandParam = eventScript.GetFoodDemand();
-    //     drinkDemandParam = eventScript.GetDrinkDemand();
-    //     clothesDemandParam = eventScript.GetClothesDemand();
+    public CustomerScript(EventScript event)
+    {
+        this.event = event;
 
-    //     // Customer maximum price acceptance
-    //     maxPriceFood = 30 + deltaPrice * foodDemandParam;
-    //     maxPriceDrink = 20 + deltaPrice * drinkDemandParam;
-    //     maxPriceClothes = 50 + deltaPrice * clothesDemandParam;
+        if (event.GetType == EventType.Covid)
+        {
+            foodDemandParam += event.GetFoodFactor * event.GetSeverity;
+            drinkDemandParam += event.GetDrinkFactor * event.GetSeverity;
 
-    //     // Customer maximum products buying
-    //     maxNumberFood = 1 + deltaProducts * foodDemandParam;
-    //     maxNumberDrink = 1 + deltaProducts * drinkDemandParam;
-    //     maxNumberClothes = 1 + deltaProducts * clothesDemandParam;
-    // }
+        }
+        else if (event.GetType == EventType.Drought)
+        {
+            drinkDemandParam += event.GetDrinkFactor * event.GetSeverity;
+        }
+        // Customer maximum price acceptance
+        maxPriceFood = 30 + deltaPrice * foodDemandParam;
+        maxPriceDrink = 20 + deltaPrice * drinkDemandParam;
+        maxPriceClothes = 50 + deltaPrice * clothesDemandParam;
+
+        // Customer maximum products buying
+        maxNumberFood = 1 + deltaProducts * foodDemandParam;
+        maxNumberDrink = 1 + deltaProducts * drinkDemandParam;
+        maxNumberClothes = 1 + deltaProducts * clothesDemandParam;
+    }
 
 
     void Start()

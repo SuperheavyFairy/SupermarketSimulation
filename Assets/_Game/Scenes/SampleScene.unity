@@ -410,6 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbe4208793d74494c8a916b7b7020fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  importPrice: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +493,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &728711108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 728711110}
+  - component: {fileID: 728711109}
+  m_Layer: 0
+  m_Name: Event
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &728711109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728711108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f48cae4387ce4d1fa95f9a3c7a6b038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &728711110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728711108}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 811.9111, y: 541.4764, z: -9.308107}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &967058990
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,6 +581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eba9ddcc5c79341eda8f113aaf543011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  importPrice: 0
 --- !u!1 &1371933432
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,6 +626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b131d38937bab4f99bf7ceb2033ac19e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  importPrice: 0
 --- !u!1 &1384576290
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,6 +896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b31d34a6b26e54652bfa73373584bd08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  importPrice: 0
 --- !u!1 &1897185433
 GameObject:
   m_ObjectHideFlags: 0
@@ -928,3 +976,4 @@ SceneRoots:
   - {fileID: 1420190673}
   - {fileID: 476873168}
   - {fileID: 1602342209}
+  - {fileID: 728711110}
