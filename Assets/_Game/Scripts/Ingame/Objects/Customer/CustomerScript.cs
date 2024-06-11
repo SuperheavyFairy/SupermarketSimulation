@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using EventNamespace;
 
 public class CustomerScript : MonoBehaviour
 {   
@@ -17,7 +16,7 @@ public class CustomerScript : MonoBehaviour
     [SerializeField] public float speed = 2;
 
     // Event
-    public EventScript event;
+    public EventScript event_;
 
     // Customer stuff demand parameters
     [SerializeField] private int foodDemandParam = 1;
@@ -36,19 +35,19 @@ public class CustomerScript : MonoBehaviour
     private int maxNumberDrink;
     private int maxNumberClothes;
 
-    public CustomerScript(EventScript event)
+    public CustomerScript(EventScript event_)
     {
-        this.event = event;
+        this.event_ = event_;
 
-        if (event.GetType == EventType.Covid)
+        if (event_.GetType == EventType.Covid)
         {
-            foodDemandParam += event.GetFoodFactor * event.GetSeverity;
-            drinkDemandParam += event.GetDrinkFactor * event.GetSeverity;
+            foodDemandParam += event_.GetFoodFactor * event_.GetSeverity;
+            drinkDemandParam += event_.GetDrinkFactor * event_.GetSeverity;
 
         }
-        else if (event.GetType == EventType.Drought)
+        else if (event_.GetType == EventType.Drought)
         {
-            drinkDemandParam += event.GetDrinkFactor * event.GetSeverity;
+            drinkDemandParam += event_.GetDrinkFactor * event_.GetSeverity;
         }
         // Customer maximum price acceptance
         maxPriceFood = 30 + deltaPrice * foodDemandParam;
