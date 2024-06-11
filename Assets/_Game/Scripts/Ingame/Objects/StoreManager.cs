@@ -2,33 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShelfManager : MonoBehaviour
+public class StoreManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    private Dictionary<int, BaseItemShelf> pointer = new Dictionary<int, BaseItemShelf>();
-    private BaseItemShelf baseItem;
+    private Dictionary<int, BaseItemStore> pointer = new Dictionary<int, BaseItemStore>();
+    private BaseItemStore baseItem;
     [SerializeField] Transform inventoryDisplay;
     [SerializeField] CanvasGameplay parent;
     public void Awake(){
-        baseItem = Resources.LoadAll<BaseItemShelf>("Templates")[0];
+        baseItem = Resources.LoadAll<BaseItemStore>("Templates")[0];
     }
-    public void Add(ItemData item, int count){
+    public void Add(ItemData item){
         int id = item.id;
         if (!pointer.ContainsKey(id)){
-            BaseItemShelf itemContainer = Instantiate(baseItem, inventoryDisplay);
+            BaseItemStore itemContainer = Instantiate(baseItem, inventoryDisplay);
             itemContainer.SetState(item);
             itemContainer.SetParent(this);
             itemContainer.transform.SetSiblingIndex(pointer.Count);
             pointer.Add(id, itemContainer);
         }
-        pointer[id].Add(count);
-    }
-
-    public bool Remove(int id, int count){
-        if (!pointer.ContainsKey(id)){
-            return false;
-        }
-        return pointer[id].Remove(count);
     }
 
     public bool Remove(int id){
@@ -40,8 +32,7 @@ public class ShelfManager : MonoBehaviour
         return true;
     }
 
-    public void Store(int id, ItemData data, int count){
+    public void Buy(ItemData data, int count){
         parent.ToStorage(data, count);
-        Remove(id); 
     }
 }

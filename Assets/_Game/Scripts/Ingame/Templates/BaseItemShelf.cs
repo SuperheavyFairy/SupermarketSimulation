@@ -7,22 +7,45 @@ using UnityEngine.UI;
 
 public class BaseItemShelf : MonoBehaviour
 {
-    [SerializeField] Image itemImage;
-    [SerializeField] TMPro.TextMeshProUGUI itemName, count;
+    [SerializeField] Transform itemImage;
+    [SerializeField] TMPro.TextMeshProUGUI itemName, countText;
     [SerializeField] Button itemButton;
     
-    RemoveItem deleteFunc;
-    int id;
+    int id, count;
+    ShelfManager parent;
+    ItemData data;
 
-    public void SetState(Image img, string name, RemoveItem deleteFunc, int id){
-        this.itemImage = img;
-        this.itemName.text = name;
-        this.deleteFunc = deleteFunc;
+    private void UpdateCount(){
+        this.countText.text = ""+count;
+    }
+    public void SetState(ItemData item){
+        this.data = item;
+        this.count = 0;
         this.id = id;
+        Instantiate(item.gameObject, itemImage);
+        this.itemName.text = item.name;
+    }
+
+    public void Add(int count){
+        this.count += count;
+    }
+
+    public void SetParent(ShelfManager parent){
+        this.parent = parent;
+    }
+
+    public bool Remove(int count){
+        if (count > this.count){
+            return false;
+        }
+        this.count -= count;
+        if (this.count == 0){
+            parent.Remove(id);
+        }
+        return true;
     }
 
     public void OnClick(){
-        deleteFunc(id);
-        Destroy(gameObject);
+        parent.Store(id, data, count);
     }
 }

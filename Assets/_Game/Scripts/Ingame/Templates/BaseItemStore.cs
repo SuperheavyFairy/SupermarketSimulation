@@ -7,21 +7,35 @@ using UnityEngine.UI;
 public class BaseItemStore : MonoBehaviour
 {
     [SerializeField] Transform itemImage, content;
-    [SerializeField] TMPro.TextMeshProUGUI itemName, price;
+    [SerializeField] TMPro.TextMeshProUGUI itemName, price, numberBrought;
     [SerializeField] Button buyButton;
 
-    RemoveItem deleteFunc;
     int id;
 
-    public void SetState(Image img, string name, RemoveItem deleteFunc, int id){
-        Instantiate(img, itemImage);
-        this.itemName.text = name;
-        this.deleteFunc = deleteFunc;
+    ItemData data;
+
+    StoreManager parent;
+
+    public void SetState(ItemData item){
+        this.data = item;
         this.id = id;
+        Instantiate(item.gameObject, itemImage);
+        this.itemName.text = item.name;
     }
 
-    public void OnClick(){
-        deleteFunc(id);
-        Destroy(gameObject);
+    public void SetParent(StoreManager parent){
+        this.parent = parent;
+    }
+
+
+    public void OnClickBuy(){
+        int count;
+        if(int.TryParse(numberBrought.text, out int result)){
+            count = result;   
+        }else{
+            Debug.Log($"Attempted conversion of {numberBrought.text} failed");
+            return;
+        }
+        parent.Buy(data, count);
     }
 }

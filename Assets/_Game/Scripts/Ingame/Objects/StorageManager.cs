@@ -5,38 +5,48 @@ using UnityEngine;
 public class StorageManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    private Dictionary<System.Type, NonExpirableItem> inventory = new Dictionary<System.Type, NonExpirableItem>();
-    [SerializeField] private Transform inventoryDisplay;
-
-    public void SetDisplay(Transform content){
-        if (inventoryDisplay!=null){
-            return;
-        }
-        inventoryDisplay = content;
-        inventory = inventory = new Dictionary<System.Type, NonExpirableItem>();
-    }
-    public void Add<T>(T item, int count)where T:NonExpirableItem{
-        System.Type itemType = item.GetType();
-        if (!inventory.ContainsKey(itemType)){
-            NonExpirableItem itemContainer = Instantiate(item, inventoryDisplay);
-            itemContainer.transform.SetSiblingIndex(inventory.Count);
-            inventory.Add(itemType,itemContainer);           
-        }
-        inventory[itemType].Add(count);
+    private Dictionary<int, BaseItemStorage> pointer = new Dictionary<int, BaseItemStorage>();
+    private BaseItemStorage baseItem;
+    [SerializeField] Transform inventoryDisplay;
+    [SerializeField] CanvasGameplay parent;
+    public void Awake(){
+        baseItem = Resources.LoadAll<BaseItemStorage>("Templates")[0];
     }
 
-    public bool Remove<T>(T item, int count) where T:StackableItem{
-        System.Type itemType = item.GetType();
-        if (!inventory.ContainsKey(itemType)){
+    public void SetDisplay(Transform parent){
+        this.inventoryDisplay = parent;
+    }
+    public void Add(ItemData item, int count){
+        int id = item.id;
+        if (!pointer.ContainsKey(id)){
+            BaseItemStorage itemContainer = Instantiate(baseItem, inventoryDisplay);
+            itemContainer.SetState(item);
+            itemContainer.SetParent(this);
+            itemContainer.transform.SetSiblingIndex(pointer.Count);
+            pointer.Add(id, itemContainer);
+        }
+        pointer[id].Add(count);
+    }
+
+    public bool Remove(int id, int count){
+        if (!pointer.ContainsKey(id)){
             return false;
         }
-        int result = inventory[itemType].Remove(count);
-        if (result == -1){
+        return pointer[id].Remove(count);
+    }
+
+    public bool Remove(int id){
+        if (!pointer.ContainsKey(id)){
             return false;
         }
-        if (result == 0){
-            inventory.Remove(itemType);
-        }
+        Destroy(pointer[id].gameObject);
+        pointer.Remove(id);
         return true;
+    }
+
+    public void Show(int id, ItemData data, int price, int count){
+        data.price = price;
+        parent.ToShelf(data, count);
+        Remove(id); 
     }
 }
