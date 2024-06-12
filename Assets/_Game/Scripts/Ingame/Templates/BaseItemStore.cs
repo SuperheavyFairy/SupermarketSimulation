@@ -33,9 +33,9 @@ public class BaseItemStore : MonoBehaviour
     public void OnClickBuy(){
         Debug.Log("OnClickBuy");
         string raw = numberBrought.text;
-        string cleaned = raw.Substring()
+        string cleaned = raw.Substring(0, raw.Length-1);
         int count;
-        if(int.TryParse(numberBrought.text.Substring(0,2), out int result)){
+        if(int.TryParse(cleaned, out int result)){
             count = result;   
         }else{
             Debug.Log($"[{numberBrought.text}]");
