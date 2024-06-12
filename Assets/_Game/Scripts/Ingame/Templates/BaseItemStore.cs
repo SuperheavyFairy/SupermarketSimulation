@@ -19,7 +19,7 @@ public class BaseItemStore : MonoBehaviour
 
     public void SetState(ItemData item){
         this.data = item;
-        this.id = id;
+        this.id = item.id;
         Instantiate(item.gameObject, itemImage);
         this.itemName.text = item.name;
         this.price.text = item.basePrice.ToString();
