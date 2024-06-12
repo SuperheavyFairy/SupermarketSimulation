@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class SubcanvasPurchase : UICanvas
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    [SerializeField] Transform content;
+    public Transform getDisplay(){
+        return content;
     }
 }
