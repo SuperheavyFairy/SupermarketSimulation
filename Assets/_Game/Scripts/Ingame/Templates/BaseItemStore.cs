@@ -32,10 +32,10 @@ public class BaseItemStore : MonoBehaviour
 
     public void OnClickBuy(){
         Debug.Log("OnClickBuy");
-        numberBrought.Clear();
-        Debug.Log(Convert.FromBase64String(numberBrought.text));
+        string raw = numberBrought.text;
+        string cleaned = raw.Substring()
         int count;
-        if(int.TryParse(numberBrought.text.Trim(), out int result)){
+        if(int.TryParse(numberBrought.text.Substring(0,2), out int result)){
             count = result;   
         }else{
             Debug.Log($"[{numberBrought.text}]");
