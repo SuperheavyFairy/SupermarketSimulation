@@ -45,6 +45,7 @@ public class StorageManager : MonoBehaviour
     }
 
     public void Show(int id, ItemData data, int price, int count){
+        Debug.Log(id.ToString()+" "+data.ToString()+" "+price.ToString()+" "+count.ToString());
         data.price = price;
         parent.ToShelf(data, count);
         Remove(id); 

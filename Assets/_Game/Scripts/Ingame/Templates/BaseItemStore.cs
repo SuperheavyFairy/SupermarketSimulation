@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,9 +19,10 @@ public class BaseItemStore : MonoBehaviour
 
     public void SetState(ItemData item){
         this.data = item;
-        this.id = id;
+        this.id = item.id;
         Instantiate(item.gameObject, itemImage);
         this.itemName.text = item.name;
+        this.price.text = item.basePrice.ToString();
     }
 
     public void SetParent(StoreManager parent){
@@ -29,11 +31,14 @@ public class BaseItemStore : MonoBehaviour
 
 
     public void OnClickBuy(){
+        Debug.Log("OnClickBuy");
+        string raw = numberBrought.text;
+        string cleaned = raw.Substring(0, raw.Length-1);
         int count;
-        if(int.TryParse(numberBrought.text, out int result)){
+        if(int.TryParse(cleaned, out int result)){
             count = result;   
         }else{
-            Debug.Log($"Attempted conversion of {numberBrought.text} failed");
+            Debug.Log($"[{numberBrought.text}]");
             return;
         }
         parent.Buy(data, count);

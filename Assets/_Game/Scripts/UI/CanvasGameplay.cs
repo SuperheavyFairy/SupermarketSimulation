@@ -10,7 +10,7 @@ public class CanvasGameplay : UICanvas{
     [SerializeField] StorageManager storageManager;
     [SerializeField] StoreManager storeManager;
     public TMPro.TextMeshProUGUI cashText, gemText;
-    int cash, gem;
+    public int cash, gem;
 
 
     public void Update(){
@@ -24,6 +24,7 @@ public class CanvasGameplay : UICanvas{
 
     public override void Setup(){
         storageManager.SetDisplay(childManager.Open<SubcanvasManagement>().getStorage().getContent());
+        storeManager.SetDisplay(childManager.Open<SubcanvasPurchase>().getDisplay());
         childManager.CloseAll();
         childManager.Open<SubcanvasIntro>();
     }
