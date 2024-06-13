@@ -474,19 +474,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2262674632135925982}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8946331022652371016}
-        m_TargetAssemblyTypeName: BaseItemStorage, Assembly-CSharp
-        m_MethodName: OnclickRemove
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &2281099209130686217
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,19 +1463,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1625406025032459109}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8946331022652371016}
-        m_TargetAssemblyTypeName: BaseItemStorage, Assembly-CSharp
-        m_MethodName: OnClickAdd
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &5828531787368415535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,12 +1568,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4076473617894144389}
   - {fileID: 8630368493448758819}
   - {fileID: 3785323359654014123}
   - {fileID: 2662775555271865817}
   - {fileID: 8665843954463882684}
   - {fileID: 7326715614377854248}
+  - {fileID: 4076473617894144389}
   - {fileID: 705179126211489012}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

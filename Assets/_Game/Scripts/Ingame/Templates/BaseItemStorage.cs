@@ -22,14 +22,13 @@ public class BaseItemStorage : MonoBehaviour
     public void SetState(ItemData item){
         this.data = item;
         this.count = 0;
-        this.id = item.id;
+        this.id = id;
         Instantiate(item.gameObject, itemImage);
         this.itemName.text = item.name;
     }
 
     public void Add(int count){
         this.count += count;
-        UpdateCount();
     }
 
     public void SetParent(StorageManager parent){
@@ -49,13 +48,10 @@ public class BaseItemStorage : MonoBehaviour
 
     public void OnClickAdd(){
         int priceInt;
-        string raw = price.text;
-        Debug.Log(raw.Length);
-        string cleaned = raw.Substring(0, raw.Length-2);
-        if(int.TryParse(cleaned, out int result)){
+        if(int.TryParse(price.text, out int result)){
             priceInt = result;   
         }else{
-            Debug.Log($"Attempted conversion of {cleaned} failed");
+            Debug.Log($"Attempted conversion of {price.text} failed");
             return;
         }
         parent.Show(id, data, priceInt, count);
