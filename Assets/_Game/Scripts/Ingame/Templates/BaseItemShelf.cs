@@ -21,14 +21,13 @@ public class BaseItemShelf : MonoBehaviour
     public void SetState(ItemData item){
         this.data = item;
         this.count = 0;
-        this.id = item.id;
+        this.id = id;
         Instantiate(item.gameObject, itemImage);
         this.itemName.text = item.name;
     }
 
     public void Add(int count){
         this.count += count;
-        UpdateCount();
     }
 
     public void SetParent(ShelfManager parent){
