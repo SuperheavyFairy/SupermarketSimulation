@@ -9,7 +9,7 @@ public class CustomerScript : MonoBehaviour
     [SerializeField] public CustomerRouteScript routes;
     private List<GameObject> myRoute;
     private List<Vector2> velocities;
-    private int nextPointIndex = 1;
+    private int nextPointIndex;
     private Animator anim;
     private Rigidbody2D rb;
     private Transform nextPoint;
@@ -61,11 +61,12 @@ public class CustomerScript : MonoBehaviour
     }
 
 
-    void Start()
+    void Awake()
     {
-        myRoute = routes.routes[Random.Range(0, routes.routes.Count-1)];
+        myRoute = routes.routes[Random.Range(0, routes.routes.Count)];
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        nextPointIndex = 1;
         nextPoint = myRoute[nextPointIndex].transform;
 
         velocities = new List<Vector2>();
@@ -84,6 +85,10 @@ public class CustomerScript : MonoBehaviour
         if (Vector2.Distance(transform.position, nextPoint.position) < 0.1f)
         {
             nextPointIndex++;
+            if (nextPointIndex > myRoute.Count){
+                Destroy(gameObject);
+                return;
+            }
             nextPoint = myRoute[nextPointIndex].transform;
             rb.velocity = velocities[nextPointIndex-1];
             anim.SetBool(GetDirection(velocities[nextPointIndex-1]), true);

@@ -9,13 +9,12 @@ public class CanvasGameplay : UICanvas{
     [SerializeField] ShelfManager shelfManager;
     [SerializeField] StorageManager storageManager;
     [SerializeField] StoreManager storeManager;
-    public TMPro.TextMeshProUGUI cashText, gemText;
-    public int cash, gem;
+    public TMPro.TextMeshProUGUI cashText;
+    public int cash;
 
 
     public void Update(){
         cashText.text = cash.ToString();
-        gemText.text = gem.ToString();
     }
     public void SetLevel(int level){
         LevelData prefab = Resources.Load<LevelData>("Level/1}");
@@ -26,7 +25,7 @@ public class CanvasGameplay : UICanvas{
         storageManager.SetDisplay(childManager.Open<SubcanvasManagement>().getStorage().getContent());
         storeManager.SetDisplay(childManager.Open<SubcanvasPurchase>().getDisplay());
         childManager.CloseAll();
-        childManager.Open<SubcanvasIntro>();
+        OpenIntro();
     }
 
     public void Pause(){
@@ -39,28 +38,28 @@ public class CanvasGameplay : UICanvas{
 
     public void OpenSetting(){
         Pause();
-        manager.Open<CanvasSetting>().SetState(this);
+        manager.Open<CanvasSetting>().SetState(this).AddHook("Unpause", "OnClose", Unpause);
     }
 
     public void OpenIntro(){
         Pause();
-        childManager.Open<SubcanvasIntro>();
+        childManager.Open<SubcanvasIntro>().AddHook("Unpause", "OnClose", Unpause);
     }
     
     public void OpenManagement(){
         Pause();
-        childManager.Open<SubcanvasManagement>();
+        childManager.Open<SubcanvasManagement>().AddHook("Unpause", "OnClose", Unpause);
         
     }
     
     public void OpenNews(){
         Pause();
-        childManager.Open<SubcanvasNews>();
+        childManager.Open<SubcanvasNews>().AddHook("Unpause", "OnClose", Unpause);
     }
 
     public void OpenPurchase(){
         Pause();
-        childManager.Open<SubcanvasPurchase>();
+        childManager.Open<SubcanvasPurchase>().AddHook("Unpause", "OnClose", Unpause);
     }
 
     public void ToShelf(ItemData data, int count){

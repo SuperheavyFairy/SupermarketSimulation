@@ -6,7 +6,7 @@ public class CanvasSetting : UICanvas{
 
     [SerializeField] GameObject[] buttons;
 
-    public void SetState(UICanvas canvas){
+    public CanvasSetting SetState(UICanvas canvas){
         for (int i = 0; i < buttons.Length; i++){
             buttons[i].gameObject.SetActive(false);
         }
@@ -17,6 +17,7 @@ public class CanvasSetting : UICanvas{
             buttons[1].gameObject.SetActive(true);
             buttons[2].gameObject.SetActive(true);
         }
+        return this;
     }
 
     public void CloseButton(){
