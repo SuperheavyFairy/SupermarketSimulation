@@ -12,6 +12,7 @@ public class CustomerScript : MonoBehaviour
     private int nextPointIndex;
     private Animator anim;
     private Rigidbody2D rb;
+    private SpriteRenderer sr;
     private Transform nextPoint;
     [SerializeField] public float speed = 2;
 
@@ -66,6 +67,7 @@ public class CustomerScript : MonoBehaviour
         myRoute = routes.routes[Random.Range(0, routes.routes.Count)];
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
         nextPointIndex = 1;
         nextPoint = myRoute[nextPointIndex].transform;
 
@@ -95,10 +97,13 @@ public class CustomerScript : MonoBehaviour
             anim.SetBool(GetDirection(velocities[nextPointIndex-2]), false);
         }
 
-        // if (transform.position.x > 3700 || transform.position.x < -3700 || transform.position.y > 1400 || transform.position.y < -1400)
-        // {
-        //     Destroy(gameObject);
-        // }
+        if (transform.position.y > 1)
+        {
+            sr.sortingOrder = 4;
+        } else{
+             sr.sortingOrder = 90;
+        }
+        
     }
 
     private string GetDirection(Vector2 direction)
