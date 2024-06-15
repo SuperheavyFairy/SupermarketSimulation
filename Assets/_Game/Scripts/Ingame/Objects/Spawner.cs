@@ -25,7 +25,7 @@ public class Spawner : MonoBehaviour
     void FixedUpdate()
     {
         if (cooldown == 0){
-            cooldown = 40;
+            cooldown = 30;
             Instantiate(customers.Last(), parent);
         }
         cooldown--;

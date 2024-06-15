@@ -95,7 +95,7 @@ public class CustomerScript : MonoBehaviour
             anim.SetBool(GetDirection(velocities[nextPointIndex-2]), false);
         }
 
-        if (transform.position.x > 10 || transform.position.x < -10 || transform.position.y > 6 || transform.position.y < -6)
+        if (transform.position.x > 3700 || transform.position.x < -3700 || transform.position.y > 1400 || transform.position.y < -1400)
         {
             Destroy(gameObject);
         }
