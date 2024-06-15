@@ -5,6 +5,10 @@ using UnityEngine;
 public class CanvasMainMenu : UICanvas{
     [SerializeField] GameObject[] Buttons;
 
+    public void Awake(){
+        manager.Open<CanvasWelcome>();
+    }
+    
     public void PlayButton(GameObject caller){
         Close(0);
         for (int i = 0; i < Buttons.Length; i++)
