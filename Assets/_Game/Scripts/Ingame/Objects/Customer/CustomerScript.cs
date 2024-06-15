@@ -85,7 +85,7 @@ public class CustomerScript : MonoBehaviour
         if (Vector2.Distance(transform.position, nextPoint.position) < 0.1f)
         {
             nextPointIndex++;
-            if (nextPointIndex > myRoute.Count){
+            if (nextPointIndex >= myRoute.Count){
                 Destroy(gameObject);
                 return;
             }
