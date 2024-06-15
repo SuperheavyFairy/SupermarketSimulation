@@ -95,10 +95,10 @@ public class CustomerScript : MonoBehaviour
             anim.SetBool(GetDirection(velocities[nextPointIndex-2]), false);
         }
 
-        if (transform.position.x > 3700 || transform.position.x < -3700 || transform.position.y > 1400 || transform.position.y < -1400)
-        {
-            Destroy(gameObject);
-        }
+        // if (transform.position.x > 3700 || transform.position.x < -3700 || transform.position.y > 1400 || transform.position.y < -1400)
+        // {
+        //     Destroy(gameObject);
+        // }
     }
 
     private string GetDirection(Vector2 direction)
