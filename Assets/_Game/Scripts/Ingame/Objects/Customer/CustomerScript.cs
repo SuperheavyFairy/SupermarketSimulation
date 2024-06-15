@@ -1,4 +1,4 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -63,7 +63,7 @@ public class CustomerScript : MonoBehaviour
 
     void Awake()
     {
-        myRoute = routes.routes[Random.Range(0, routes.routes.Count)];
+        myRoute = routes.routes[UnityEngine.Random.Range(0, routes.routes.Count)];
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         nextPointIndex = 1;
@@ -121,4 +121,34 @@ public class CustomerScript : MonoBehaviour
         }
         return "isIdle";
     }
+
+
+    //HookScript (But can affect this object)
+    private Dictionary<Tuple<string, string>, Action<CustomerScript>> HookFunction = new Dictionary<Tuple<string, string>, Action<CustomerScript>>();
+    private List<string> hookAllowed = new List<string>();
+    public bool AddHook(string funcName, string hookTarget, Action<CustomerScript> hook){
+        if (!hookAllowed.Contains(hookTarget)){
+            return false;
+        }
+        if(HookFunction.ContainsKey(new Tuple<string, string>(funcName, hookTarget))){
+            return false;
+        }
+        HookFunction.Add(new Tuple<string, string>(funcName, hookTarget), hook);
+        return true;
+    }
+    public bool RemoveHook(string funcName, string hookTarget){
+        if(HookFunction.ContainsKey(new Tuple<string, string>(funcName, hookTarget))){
+            HookFunction.Remove(new Tuple<string, string>(funcName, hookTarget));
+            return true;
+        }
+        return false;
+    }
+    private void callHook(string hookTarget){
+        foreach(var item in HookFunction){
+            if(item.Key.Item2 == hookTarget){
+                item.Value(this);
+            }
+        }
+    }
+
 }
