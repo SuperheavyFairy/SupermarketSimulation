@@ -5,8 +5,8 @@ using UnityEngine;
 public class CanvasMainMenu : UICanvas{
     [SerializeField] GameObject[] Buttons;
 
-    public void Awake(){
-        manager.Open<CanvasWelcome>();
+    public override void Setup(){
+        childManager.Open<CanvasWelcome>();
     }
     
     public void PlayButton(GameObject caller){
