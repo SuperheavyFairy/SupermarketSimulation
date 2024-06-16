@@ -29,7 +29,7 @@ public class Spawner : MonoBehaviour
         callHook("OnSpawn", customer);
         shelf.PickItem(customer);
     }
-    void FixedUpdate()
+    public void OnTick()
     {
         if (cooldown == 0){
             cooldown = 30;
