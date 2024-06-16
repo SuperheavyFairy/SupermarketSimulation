@@ -11,8 +11,8 @@ enum ItemGroup{
 public class ItemData : MonoBehaviour
 {
     public int id;
-    public string name;
-    public string description;
+    public string Name;
+    public string Description;
     public int basePrice, price;
     [SerializeField] internal ItemGroup[] Groups;
 }

@@ -47,6 +47,11 @@ public class StoreManager : MonoBehaviour
     }
 
     public void Buy(ItemData data, int count){
+        if(data.basePrice*count > parent.cash){
+            return;
+        }
+        Debug.Log(data.basePrice*count);
+        parent.cash -= data.basePrice*count;
         parent.ToStorage(data, count);
     }
 }

@@ -33,7 +33,7 @@ public class Spawner : MonoBehaviour
     {
         if (cooldown == 0){
             cooldown = 30;
-            
+            Spawn(customers[UnityEngine.Random.Range(0, customers.Count)]);
         }
         cooldown--;
     }

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
+using System.Threading;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ShelfManager : MonoBehaviour
@@ -15,6 +17,7 @@ public class ShelfManager : MonoBehaviour
     }
     public void Add(ItemData item, int count){
         int id = item.id;
+        shelfMutex.WaitOne();
         if (!pointer.ContainsKey(id)){
             BaseItemShelf itemContainer = Instantiate(baseItem, inventoryDisplay[(int)item.Groups[0]]);
             itemContainer.SetState(item);
@@ -22,21 +25,27 @@ public class ShelfManager : MonoBehaviour
             pointer.Add(id, itemContainer);
         }
         pointer[id].Add(count);
+        shelfMutex.ReleaseMutex();
     }
 
     public bool Remove(int id, int count){
         if (!pointer.ContainsKey(id)){
             return false;
         }
-        return pointer[id].Remove(count);
+        shelfMutex.WaitOne();
+        bool result = pointer[id].Remove(count);
+        shelfMutex.ReleaseMutex();
+        return result;
     }
 
     public bool Remove(int id){
         if (!pointer.ContainsKey(id)){
             return false;
         }
+        shelfMutex.WaitOne();
         Destroy(pointer[id].gameObject);
         pointer.Remove(id);
+        shelfMutex.WaitOne();
         return true;
     }
 
@@ -45,10 +54,14 @@ public class ShelfManager : MonoBehaviour
         Remove(id); 
     }
 
+    private static Mutex shelfMutex = new Mutex();
     public void PickItem(CustomerScript customer){
-        foreach(BaseItemShelf item in pointer.Values){
+        shelfMutex.WaitOne();
+        var tmp = pointer.Values.ToArrayPooled();
+        foreach(BaseItemShelf item in tmp){
             int itemNum = customer.ChooseItem(item.data, item.count);
             item.Remove(itemNum);
         }
+        shelfMutex.ReleaseMutex();
     }
 }
