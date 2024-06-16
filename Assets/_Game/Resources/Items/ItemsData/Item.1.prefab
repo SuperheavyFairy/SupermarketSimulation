@@ -94,8 +94,7 @@ MonoBehaviour:
   description: 
   basePrice: 10000
   price: 0
-  categories:
-  - Food
+  Groups: 00000000
 --- !u!114 &3171936213172040688
 MonoBehaviour:
   m_ObjectHideFlags: 0

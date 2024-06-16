@@ -122,11 +122,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   routes: {fileID: 0}
   speed: 1
-  foodDemandParam: 2
-  drinkDemandParam: 2
-  clothesDemandParam: 2
-  deltaPrice: 10
-  deltaProducts: 10
+  BaseDemands: 1
+  BasePrice: 10000
 --- !u!50 &8854926428279426256
 Rigidbody2D:
   serializedVersion: 4

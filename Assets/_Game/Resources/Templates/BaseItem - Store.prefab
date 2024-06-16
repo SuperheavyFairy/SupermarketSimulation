@@ -1080,7 +1080,7 @@ MonoBehaviour:
   content: {fileID: 4600188884808493384}
   itemName: {fileID: 1493781934795375081}
   price: {fileID: 4157419209605572901}
-  numberBrought: {fileID: 2122043738680504436}
+  numberBrought: {fileID: 1165591984451556250}
   buyButton: {fileID: 7965716472501847746}
 --- !u!1 &8256084493568813648
 GameObject:

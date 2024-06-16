@@ -474,7 +474,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2262674632135925982}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8946331022652371016}
+        m_TargetAssemblyTypeName: BaseItemStorage, Assembly-CSharp
+        m_MethodName: OnclickRemove
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2281099209130686217
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,7 +755,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 10000000000
+  m_Text: 10000
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -872,7 +884,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "10000000000\u200B"
+  m_text: "10000\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1463,7 +1475,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1625406025032459109}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8946331022652371016}
+        m_TargetAssemblyTypeName: BaseItemStorage, Assembly-CSharp
+        m_MethodName: OnClickAdd
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5828531787368415535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1568,12 +1592,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 4076473617894144389}
   - {fileID: 8630368493448758819}
   - {fileID: 3785323359654014123}
   - {fileID: 2662775555271865817}
   - {fileID: 8665843954463882684}
   - {fileID: 7326715614377854248}
-  - {fileID: 4076473617894144389}
   - {fileID: 705179126211489012}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1597,7 +1621,7 @@ MonoBehaviour:
   itemImage: {fileID: 8630368493448758819}
   itemName: {fileID: 1493781934795375081}
   countText: {fileID: 116666326553411038}
-  price: {fileID: 1758510280550280486}
+  price: {fileID: 1926337932963253559}
   content: {fileID: 4600188884808493384}
 --- !u!1 &8592046862978954530
 GameObject:

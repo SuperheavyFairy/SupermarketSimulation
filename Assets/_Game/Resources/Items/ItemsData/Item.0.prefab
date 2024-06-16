@@ -94,8 +94,7 @@ MonoBehaviour:
   description: 
   basePrice: 10000
   price: 0
-  categories:
-  - Drink
+  Groups: 01000000
 --- !u!114 &8427857719196475927
 MonoBehaviour:
   m_ObjectHideFlags: 0

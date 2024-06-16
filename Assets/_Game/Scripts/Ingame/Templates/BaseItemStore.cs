@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,7 +9,8 @@ using UnityEngine.UI;
 public class BaseItemStore : MonoBehaviour
 {
     [SerializeField] Transform itemImage, content;
-    [SerializeField] TMPro.TextMeshProUGUI itemName, price, numberBrought;
+    [SerializeField] TMP_Text itemName, price;
+    [SerializeField] TMP_InputField numberBrought;
     [SerializeField] Button buyButton;
 
     int id;
@@ -19,7 +21,7 @@ public class BaseItemStore : MonoBehaviour
 
     public void SetState(ItemData item){
         this.data = item;
-        this.id = id;
+        this.id = item.id;
         Instantiate(item.gameObject, itemImage);
         this.itemName.text = item.name;
         this.price.text = item.basePrice.ToString();
@@ -31,11 +33,8 @@ public class BaseItemStore : MonoBehaviour
 
 
     public void OnClickBuy(){
-        Debug.Log("OnClickBuy");
-        string raw = numberBrought.text;
-        string cleaned = raw.Substring(0, raw.Length-1);
         int count;
-        if(int.TryParse(cleaned, out int result)){
+        if(int.TryParse(numberBrought.text, out int result)){
             count = result;   
         }else{
             Debug.Log($"[{numberBrought.text}]");

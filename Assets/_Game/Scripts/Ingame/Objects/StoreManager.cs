@@ -47,7 +47,6 @@ public class StoreManager : MonoBehaviour
     }
 
     public void Buy(ItemData data, int count){
-        Debug.Log("Buy"+" "+ data.ToString()+" "+ count.ToString());
         parent.ToStorage(data, count);
     }
 }

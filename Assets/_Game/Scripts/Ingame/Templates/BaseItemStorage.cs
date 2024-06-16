@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,7 +8,8 @@ using UnityEngine.UI;
 public class BaseItemStorage : MonoBehaviour
 {
     [SerializeField] Transform itemImage;
-    [SerializeField] TMPro.TextMeshProUGUI itemName, countText, price;
+    [SerializeField] TMP_Text itemName, countText;
+    [SerializeField] TMP_InputField price;
     [SerializeField] Transform content;
 
     int id, count;
@@ -22,13 +24,14 @@ public class BaseItemStorage : MonoBehaviour
     public void SetState(ItemData item){
         this.data = item;
         this.count = 0;
-        this.id = id;
+        this.id = item.id;
         Instantiate(item.gameObject, itemImage);
         this.itemName.text = item.name;
     }
 
     public void Add(int count){
         this.count += count;
+        UpdateCount();
     }
 
     public void SetParent(StorageManager parent){
@@ -40,6 +43,7 @@ public class BaseItemStorage : MonoBehaviour
             return false;
         }
         this.count -= count;
+        UpdateCount();
         if (this.count == 0){
             parent.Remove(id);
         }
