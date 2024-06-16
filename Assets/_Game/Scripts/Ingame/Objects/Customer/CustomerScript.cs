@@ -14,6 +14,7 @@ public class CustomerScript : MonoBehaviour
     private int nextPointIndex;
     private Animator anim;
     private Rigidbody2D rb;
+    private SpriteRenderer sr;
     private Transform nextPoint;
     public float speed = 2;
 
@@ -34,6 +35,7 @@ public class CustomerScript : MonoBehaviour
         myRoute = routes.routes[UnityEngine.Random.Range(0, routes.routes.Count)];
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
         nextPointIndex = 1;
         nextPoint = myRoute[nextPointIndex].transform;
 
