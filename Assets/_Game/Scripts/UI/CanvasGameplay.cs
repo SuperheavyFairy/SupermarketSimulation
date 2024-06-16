@@ -22,6 +22,7 @@ public class CanvasGameplay : UICanvas{
     }
 
     public override void Setup(){
+        cash = 10000000;
         storageManager.SetDisplay(childManager.Open<SubcanvasManagement>().getStorage().getContent());
         storeManager.SetDisplay(childManager.Open<SubcanvasPurchase>().getDisplay());
         childManager.CloseAll();
