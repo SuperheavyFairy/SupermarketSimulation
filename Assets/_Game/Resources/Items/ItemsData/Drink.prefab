@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e1fec0e71d4f624cb8e9375fc3850b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 0
+  id: 3
   Name: Drink
   Description: Refreshing beverages for every taste. Choose from juices, sodas, teas,
     and more. Quench your thirst with our wide variety of drinks, including healthy
