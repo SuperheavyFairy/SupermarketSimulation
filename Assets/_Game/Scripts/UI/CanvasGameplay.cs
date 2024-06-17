@@ -21,6 +21,7 @@ public class CanvasGameplay : UICanvas{
     private int currentTick;
     private int tickPerSecond = 20;
     private int tickPerMonth = 1800;
+    private int numOfMonths = 3;
 
     //Item/money spend, money earn, number of customer;
     private Dictionary<ItemData, Tuple<int, int, int>> ItemStat;
@@ -50,6 +51,10 @@ public class CanvasGameplay : UICanvas{
     }
 
     public void MonthEnd(int month){
+        if(month == numOfMonths){
+            manager.CloseAll();
+            manager.Open<CanvasGameEnd>();
+        }
         SubcanvasNews news = childManager.GetUI<SubcanvasNews>();
         news.UpdateStatistic(ItemStat, TotalCustomer);
         news.CloseDirectly();

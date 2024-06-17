@@ -6,7 +6,7 @@ public class ThiefEventScript : BaseEventScript
 {
     [SerializeField] CustomerScript thief;
     void Awake(){
-        duration = 1;
+        duration = 100;
     }
     public override void EventEnd()
     {
