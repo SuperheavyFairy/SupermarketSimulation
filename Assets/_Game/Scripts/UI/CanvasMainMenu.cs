@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CanvasMainMenu : UICanvas{
     [SerializeField] GameObject[] Buttons;
+    [SerializeField] LevelData[] Levels;
 
     public override void Setup(){
         childManager.Open<CanvasWelcome>();
@@ -14,7 +15,7 @@ public class CanvasMainMenu : UICanvas{
         for (int i = 0; i < Buttons.Length; i++)
         {
             if (caller == Buttons[i]){
-                manager.Open<CanvasGameplay>().SetLevel(i);
+                manager.Open<CanvasGameplay>().SetLevel(Levels[i]);
             }
         }
     }

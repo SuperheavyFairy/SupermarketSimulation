@@ -10,9 +10,13 @@ public class CanvasGameplay : UICanvas{
     [SerializeField] ShelfManager shelfManager;
     [SerializeField] StorageManager storageManager;
     [SerializeField] StoreManager storeManager;
-    [SerializeField] Spawner spawner;
+    [SerializeField] internal Spawner spawner;
+    [SerializeField] EventManager eventManager;
     public TMPro.TextMeshProUGUI cashText;
     public int cash;
+    public void AddCash(int amount){
+        cash += amount;
+    }
     private int currentTick;
     private int tickPerSecond = 20;
     private int tickPerMonth = 1800;
@@ -23,7 +27,6 @@ public class CanvasGameplay : UICanvas{
 
     public void Awake(){
         Time.fixedDeltaTime = 1f/tickPerSecond;
-        currentTick = 0;
     }
     public void Update(){
         cashText.text = cash.ToString();
@@ -34,13 +37,28 @@ public class CanvasGameplay : UICanvas{
     public void FixedUpdate(){
         currentTick += 1;
         spawner.OnTick();
+        eventManager.OnTick(currentTick);
+        if(currentTick%tickPerMonth==0){
+            MonthEnd(currentTick/tickPerMonth);
+            MonthStart(currentTick/tickPerMonth+1);
+        }
     }
-    public void SetLevel(int level){
-        LevelData prefab = Resources.Load<LevelData>("Level/1}");
-        childManager.GetUI<SubcanvasIntro>().SetLevel(level);
+
+    public void MonthEnd(int month){
+
+    }
+
+    public void MonthStart(int month){
+
+    }
+    public void SetLevel(LevelData level){
+        cash = level.startingCash;
+        eventManager.Init(level.eventScripts, level.startAt);
+        childManager.GetUI<SubcanvasIntro>().SetLevel(level.description);
     }
 
     public override void Setup(){
+        currentTick = 0;
         cash = 10000000;
         storageManager.SetDisplay(childManager.Open<SubcanvasManagement>().getStorage().getContent());
         storeManager.SetDisplay(childManager.Open<SubcanvasPurchase>().getDisplay());

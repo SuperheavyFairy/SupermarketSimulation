@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Unity.Collections;
 using Unity.Collections.LowLevel.Unsafe;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CustomerScript : MonoBehaviour
@@ -56,7 +57,7 @@ public class CustomerScript : MonoBehaviour
         {
             nextPointIndex++;
             if (nextPointIndex >= myRoute.Count){
-                Destroy(gameObject);
+                OnExit();
                 return;
             }
             nextPoint = myRoute[nextPointIndex].transform;
@@ -94,10 +95,9 @@ public class CustomerScript : MonoBehaviour
     public float BasePrice;
     internal Dictionary<ItemGroup, float> PriceMultipliers = new Dictionary<ItemGroup, float>();
 
-    private List<Tuple<int, ItemData>> ItemBrought = new List<Tuple<int, ItemData>>();
+    internal List<Tuple<int, ItemData>> ItemBrought = new List<Tuple<int, ItemData>>();
 
-    public int TotalCost
-    {private set; get;}
+    internal int TotalCost;
 
     public int ChooseItem(ItemData item, int count){
         float demand = BaseDemands;
@@ -125,8 +125,9 @@ public class CustomerScript : MonoBehaviour
         callHook("OnSpawned");
     }
     public void OnExit(){
-        Debug.Log(ItemBrought);
         callHook("OnExit");
+        SendMessageUpwards("AddCash", TotalCost);
+        Destroy(gameObject);
     }
     //HookScript (But can affect this object)
     private Dictionary<Tuple<string, string>, Action<CustomerScript>> HookFunction = new Dictionary<Tuple<string, string>, Action<CustomerScript>>();

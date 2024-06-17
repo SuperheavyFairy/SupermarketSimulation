@@ -12,9 +12,11 @@ public class Spawner : MonoBehaviour
     [SerializeField] List<CustomerScript> customers;
     [SerializeField] CustomerRouteScript routes;
     [SerializeField] ShelfManager shelf;
-    int cooldown  = 5;
+    public int cooldown, currentcooldown;
     void Awake()
     {
+        cooldown = Config.baseCooldown;
+        currentcooldown = cooldown;
         customers[0].routes = routes;
         hookAllowed.Add("OnSpawn");
     }
@@ -24,18 +26,19 @@ public class Spawner : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Spawn(CustomerScript prefab){
+    internal CustomerScript Spawn(CustomerScript prefab){
         CustomerScript customer = Instantiate(prefab, parent);
         callHook("OnSpawn", customer);
         shelf.PickItem(customer);
+        return customer;
     }
     public void OnTick()
     {
-        if (cooldown == 0){
-            cooldown = 30;
+        if (currentcooldown == 0){
+            currentcooldown = cooldown;
             Spawn(customers[UnityEngine.Random.Range(0, customers.Count)]);
         }
-        cooldown--;
+        currentcooldown--;
     }
 
     private Dictionary<Tuple<string, string>, Action<CustomerScript>> HookFunction = new Dictionary<Tuple<string, string>, Action<CustomerScript>>();
