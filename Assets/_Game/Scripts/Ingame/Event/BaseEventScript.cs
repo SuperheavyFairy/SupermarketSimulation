@@ -5,6 +5,7 @@ using UnityEngine;
 public abstract class BaseEventScript : MonoBehaviour
 {
     public int duration;
+    public SpriteRenderer icon;
     public abstract void EventStart();
     public abstract void EventTick();
     public abstract void EventEnd();
