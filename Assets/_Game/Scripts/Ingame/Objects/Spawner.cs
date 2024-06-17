@@ -12,7 +12,8 @@ public class Spawner : MonoBehaviour
     [SerializeField] List<CustomerScript> customers;
     [SerializeField] CustomerRouteScript routes;
     [SerializeField] ShelfManager shelf;
-    public int cooldown, currentcooldown;
+    [SerializeField] CanvasGameplay canvasGameplay;
+    internal int cooldown, currentcooldown;
     void Awake()
     {
         cooldown = Config.baseCooldown;
@@ -30,8 +31,10 @@ public class Spawner : MonoBehaviour
         CustomerScript customer = Instantiate(prefab, parent);
         callHook("OnSpawn", customer);
         shelf.PickItem(customer);
+        customer.AddHook("Statistic", "OnExit", canvasGameplay.Statistic);
         return customer;
     }
+    
     public void OnTick()
     {
         if (currentcooldown == 0){

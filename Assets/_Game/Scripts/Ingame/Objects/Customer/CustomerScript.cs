@@ -30,6 +30,7 @@ public class CustomerScript : MonoBehaviour
         TotalCost = 0;
         hookAllowed.Add("OnSpawned");
         hookAllowed.Add("OnExit");
+        hookAllowed.Add("Statistic");
     }
 
     void InitAnimation(){
@@ -65,6 +66,12 @@ public class CustomerScript : MonoBehaviour
             anim.SetBool(GetDirection(velocities[nextPointIndex-1]), true);
             anim.SetBool(GetDirection(velocities[nextPointIndex-2]), false);
         }
+        if (transform.position.y > 1)
+        {
+            sr.sortingOrder = 4;
+        } else{
+            sr.sortingOrder = 90;
+        }
     }
 
     private string GetDirection(Vector2 direction)
@@ -95,7 +102,7 @@ public class CustomerScript : MonoBehaviour
     public float BasePrice;
     internal Dictionary<ItemGroup, float> PriceMultipliers = new Dictionary<ItemGroup, float>();
 
-    internal List<Tuple<int, ItemData>> ItemBrought = new List<Tuple<int, ItemData>>();
+    internal List<Tuple<int, ItemData, int>> ItemBrought = new List<Tuple<int, ItemData, int>>();
 
     internal int TotalCost;
 
@@ -110,7 +117,7 @@ public class CustomerScript : MonoBehaviour
         }
         demand *= PriceFunction(expectedPrice, item.price);
         int itemNum = Math.Min(count, (int)((UnityEngine.Random.Range(0f, 1f)+Math.Floor(demand)>demand)?Math.Floor(demand):Math.Ceiling(demand)));
-        ItemBrought.Add(new Tuple<int, ItemData>(itemNum, item));
+        ItemBrought.Add(new Tuple<int, ItemData, int>(itemNum, item, item.price));
         TotalCost += itemNum*item.price;
         return itemNum;
     }
@@ -127,6 +134,7 @@ public class CustomerScript : MonoBehaviour
     public void OnExit(){
         callHook("OnExit");
         SendMessageUpwards("AddCash", TotalCost);
+        callHook("Statistic");
         Destroy(gameObject);
     }
     //HookScript (But can affect this object)

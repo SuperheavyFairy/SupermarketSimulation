@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -21,6 +22,10 @@ public class CanvasGameplay : UICanvas{
     private int tickPerSecond = 20;
     private int tickPerMonth = 1800;
 
+    //Item/money spend, money earn, number of customer;
+    private Dictionary<ItemData, Tuple<int, int, int>> ItemStat;
+    private int TotalCustomer;
+
     [SerializeField] public Image clock_image;
     [SerializeField] public TMP_Text clock_text;
     
@@ -35,21 +40,36 @@ public class CanvasGameplay : UICanvas{
     }
 
     public void FixedUpdate(){
-        currentTick += 1;
         spawner.OnTick();
         eventManager.OnTick(currentTick);
         if(currentTick%tickPerMonth==0){
             MonthEnd(currentTick/tickPerMonth);
             MonthStart(currentTick/tickPerMonth+1);
         }
+        currentTick += 1;
     }
 
     public void MonthEnd(int month){
-
+        SubcanvasNews news = childManager.GetUI<SubcanvasNews>();
+        news.UpdateStatistic(ItemStat, TotalCustomer);
+        news.CloseDirectly();
     }
 
     public void MonthStart(int month){
-
+        ItemStat = new Dictionary<ItemData, Tuple<int, int, int>>();
+        TotalCustomer = 0;
+    }
+    internal void Statistic(CustomerScript customer){
+        TotalCustomer++;
+        foreach(var item in customer.ItemBrought){
+            if(!ItemStat.ContainsKey(item.Item2)){
+                ItemStat.Add(item.Item2, new Tuple<int, int, int>(0,0,0));
+            }
+            ItemStat[item.Item2] = new Tuple<int, int, int>(ItemStat[item.Item2].Item1 + item.Item2.basePrice*item.Item1,
+            ItemStat[item.Item2].Item2 + item.Item3*item.Item1,
+            ItemStat[item.Item2].Item3 + item.Item1);
+            
+        }
     }
     public void SetLevel(LevelData level){
         cash = level.startingCash;
