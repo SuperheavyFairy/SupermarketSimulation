@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6084897381392120792}
   - component: {fileID: 8427857719196475927}
   m_Layer: 5
-  m_Name: Item.0
+  m_Name: Vegetable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -241834246, guid: bc031858bf513a963b936f7d49b97bbe, type: 3}
+  m_Sprite: {fileID: 818811682, guid: 56691d4d28a084460874f5bb837f6492, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -90,11 +90,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
-  name: Oak Syrup
-  description: 
+  Name: Vegetable
+  Description: Fresh, crisp vegetables sourced from local farms. Our selection includes
+    organic and seasonal produce, perfect for salads, stir-fries, and healthy snacks.
   basePrice: 10000
-  price: 0
-  Groups: 01000000
+  price: 10000
+  Groups: 00000000
 --- !u!114 &8427857719196475927
 MonoBehaviour:
   m_ObjectHideFlags: 0
