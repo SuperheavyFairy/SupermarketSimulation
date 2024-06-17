@@ -48,5 +48,10 @@ MonoBehaviour:
   - {fileID: 8572908966339603754, guid: 15e34846b308ae7b09b47b078ee4b887, type: 3}
   - {fileID: -4434174763281801623, guid: 68ba0bb6d17cc5deaaf83817c6cc53f6, type: 3}
   startAt: 2c010000f4010000
-  startingCash: 100000
-  description: 
+  startingCash: 1000
+  description: Welcome to the first level of Supermarket Simulation! In this introductory
+    stage, you'll manage a small grocery store. Stock shelves with fresh produce,
+    meat, and dairy, and keep customers happy with prompt service. Balance inventory,
+    handle cash transactions, and ensure cleanliness. Unlock new products and upgrades
+    as you successfully complete this level. Can you turn your tiny shop into a bustling
+    supermarket? Let the challenge begin!

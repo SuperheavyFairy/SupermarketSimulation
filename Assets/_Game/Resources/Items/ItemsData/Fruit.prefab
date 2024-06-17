@@ -93,8 +93,8 @@ MonoBehaviour:
   Name: Fruit
   Description: Fresh, juicy fruits sourced from local farms. Enjoy a variety of seasonal
     and exotic options, perfect for snacking, baking, or adding to smoothies.
-  basePrice: 10000
-  price: 10000
+  basePrice: 10
+  price: 50
   Groups: 00000000
 --- !u!114 &8427857719196475927
 MonoBehaviour:

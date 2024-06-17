@@ -93,8 +93,8 @@ MonoBehaviour:
   Name: Meat
   Description: Fresh, high-quality meat sourced from trusted farms. Perfect for grilling,
     roasting, or slow cooking.
-  basePrice: 10000
-  price: 10000
+  basePrice: 20
+  price: 50
   Groups: 00000000
 --- !u!114 &8427857719196475927
 MonoBehaviour:

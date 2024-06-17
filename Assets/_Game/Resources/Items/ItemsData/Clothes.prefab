@@ -94,8 +94,8 @@ MonoBehaviour:
   Description: Discover stylish, affordable clothing for the whole family. From casual
     wear to formal attire, find the perfect outfit for any occasion in our diverse
     collection.
-  basePrice: 10000
-  price: 10000
+  basePrice: 40
+  price: 50
   Groups: 00000000
 --- !u!114 &8427857719196475927
 MonoBehaviour:

@@ -94,8 +94,8 @@ MonoBehaviour:
   Description: Refreshing beverages for every taste. Choose from juices, sodas, teas,
     and more. Quench your thirst with our wide variety of drinks, including healthy
     and organic options.
-  basePrice: 10000
-  price: 10000
+  basePrice: 5
+  price: 50
   Groups: 00000000
 --- !u!114 &8427857719196475927
 MonoBehaviour:
