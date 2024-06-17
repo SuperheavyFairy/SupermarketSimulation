@@ -31,7 +31,7 @@ public class Spawner : MonoBehaviour
         CustomerScript customer = Instantiate(prefab, parent);
         callHook("OnSpawn", customer);
         shelf.PickItem(customer);
-        customer.AddHook("Statistic", "OnExit", canvasGameplay.Statistic);
+        customer.AddHook("Statistic", "Statistic", canvasGameplay.Statistic);
         return customer;
     }
     

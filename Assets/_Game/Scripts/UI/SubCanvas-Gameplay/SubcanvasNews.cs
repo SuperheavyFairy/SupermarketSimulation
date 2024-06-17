@@ -5,26 +5,15 @@ using UnityEngine;
 
 public class SubcanvasNews : UICanvas
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    [SerializeField] private Transform parent;
+    [SerializeField] private BaseItemReport prefab;
     internal void UpdateStatistic(Dictionary<ItemData, Tuple<int, int, int>> ItemStat, int TotalCustomer){
-        Debug.Log(ItemStat);
         if(ItemStat == null){
             return;
         }
         foreach(var item in ItemStat){
-            Debug.Log(item);
+            BaseItemReport itemReport = Instantiate(prefab, parent);
+            itemReport.SetState(item.Key.Name, item.Value);
         }
-        Debug.Log(TotalCustomer);
     }
 }

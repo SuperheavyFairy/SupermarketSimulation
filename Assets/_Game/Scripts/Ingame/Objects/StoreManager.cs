@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class StoreManager : MonoBehaviour
@@ -17,7 +18,8 @@ public class StoreManager : MonoBehaviour
 
     public void SetDisplay(Transform parent){
         //Remove all old display
-        foreach (int id in pointer.Keys){
+        var tmp = pointer.Keys.ToListPooled();
+        foreach (int id in tmp){
             Remove(id);
         }
         this.inventoryDisplay = parent;
