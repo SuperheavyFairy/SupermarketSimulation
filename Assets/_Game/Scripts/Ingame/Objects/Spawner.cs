@@ -17,7 +17,6 @@ public class Spawner : MonoBehaviour
     {
         cooldown = Config.baseCooldown;
         currentcooldown = cooldown;
-        customers[0].routes = routes;
         hookAllowed.Add("OnSpawn");
     }
 
@@ -27,6 +26,7 @@ public class Spawner : MonoBehaviour
 
     // Update is called once per frame
     internal CustomerScript Spawn(CustomerScript prefab){
+        prefab.routes = routes;
         CustomerScript customer = Instantiate(prefab, parent);
         callHook("OnSpawn", customer);
         shelf.PickItem(customer);
