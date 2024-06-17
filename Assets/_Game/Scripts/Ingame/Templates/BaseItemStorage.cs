@@ -10,7 +10,7 @@ public class BaseItemStorage : MonoBehaviour
     [SerializeField] Transform itemImage;
     [SerializeField] TMP_Text itemName, countText;
     [SerializeField] TMP_InputField price;
-    [SerializeField] Transform content;
+    [SerializeField] TMP_Text content;
 
     int id, count;
 
@@ -27,6 +27,7 @@ public class BaseItemStorage : MonoBehaviour
         this.id = item.id;
         Instantiate(item.gameObject, itemImage);
         this.itemName.text = item.name;
+        this.content.text = item.Description;
     }
 
     public void Add(int count){
